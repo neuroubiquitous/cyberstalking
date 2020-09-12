@@ -1,0 +1,51 @@
+Sep 11 20:42:45 systemd-journal: Journal stopped
+Sep 11 20:42:45 kernel: Sending SIGTERM to remaining processes...
+Sep 11 20:42:43 kernel: Syncing filesystems and block devices.
+Sep 11 20:42:43 systemd: Shutting down.
+Sep 11 20:42:42 openvpn: SIGTERM[hard,] received, process exiting
+Sep 11 20:42:42 systemd: uuidd.socket: Succeeded.
+Sep 11 20:42:42 NetworkManager: <info>  [1599882162.3474] exiting (success)
+Sep 11 20:42:42 systemd: Stopped target User and Group Name Lookups.
+Sep 11 20:42:42 dbus-daemon: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Refusing activation, D-Bus is shutting down.
+Sep 11 20:42:42 NetworkManager: <info>  [1599882162.2940] manager: NetworkManager state is now CONNECTED_SITE
+Sep 11 20:42:42 systemd: Stopped WPA supplicant.
+Sep 11 20:42:42 NetworkManager: <info>  [1599882162.2917] caught SIGTERM, shutting down normally.
+Sep 11 20:42:42 systemd: Stopping Network Manager...
+Sep 11 20:42:42 systemd-logind: Removed session 2.
+Sep 11 20:42:42 systemd: Stopping User Manager for UID 1000...
+Sep 11 20:42:42 Xorg: (II) Server terminated successfully (0). Closing log file.
+Sep 11 20:42:41 kernel: ---[ end trace 47d7726aa11ce248 ]---
+Sep 11 20:42:41 kernel: R13: 0000000000000013 R14: 000055c781ee11e0 R15: 00007ffc4e928a48
+Sep 11 20:42:41 kernel: R10: 00007ffc4e9285b0 R11: 0000000000000246 R12: 000055c7817a12d0
+Sep 11 20:42:41 kernel: RBP: 0000000040086409 R08: 0000000000000007 R09: 0000000000000001
+Sep 11 20:42:41 kernel: RDX: 00007ffc4e928750 RSI: 0000000040086409 RDI: 0000000000000013
+Sep 11 20:42:41 kernel: RAX: ffffffffffffffda RBX: 00007ffc4e928750 RCX: 00007f263877b37b
+Sep 11 20:42:41 kernel: RSP: 002b:00007ffc4e928718 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Sep 11 20:42:41 kernel: Code: 0f 1e fa 48 8b 05 15 3b 0d 00 64 c7 00 26 00 00 00 48 c7 c0 ff ff ff ff c3 66 0f 1f 44 00 00 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d e5 3a 0d 00 f7 d8 64 89 01 48
+Sep 11 20:42:41 kernel: RIP: 0033:0x7f263877b37b
+Sep 11 20:42:41 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+Sep 11 20:42:41 kernel: Call Trace:
+Sep 11 20:42:41 kernel: CR2: 00007f2a5d09bfc8 CR3: 00000004170de004 CR4: 00000000003606e0
+Sep 11 20:42:41 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Sep 11 20:42:41 kernel: FS:  00007f263841ba80(0000) GS:ffff9d261ea80000(0000) knlGS:0000000000000000
+Sep 11 20:42:41 kernel: R13: ffff9d261bfb15d0 R14: 0000000000000012 R15: 0000035fdac25f18
+Sep 11 20:42:41 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff9d261a2fd240
+Sep 11 20:42:41 kernel: RBP: ffffbed3c1f6fb08 R08: 00000000000006a3 R09: 0000000000000004
+Sep 11 20:42:41 kernel: RDX: 0000000000000007 RSI: 0000000000000096 RDI: ffff9d261ea978c0
+Sep 11 20:42:41 kernel: RAX: 0000000000000000 RBX: ffff9d2616dfc800 RCX: 0000000000000006
+Sep 11 20:42:41 kernel: RSP: 0018:ffffbed3c1f6fac0 EFLAGS: 00010282
+Sep 11 20:42:41 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 14 cb 4c 89 ea 48 c7 c7 bf 05 6c c0 48 89 c6 e8 6a 29 af ca <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 af ca
+Sep 11 20:42:41 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+Sep 11 20:42:41 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+Sep 11 20:42:41 kernel: CPU: 2 PID: 1480 Comm: Xorg Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+Sep 11 20:42:41 kernel:  int340x_thermal_zone int3400_thermal intel_soc_dts_iosf intel_pch_thermal acpi_thermal_rel hp_wireless sch_fq_codel parport_pc ppdev lp parport drm ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul psmouse r8169 ahci i2c_i801 realtek libahci wmi video
+Sep 11 20:42:41 kernel: Modules linked in: binfmt_misc rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 uvcvideo videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 videobuf2_common videodev mc snd_hda_codec_hdmi btusb snd_hda_codec_realtek btrtl snd_hda_codec_generic mei_hdcp x86_pkg_temp_thermal hid_multitouch btbcm ledtrig_audio intel_powerclamp btintel intel_rapl_msr coretemp snd_hda_intel bluetooth snd_intel_dspcfg kvm_intel kvm crct10dif_pclmul snd_hda_codec ecdh_generic ghash_clmulni_intel snd_hda_core i915 snd_hwdep ecc aesni_intel snd_pcm snd_seq_midi crypto_simd cryptd glue_helper snd_seq_midi_event snd_rawmidi snd_seq rapl nouveau intel_cstate wmi_bmof mxm_wmi ttm snd_seq_device snd_timer snd mei_me mei drm_kms_helper hp_accel lis3lv02d intel_xhci_usb_role_switch roles hp_wmi sparse_keymap joydev input_leds soundcore input_polldev mac_hid i2c_algo_bit fb_sys_fops syscopyarea sysfillrect sysimgblt int3403_thermal processor_thermal_device intel_rapl_common acpi_pad serio_raw
+Sep 11 20:42:41 kernel: WARNING: CPU: 2 PID: 1480 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+Sep 11 20:42:41 kernel: nouveau 0000:01:00.0: timeout
+Sep 11 20:42:41 kernel: ------------[ cut here ]------------
+Sep 11 20:42:40 thermald: [WARN]terminating on user request ..
+Sep 11 20:42:39 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+Sep 11 20:42:39 systemd: tracker-miner-fs.service: Succeeded.
+Sep 11 20:42:39 tracker-miner-f: OK
+Sep 11 20:42:39 systemd: evolution-addressbook-factory.service: Succeeded.
+Sep 11 20:42:39 kernel: After module unload, module 'module-null-sink' was still loaded!

@@ -1,0 +1,128 @@
+Sep 11 21:03:09 systemd-journal: Journal stopped
+Sep 11 21:03:09 kernel: Sending SIGTERM to remaining processes...
+Sep 11 21:03:08 kernel: Syncing filesystems and block devices.
+Sep 11 21:03:08 systemd: Shutting down.
+Sep 11 21:03:07 NetworkManager: <info>  [1599883387.5869] exiting (success)
+Sep 11 21:03:07 systemd: Stopped target User and Group Name Lookups.
+Sep 11 21:03:07 dbus-daemon: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:07 systemd: Stopped WPA supplicant.
+Sep 11 21:03:07 NetworkManager: <info>  [1599883387.5345] caught SIGTERM, shutting down normally.
+Sep 11 21:03:07 systemd: Stopping Network Manager...
+Sep 11 21:03:07 systemd: Stopping User Manager for UID 1000...
+Sep 11 21:03:07 Xorg: (II) Server terminated successfully (0). Closing log file.
+Sep 11 21:03:07 systemd: Stopped Firmware update daemon.
+Sep 11 21:03:07 kernel: ---[ end trace 7e8cd788cdc13153 ]---
+Sep 11 21:03:07 kernel: R13: 0000000000000013 R14: 000055d04d42f1e0 R15: 00007ffe7c2bd108
+Sep 11 21:03:07 kernel: R10: 00007ffe7c2bcc70 R11: 0000000000000246 R12: 000055d04ccf1d30
+Sep 11 21:03:07 kernel: RBP: 0000000040086409 R08: 0000000000000007 R09: 0000000000000001
+Sep 11 21:03:07 kernel: RDX: 00007ffe7c2bce10 RSI: 0000000040086409 RDI: 0000000000000013
+Sep 11 21:03:07 kernel: RAX: ffffffffffffffda RBX: 00007ffe7c2bce10 RCX: 00007f6f1c0ac37b
+Sep 11 21:03:07 kernel: RSP: 002b:00007ffe7c2bcdd8 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Sep 11 21:03:07 kernel: Code: 0f 1e fa 48 8b 05 15 3b 0d 00 64 c7 00 26 00 00 00 48 c7 c0 ff ff ff ff c3 66 0f 1f 44 00 00 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d e5 3a 0d 00 f7 d8 64 89 01 48
+Sep 11 21:03:07 kernel: RIP: 0033:0x7f6f1c0ac37b
+Sep 11 21:03:07 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+Sep 11 21:03:07 kernel: Call Trace:
+Sep 11 21:03:07 kernel: CR2: 00007fa7a0015fc8 CR3: 000000041a444004 CR4: 00000000003606e0
+Sep 11 21:03:07 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Sep 11 21:03:07 kernel: FS:  00007f6f1bd4ca80(0000) GS:ffff9efd1ea40000(0000) knlGS:0000000000000000
+Sep 11 21:03:07 kernel: R13: ffff9efd1bf673a0 R14: 0000000000000012 R15: 000001177c9da08b
+Sep 11 21:03:07 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff9efd1128e480
+Sep 11 21:03:07 kernel: RBP: ffffb65dc1b1fb08 R08: 00000000000005ae R09: 0000000000000004
+Sep 11 21:03:07 kernel: RDX: 0000000000000007 RSI: 0000000000000096 RDI: ffff9efd1ea578c0
+Sep 11 21:03:07 kernel: RAX: 0000000000000000 RBX: ffff9efd15c62400 RCX: 0000000000000006
+Sep 11 21:03:07 kernel: RSP: 0018:ffffb65dc1b1fac0 EFLAGS: 00010282
+Sep 11 21:03:07 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 24 b9 e9 4c 89 ea 48 c7 c7 bf b5 c7 c0 48 89 c6 e8 6a 79 53 e9 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 76 53 e9
+Sep 11 21:03:07 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+Sep 11 21:03:07 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+Sep 11 21:03:07 kernel: CPU: 1 PID: 1328 Comm: Xorg Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+Sep 11 21:03:07 kernel:  hp_wmi sparse_keymap hp_accel lis3lv02d wmi_bmof hp_wireless input_polldev mac_hid acpi_pad sch_fq_codel parport_pc ppdev lp parport drm ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul psmouse r8169 i2c_i801 ahci realtek libahci wmi video
+Sep 11 21:03:07 kernel: Modules linked in: rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 snd_hda_codec_hdmi snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio snd_hda_intel snd_intel_dspcfg snd_hda_codec uvcvideo snd_hda_core x86_pkg_temp_thermal mei_hdcp intel_powerclamp coretemp snd_hwdep kvm_intel snd_pcm intel_rapl_msr kvm btusb snd_seq_midi btrtl btbcm videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 btintel videobuf2_common videodev crct10dif_pclmul ghash_clmulni_intel bluetooth snd_seq_midi_event nouveau snd_rawmidi snd_seq aesni_intel snd_seq_device mc i915 ecdh_generic snd_timer crypto_simd hid_multitouch cryptd mxm_wmi ttm snd glue_helper ecc soundcore drm_kms_helper rapl intel_cstate processor_thermal_device intel_rapl_common intel_pch_thermal i2c_algo_bit mei_me mei int3400_thermal int3403_thermal intel_soc_dts_iosf int340x_thermal_zone acpi_thermal_rel fb_sys_fops syscopyarea sysfillrect intel_xhci_usb_role_switch roles sysimgblt joydev input_leds serio_raw
+Sep 11 21:03:07 kernel: WARNING: CPU: 1 PID: 1328 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+Sep 11 21:03:07 kernel: nouveau 0000:01:00.0: timeout
+Sep 11 21:03:07 kernel: ------------[ cut here ]------------
+Sep 11 21:03:05 thermald: [WARN]terminating on user request ..
+Sep 11 21:03:05 systemd: evolution-addressbook-factory.service: Succeeded.
+Sep 11 21:03:05 apport:    ...done.
+Sep 11 21:03:05 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+Sep 11 21:03:04 systemd: gnome-launched-firefox.desktop-2793.scope: Succeeded.
+Sep 11 21:03:04 kernel: After module unload, module 'module-null-sink' was still loaded!
+Sep 11 21:03:04 systemd: Started D-Bus User Message Bus.
+Sep 11 21:03:04 evolution-calen: Error setting property 'ConnectionStatus' on interface org.gnome.evolution.dataserver.Source: The connection is closed (g-io-error-quark, 18)
+Sep 11 21:03:04 systemd: gvfs-goa-volume-monitor.service: Succeeded.
+Sep 11 21:03:04 evolution-addre: Error setting property 'ConnectionStatus' on interface org.gnome.evolution.dataserver.Source: The connection is closed (g-io-error-quark, 18)
+Sep 11 21:03:04 systemd: xdg-permission-store.service: Failed with result 'exit-code'.
+Sep 11 21:03:04 dbus-daemon: [session uid=1000 pid=4154] AppArmor D-Bus mediation is enabled
+Sep 11 21:03:04 systemd: Stopped Start gnome-keyring as SSH agent.
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 systemd: gnome-keyring-ssh.service: Succeeded.
+Sep 11 21:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.141' (uid=1000 pid=1313 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 11 21:03:04 systemd: Stopped target Shutdown running GNOME Session.
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 systemd: Starting Restart DBus after GNOME Session shutdown...
+Sep 11 21:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.140' (uid=1000 pid=1313 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 11 21:03:04 systemd: Stopping Start gnome-keyring as SSH agent...
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 systemd: Reached target Shutdown running GNOME Session.
+Sep 11 21:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.139' (uid=1000 pid=1313 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 11 21:03:04 systemd: Stopped target Session services which should run early before the graphical session is brought up.
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 kernel: A connection to the bus can't be made
+Sep 11 21:03:04 systemd: Stopped target Tasks to be run before GNOME Session starts.
+Sep 11 21:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.138' (uid=1000 pid=1313 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 11 21:03:04 kernel: A connection to the bus can't be made
+Sep 11 21:03:04 systemd: Stopped target GNOME Session Manager is ready.
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 kernel: A connection to the bus can't be made
+Sep 11 21:03:04 systemd: Stopped GNOME Shell on X11.
+Sep 11 21:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.137' (uid=1000 pid=1313 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 11 21:03:04 kernel: A connection to the bus can't be made
+Sep 11 21:03:04 systemd: gnome-shell-x11.service: Succeeded.
+Sep 11 21:03:04 gdm3: Freeing conversation 'gdm-password' with active job
+Sep 11 21:03:04 Xorg: (II) systemd-logind: releasing fd for 13:66
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 systemd: Stopped Avahi mDNS/DNS-SD Stack.
+Sep 11 21:03:04 gdm3: Failed to contact accountsservice: Error calling StartServiceByName for org.freedesktop.Accounts: Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 systemd: avahi-daemon.service: Succeeded.
+Sep 11 21:03:04 dbus-daemon: [system] Activation via systemd failed for unit 'accounts-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 11 21:03:04 avahi-daemon: avahi-daemon 0.7 exiting.
+Sep 11 21:03:04 MainThread: firefox: Fatal IO error 0 (Success) on X server :0.
+
+Sep 11 21:03:04 systemd: Stopping Authorization Manager...
+Sep 11 21:03:04 avahi-daemon: Leaving mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Sep 11 21:03:04 systemd: Stopping CUPS Scheduler...
+Sep 11 21:03:04 avahi-daemon: Leaving mDNS multicast group on interface lo.IPv6 with address ::1.
+Sep 11 21:03:04 systemd: Stopping Avahi mDNS/DNS-SD Stack...
+Sep 11 21:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.Accounts' unit='accounts-daemon.service' requested by ':1.21' (uid=0 pid=863 comm="/usr/sbin/gdm3 " label="unconfined")
+Sep 11 21:03:04 avahi-daemon: Got SIGTERM, quitting.
+Sep 11 21:03:04 systemd: Stopped target System Time Set.
+Sep 11 21:03:04 systemd-logind: Session 2 logged out. Waiting for processes to exit.
+Sep 11 21:03:04 WebExtensions: Gdk-Message: 21:03:04.714: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Sep 11 21:03:04 apport:  * Stopping automatic crash report generation: apport
+Sep 11 21:03:04 systemd: Stopped Daemon for power management.
+Sep 11 21:03:04 udisksd: udisks daemon version 2.8.4 exiting
+Sep 11 21:03:04 systemd: keybase.gui.service: Failed with result 'exit-code'.
+Sep 11 21:03:04 Web Content: Gdk-Message: 21:03:04.691: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Sep 11 21:03:04 systemd: Stopped Snap Daemon.
+Sep 11 21:03:04 Xorg: (II) systemd-logind: releasing fd for 13:71
+Sep 11 21:03:04 systemd: rsyslog.service: Succeeded.
+Sep 11 21:03:04 Privileged Cont: Gdk-Message: 21:03:04.666: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Sep 11 21:03:04 systemd: Stopping Load/Save Random Seed...
+Sep 11 21:03:04 kernel: update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 11 21:03:04 NetworkManager: <info>  [1599883384.6651] modem-manager: ModemManager no longer available
+Sep 11 21:03:04 systemd: Condition check resulted in Ubuntu core (all-snaps) system shutdown helper setup service being skipped.
+Sep 11 21:03:04 kernel: gnome-terminal-server: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 11 21:03:04 systemd: Stopping GNOME Display Manager...
+Sep 11 21:03:04 bluetoothd: Exit
+Sep 11 21:03:04 systemd: Stopping LSB: automatic crash report generation...
+Sep 11 21:03:04 evolution-alarm: evolution-alarm-notify: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 11 21:03:04 thermald: [WARN]Terminating ...
+Sep 11 21:03:04 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="714" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Sep 11 21:03:04 systemd: Stopping Save/Restore Sound Card State...
+Sep 11 21:03:04 Xorg: (II) event7  - HP WMI hotkeys: device removed
+Sep 11 21:03:04 ModemManager: <info>  ModemManager is shut down
+Sep 11 21:03:04 file:// Content: Gdk-Message: 21:03:04.664: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Sep 11 21:03:04 snapd: main.go:155: Exiting on terminated signal.
+Sep 11 21:03:04 systemd: Stopping ACPI event daemon...
