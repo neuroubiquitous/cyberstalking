@@ -1,0 +1,178 @@
+09:17:01 cron: pam_unix(cron:session): session closed for user root
+09:17:01 kernel: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+09:17:01 cron: pam_unix(cron:session): session opened for user root by (uid=0)
+09:06:57 systemd: NetworkManager-dispatcher.service: Succeeded.
+09:06:46 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+09:06:46 systemd: Starting Network Manager Script Dispatcher Service...
+09:06:46 NetworkManager: <info>  [1600099606.7565] dhcp4 (eno1): state changed bound -> extended
+09:06:46 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.18' (uid=0 pid=735 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+09:06:46 NetworkManager: <info>  [1600099606.7562] dhcp4 (eno1): option requested_interface_mtu => '1'
+09:06:31 systemd: systemd-hostnamed.service: Succeeded.
+09:06:00 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+09:06:00 systemd: Starting Hostname Service...
+09:06:00 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.174' (uid=1000 pid=2510 comm="/usr/lib/firefox/firefox -new-window " label="unconfined")
+09:05:46 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+09:05:28 systemd: systemd-hostnamed.service: Succeeded.
+09:04:58 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+09:04:58 systemd: Starting Hostname Service...
+09:04:58 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.171' (uid=1000 pid=2089 comm="/usr/bin/gnome-logs --gapplication-service " label="unconfined")
+09:03:15 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:03:15 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:03:14 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:03:14 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:03:14 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:03:14 systemd: NetworkManager-dispatcher.service: Succeeded.
+09:03:04 NetworkManager: <info>  [1600099384.4000] device (tun0): Activation: successful, device activated.
+09:03:04 NetworkManager: <info>  [1600099384.4000] device (tun0): Activation: successful, device activated.
+09:03:04 NetworkManager: <info>  [1600099384.3983] device (tun0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3978] device (tun0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3942] policy: set 'openvpn' (tun0) as default for IPv4 routing and DNS
+09:03:04 systemd: Started Network Manager Script Dispatcher Service.
+09:03:04 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+09:03:04 NetworkManager: <info>  [1600099384.3700] device (tun0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3700] device (tun0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3695] device (tun0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3689] device (tun0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3681] device (tun0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+09:03:04 NetworkManager: <info>  [1600099384.3678] device (tun0): Activation: starting connection 'tun0' (b8cff095-927f-4017-b134-fa98319acb7c)
+09:03:04 NetworkManager: <info>  [1600099384.3664] device (tun0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+09:03:04 systemd: Starting Network Manager Script Dispatcher Service...
+09:03:04 NetworkManager: <info>  [1600099384.3633] device (tun0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+09:03:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.18' (uid=0 pid=735 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+09:03:04 NetworkManager: <info>  [1600099384.3610] vpn-connection[0x5611c84c8500,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: VPN connection: (IP Config Get) complete
+09:03:04 openvpn: Initialization Sequence Completed
+09:03:04 NetworkManager: <info>  [1600099384.3554] vpn-connection[0x5611c84c8500,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: VPN plugin: state changed: started (4)
+09:03:04 systemd-udevd: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+09:03:04 NetworkManager: <info>  [1600099384.3381] manager: (tun0): new Tun device (/org/freedesktop/NetworkManager/Devices/4)
+09:03:04 openvpn: /usr/lib/NetworkManager/nm-openvpn-service-openvpn-helper --debug 0 6820 --bus-name org.freedesktop.NetworkManager.openvpn.Connection_10 --tun -- tun0 1500 1554 10.202.4.109 255.255.255.0 init
+09:03:00 NetworkManager: <info>  [1600099380.9118] vpn-connection[0x5611c84c8500,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:02:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Todo'
+08:51:57 systemd: NetworkManager-dispatcher.service: Succeeded.
+08:51:56 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+08:51:46 NetworkManager: <info>  [1600098706.7598] manager: NetworkManager state is now CONNECTED_GLOBAL
+08:51:46 avahi-daemon: Registering new address record for 192.168.0.32 on eno1.IPv4.
+08:51:46 NetworkManager: <info>  [1600098706.7342] dhcp4 (eno1): option requested_domain_search => '1'
+08:51:46 avahi-daemon: New relevant interface eno1.IPv4 for mDNS.
+08:51:46 NetworkManager: <info>  [1600098706.7342] dhcp4 (eno1): option requested_domain_name_servers => '1'
+08:51:46 avahi-daemon: Joining mDNS multicast group on interface eno1.IPv4 with address 192.168.0.32.
+08:51:46 NetworkManager: <info>  [1600098706.7341] dhcp4 (eno1): option requested_broadcast_address => '1'
+08:51:46 avahi-daemon: Registering new address record for fe80::f6d7:bdda:c91c:83f7 on eno1.*.
+08:51:46 NetworkManager: <info>  [1600098706.6475] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+08:51:46 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:51:46 NetworkManager: <info>  [1600098706.6340] device (eno1): carrier: link connected
+08:51:45 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+08:51:45 NetworkManager: <info>  [1600098705.6708] dhcp4 (eno1): state changed unknown -> done
+08:51:38 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:51:38 avahi-daemon: Registering new address record for fe80::f6d7:bdda:c91c:83f7 on eno1.*.
+08:51:38 NetworkManager: <info>  [1600098698.6433] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+08:51:38 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:51:38 NetworkManager: <info>  [1600098698.6329] device (eno1): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+08:51:37 run-parts: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+08:51:37 systemd: Started Network Manager Script Dispatcher Service.
+08:51:37 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+08:51:37 systemd: Starting Network Manager Script Dispatcher Service...
+08:51:37 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.18' (uid=0 pid=735 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+08:51:37 NetworkManager: <info>  [1600098697.8146] manager: NetworkManager state is now DISCONNECTED
+08:51:37 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+08:51:37 NetworkManager: <info>  [1600098697.8070] dhcp4 (eno1): state changed bound -> done
+08:51:37 NetworkManager: <info>  [1600098697.8070] dhcp4 (eno1): state changed bound -> done
+08:51:37 NetworkManager: <info>  [1600098697.8069] dhcp4 (eno1): canceled DHCP transaction
+08:51:37 NetworkManager: <info>  [1600098697.7926] device (eno1): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+08:51:32 systemd: NetworkManager-dispatcher.service: Succeeded.
+08:51:31 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:51:22 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+08:51:22 NetworkManager: <info>  [1600098682.0601] manager: NetworkManager state is now CONNECTED_GLOBAL
+08:51:22 avahi-daemon: Registering new address record for 192.168.0.32 on eno1.IPv4.
+08:51:22 NetworkManager: <info>  [1600098682.0333] dhcp4 (eno1): option requested_interface_mtu => '1'
+08:51:22 avahi-daemon: New relevant interface eno1.IPv4 for mDNS.
+08:51:22 NetworkManager: <info>  [1600098682.0333] dhcp4 (eno1): option requested_host_name  => '1'
+08:51:22 avahi-daemon: Joining mDNS multicast group on interface eno1.IPv4 with address 192.168.0.32.
+08:51:22 NetworkManager: <info>  [1600098682.0332] dhcp4 (eno1): option requested_broadcast_address => '1'
+08:51:21 avahi-daemon: Registering new address record for fe80::f6d7:bdda:c91c:83f7 on eno1.*.
+08:51:21 NetworkManager: <info>  [1600098681.9544] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+08:51:21 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:51:21 run-parts: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+08:51:21 NetworkManager: <info>  [1600098681.1244] manager: NetworkManager state is now DISCONNECTED
+08:51:21 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+08:51:21 NetworkManager: <info>  [1600098681.1190] dhcp4 (eno1): state changed bound -> done
+08:51:15 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:51:12 systemd-resolve: Using degraded feature set (UDP) for DNS server 192.168.0.1.
+08:51:12 NetworkManager: <info>  [1600098672.2091] dhcp4 (eno1): state changed unknown -> bound
+08:51:12 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:51:12 NetworkManager: <info>  [1600098672.1203] device (eno1): DHCPv4 lease renewal requested
+08:51:09 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:51:08 NetworkManager: <info>  [1600098668.1754] manager: NetworkManager state is now CONNECTED_GLOBAL
+08:51:08 avahi-daemon: Registering new address record for 192.168.0.32 on eno1.IPv4.
+08:51:08 NetworkManager: <info>  [1600098668.1487] dhcp4 (eno1): option requested_ms_classless_static_routes => '1'
+08:51:08 avahi-daemon: New relevant interface eno1.IPv4 for mDNS.
+08:51:08 NetworkManager: <info>  [1600098668.1486] dhcp4 (eno1): option requested_interface_mtu => '1'
+08:51:08 avahi-daemon: Joining mDNS multicast group on interface eno1.IPv4 with address 192.168.0.32.
+08:51:08 NetworkManager: <info>  [1600098668.1486] dhcp4 (eno1): option requested_domain_name => '1'
+08:51:08 avahi-daemon: Registering new address record for fe80::f6d7:bdda:c91c:83f7 on eno1.*.
+08:51:08 NetworkManager: <info>  [1600098668.0716] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+08:51:08 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:51:07 NetworkManager: <warn>  [1600098667.3400] dns-sd-resolved[c2b80830e9b51161]: send-updates failed to update systemd-resolved: GDBus.Error:org.freedesktop.resolve1.NoSuchLink: Link 3 not known
+08:51:07 kernel: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+08:51:07 NetworkManager: <info>  [1600098667.3361] vpn-connection[0x5611c84c82f0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",0]: VPN plugin: state changed: stopped (6)
+08:51:07 kernel: SIGTERM[hard,] received, process exiting
+08:51:07 kernel: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+08:51:07 NetworkManager: <info>  [1600098667.3361] vpn-connection[0x5611c84c82f0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",0]: VPN plugin: state changed: stopping (5)
+08:51:07 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+08:51:07 kernel: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+08:51:07 systemd: Started Network Manager Script Dispatcher Service.
+08:51:07 gnome-shell: Removing a network device that was not added
+08:51:07 systemd: Starting Network Manager Script Dispatcher Service...
+08:51:07 NetworkManager: <info>  [1600098667.2848] manager: NetworkManager state is now DISCONNECTED
+08:51:07 openvpn: event_wait : Interrupted system call (code=4)
+08:51:07 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.18' (uid=0 pid=735 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+08:51:07 NetworkManager: <info>  [1600098667.2740] device (tun0): state change: activated -> unmanaged (reason 'connection-assumed', sys-iface-state: 'external')
+08:51:07 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+08:51:07 NetworkManager: <info>  [1600098667.2470] dhcp4 (eno1): state changed bound -> done
+08:51:01 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:50:49 systemd: NetworkManager-dispatcher.service: Succeeded.
+08:50:39 NetworkManager: <info>  [1600098638.9952] dhcp4 (eno1): state changed unknown -> bound
+08:50:38 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:29 NetworkManager: <info>  [1600098629.6931] dhcp4 (eno1): state changed unknown -> bound
+08:50:29 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:25 NetworkManager: <info>  [1600098625.3700] dhcp4 (eno1): state changed unknown -> bound
+08:50:25 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:18 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+08:50:15 NetworkManager: <info>  [1600098615.5087] dhcp4 (eno1): state changed unknown -> bound
+08:50:15 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:15 NetworkManager: <info>  [1600098615.4251] device (eno1): carrier: link connected
+08:50:12 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:50:11 NetworkManager: <info>  [1600098611.5520] dhcp4 (eno1): state changed unknown -> bound
+08:50:11 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:11 NetworkManager: <info>  [1600098611.4609] device (eno1): DHCPv4 lease renewal requested
+08:50:08 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:50:07 NetworkManager: <info>  [1600098607.4283] dhcp4 (eno1): state changed unknown -> bound
+08:50:07 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:02 systemd: Started Network Manager Script Dispatcher Service.
+08:50:02 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+08:50:02 systemd: Starting Network Manager Script Dispatcher Service...
+08:50:02 NetworkManager: <info>  [1600098602.8951] dhcp4 (eno1): state changed unknown -> bound
+08:50:02 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.18' (uid=0 pid=735 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+08:50:02 NetworkManager: <info>  [1600098602.8948] dhcp4 (eno1): option requested_nis_servers => '1'
+08:50:02 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+08:50:02 NetworkManager: <info>  [1600098602.7778] device (eno1): carrier: link connected
+08:49:59 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:46:21 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+08:43:46 systemd: NetworkManager-dispatcher.service: Succeeded.
+08:43:36 NetworkManager: <info>  [1600098216.5104] dhcp4 (eno1): state changed extended -> extended
+08:43:36 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+08:43:36 NetworkManager: <info>  [1600098216.5102] dhcp4 (eno1): option requested_interface_mtu => '1'
+08:43:36 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.18' (uid=0 pid=735 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+08:43:36 NetworkManager: <info>  [1600098216.5102] dhcp4 (eno1): option requested_host_name  => '1'
+08:43:27 openvpn: WARNING: 'keysize' is used inconsistently, local='keysize 256', remote='keysize 128'
+08:37:28 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+08:33:34 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.gedit'
+08:33:26 gnome-shell: JS ERROR: TypeError: area is null
+padArea@resource:///org/gnome/shell/ui/workspace.js:1101:9
+_updateWindowPositions@resource:///org/gnome/shell/ui/workspace.js:1334:20
+_realRecalculateWindowPositions@resource:///org/gnome/shell/ui/workspace.js:1311:14
+_recalculateWindowPositions/this._positionWindowsId<@resource:///org/gnome/shell/ui/workspace.js:1286:18
+
+08:33:23 systemd: gnome-launched-org.gnome.Evince.desktop-6109.scope: Succeeded.
+08:30:01 cron: pam_unix(cron:session): session closed for user root
+08:29:05 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+08:28:46 systemd: NetworkManager-dispatcher.service: Succeeded.
