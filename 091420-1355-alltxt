@@ -1,0 +1,209 @@
+13:53:46 dbus-daemon: [session uid=1000 pid=1352] Successfully activated service 'org.gnome.Logs'
+13:53:42 systemd: xdg-desktop-portal-gtk.service: Succeeded.
+13:51:29 NetworkManager: <info>  [1600116689.6345] dhcp4 (eno1): state changed extended -> extended
+13:51:29 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+13:51:29 NetworkManager: <info>  [1600116689.6340] dhcp4 (eno1): option domain_name_servers  => '192.168.0.1'
+13:51:29 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=725 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+13:51:29 NetworkManager: <info>  [1600116689.6340] dhcp4 (eno1): option domain_name          => 'hitronhub.home'
+13:51:29 NetworkManager: <info>  [1600116689.6340] dhcp4 (eno1): option domain_name          => 'hitronhub.home'
+13:51:29 NetworkManager: <info>  [1600116689.6339] dhcp4 (eno1): option dhcp_lease_time      => '1800'
+13:39:58 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+13:39:57 systemd: NetworkManager-dispatcher.service: Succeeded.
+13:39:53 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:39:53 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:39:53 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:39:47 NetworkManager: <info>  [1600115987.4529] device (tun0): Activation: successful, device activated.
+13:39:47 systemd: Started Network Manager Script Dispatcher Service.
+13:39:47 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+13:39:47 NetworkManager: <info>  [1600115987.4353] device (tun0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+13:39:47 systemd: Starting Network Manager Script Dispatcher Service...
+13:39:47 NetworkManager: <info>  [1600115987.4261] device (tun0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+13:39:47 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=725 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+13:39:47 NetworkManager: <info>  [1600115987.4185] vpn-connection[0x555716a022e0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: Data:   Static Route: 10.202.4.0/24   Next Hop: 0.0.0.0
+13:39:47 openvpn: Initialization Sequence Completed
+13:39:47 NetworkManager: <info>  [1600115987.4184] vpn-connection[0x555716a022e0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: Data:   Internal Point-to-Point Address: 10.202.4.115
+13:39:47 openvpn: UID set to nm-openvpn
+13:39:47 NetworkManager: <info>  [1600115987.4184] vpn-connection[0x555716a022e0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: Data:   Internal Prefix: 24
+13:39:47 openvpn: GID set to nm-openvpn
+13:39:47 NetworkManager: <info>  [1600115987.4183] vpn-connection[0x555716a022e0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: Data:   Internal Address: 10.202.4.115
+13:39:47 openvpn: chroot to '/var/lib/openvpn/chroot' and cd to '/' succeeded
+13:39:47 NetworkManager: <info>  [1600115987.4183] vpn-connection[0x555716a022e0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",4:(tun0)]: Data:   Internal Gateway: 10.202.4.1
+13:39:47 systemd-udevd: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+13:39:47 NetworkManager: <info>  [1600115987.3873] manager: (tun0): new Tun device (/org/freedesktop/NetworkManager/Devices/4)
+13:39:47 openvpn: /usr/lib/NetworkManager/nm-openvpn-service-openvpn-helper --debug 0 3887 --bus-name org.freedesktop.NetworkManager.openvpn.Connection_6 --tun -- tun0 1500 1554 10.202.4.115 255.255.255.0 init
+13:39:44 NetworkManager: <info>  [1600115984.3642] vpn-connection[0x555716a022e0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+13:39:41 gnome-shell: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+13:36:56 snapd: autorefresh.go:397: auto-refresh: all snaps are up-to-date
+13:36:39 systemd: NetworkManager-dispatcher.service: Succeeded.
+13:36:29 NetworkManager: <info>  [1600115789.6509] dhcp4 (eno1): state changed bound -> extended
+13:36:29 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+13:36:29 NetworkManager: <info>  [1600115789.6506] dhcp4 (eno1): option requested_interface_mtu => '1'
+13:36:29 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=725 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+13:36:29 NetworkManager: <info>  [1600115789.6504] dhcp4 (eno1): option ip_address           => '192.168.0.32'
+13:35:36 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:32:36 systemd: anacron.service: Succeeded.
+13:32:36 anacron: Normal exit (0 jobs run)
+13:32:36 systemd: Started Run anacron jobs.
+13:30:38 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:30:01 cron: pam_unix(cron:session): session closed for user root
+13:30:01 kernel: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+13:30:01 cron: pam_unix(cron:session): session opened for user root by (uid=0)
+13:26:37 systemd: Finished Cleanup of Temporary Directories.
+13:24:47 rtkit-daemon: Supervising 6 threads of 4 processes of 1 users.
+13:21:39 systemd: NetworkManager-dispatcher.service: Succeeded.
+13:21:30 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+13:21:29 NetworkManager: <info>  [1600114889.6236] dhcp4 (eno1): state changed unknown -> bound
+13:21:29 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+13:21:29 NetworkManager: <info>  [1600114889.5735] device (eno1): DHCPv4 lease renewal requested
+13:21:26 kernel: r8169 0000:03:00.0 eno1: Link is Down
+13:21:25 NetworkManager: <info>  [1600114885.5544] dhcp4 (eno1): state changed unknown -> bound
+13:21:25 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+13:21:20 NetworkManager: <info>  [1600114880.3864] manager: NetworkManager state is now CONNECTED_GLOBAL
+13:21:20 avahi-daemon: Registering new address record for 192.168.0.32 on eno1.IPv4.
+13:21:20 NetworkManager: <info>  [1600114880.3736] dhcp4 (eno1): option requested_nis_domain => '1'
+13:21:20 avahi-daemon: New relevant interface eno1.IPv4 for mDNS.
+13:21:20 NetworkManager: <info>  [1600114880.3736] dhcp4 (eno1): option requested_ms_classless_static_routes => '1'
+13:21:20 avahi-daemon: Joining mDNS multicast group on interface eno1.IPv4 with address 192.168.0.32.
+13:21:20 NetworkManager: <info>  [1600114880.3735] dhcp4 (eno1): option requested_domain_name_servers => '1'
+13:21:20 avahi-daemon: Registering new address record for fe80::f6d7:bdda:c91c:83f7 on eno1.*.
+13:21:20 NetworkManager: <info>  [1600114880.3311] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+13:21:20 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+13:21:19 run-parts: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+13:21:19 systemd: Started Network Manager Script Dispatcher Service.
+13:21:19 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+13:21:19 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+13:21:19 systemd: Starting Network Manager Script Dispatcher Service...
+13:21:19 avahi-daemon: Withdrawing address record for 192.168.0.32 on eno1.
+13:21:19 NetworkManager: <info>  [1600114879.5008] manager: NetworkManager state is now DISCONNECTED
+13:21:15 systemd: NetworkManager-dispatcher.service: Succeeded.
+13:21:13 kernel: r8169 0000:03:00.0 eno1: Link is Down
+13:21:05 NetworkManager: <info>  [1600114865.3829] manager: NetworkManager state is now CONNECTED_GLOBAL
+13:21:05 avahi-daemon: Registering new address record for 192.168.0.32 on eno1.IPv4.
+13:21:05 NetworkManager: <info>  [1600114865.3573] dhcp4 (eno1): option requested_domain_name_servers => '1'
+13:21:05 avahi-daemon: New relevant interface eno1.IPv4 for mDNS.
+13:21:05 NetworkManager: <info>  [1600114865.3573] dhcp4 (eno1): option requested_domain_name => '1'
+13:21:05 avahi-daemon: Joining mDNS multicast group on interface eno1.IPv4 with address 192.168.0.32.
+13:21:05 NetworkManager: <info>  [1600114865.3572] dhcp4 (eno1): option requested_broadcast_address => '1'
+13:21:05 avahi-daemon: Registering new address record for fe80::f6d7:bdda:c91c:83f7 on eno1.*.
+13:21:05 NetworkManager: <info>  [1600114865.3098] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+13:21:05 kernel: r8169 0000:03:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+13:21:04 run-parts: run-parts: failed to stat component /etc/network/if-post-down.d/avahi-daemon: No such file or directory
+13:21:04 openvpn: SIGTERM[hard,] received, process exiting
+13:21:04 gnome-shell: Removing a network device that was not added
+13:21:04 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+13:21:04 openvpn: event_wait : Interrupted system call (code=4)
+13:21:04 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=725 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+13:21:04 NetworkManager: <warn>  [1600114864.4347] dns-sd-resolved[9cf865eedbc43f91]: send-updates failed to update systemd-resolved: GDBus.Error:org.freedesktop.resolve1.NoSuchLink: Link 3 not known
+13:21:04 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+13:21:04 systemd: Started Network Manager Script Dispatcher Service.
+13:21:04 avahi-daemon: Leaving mDNS multicast group on interface eno1.IPv6 with address fe80::f6d7:bdda:c91c:83f7.
+13:21:04 NetworkManager: <info>  [1600114864.4163] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",0]: VPN plugin: state changed: stopped (6)
+13:21:04 avahi-daemon: Withdrawing address record for fe80::f6d7:bdda:c91c:83f7 on eno1.
+13:21:04 NetworkManager: <info>  [1600114864.4162] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",0]: VPN plugin: state changed: stopping (5)
+13:21:04 avahi-daemon: Interface eno1.IPv4 no longer relevant for mDNS.
+13:21:04 systemd: Starting Network Manager Script Dispatcher Service...
+13:21:04 avahi-daemon: Leaving mDNS multicast group on interface eno1.IPv4 with address 192.168.0.32.
+13:21:04 NetworkManager: <info>  [1600114864.4144] manager: NetworkManager state is now DISCONNECTED
+13:21:04 avahi-daemon: Withdrawing address record for 192.168.0.32 on eno1.
+13:21:04 NetworkManager: <info>  [1600114864.4102] device (tun0): state change: activated -> unmanaged (reason 'connection-assumed', sys-iface-state: 'external')
+13:20:58 kernel: r8169 0000:03:00.0 eno1: Link is Down
+13:18:53 systemd: packagekit.service: Succeeded.
+13:18:53 packagekitd: daemon quit
+13:17:01 cron: pam_unix(cron:session): session closed for user root
+13:16:53 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:14:58 systemd: anacron.service: Succeeded.
+13:14:58 anacron: Normal exit (0 jobs run)
+13:14:58 systemd: Started Run anacron jobs.
+13:14:09 rtkit-daemon: Supervising 5 threads of 3 processes of 1 users.
+13:13:57 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1898 label="snap.snap-store.ubuntu-software" peer_pid=1585 peer_label="unconfined"
+13:13:57 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/pixmaps/" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:57 kernel: audit: type=1400 audit(1600114437.256:1700): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/icon-theme.cache" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:57 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/apps/" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:56 kernel: audit: type=1400 audit(1600114436.044:1697): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:56 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:54 snap-store: automatically prevented from changing kind on system/snap/*/runtime/io.snapcraft.core18-CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6/latest/stable from runtime to unknown!
+13:13:50 kernel: audit: type=1400 audit(1600114430.910:1690): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:50 kernel: kauditd_printk_skb: 1546 callbacks suppressed
+13:13:50 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:50 packagekitd: get-details transaction /488_bdacaeab from uid 1000 finished with success after 283ms
+13:13:43 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+13:13:39 pkexec: azane: Executing command [USER=root] [TTY=unknown] [CWD=/home/azane] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+13:13:36 systemd: Started Virtual filesystem metadata service.
+13:13:36 dbus-daemon: [session uid=1000 pid=1352] Successfully activated service 'org.gtk.vfs.Metadata'
+13:13:36 systemd: Starting Virtual filesystem metadata service...
+13:13:36 dbus-daemon: [session uid=1000 pid=1352] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.40' (uid=1000 pid=1585 comm="/usr/bin/gnome-shell " label="unconfined")
+13:13:36 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+13:13:24 gnome-shell: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+13:13:22 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+13:13:22 systemd-timesyn: Initial synchronization to time server 91.189.94.4:123 (ntp.ubuntu.com).
+13:13:20 rtkit-daemon: Supervising 4 threads of 2 processes of 1 users.
+13:13:16 snapd: storehelpers.go:438: cannot refresh: snap has no updates available: "clion", "code", "core", "core18", "gnome-3-34-1804", "goland", "gtk-common-themes", "intellij-idea-ultimate", "jupyter", "kotlin", "pycharm-professional", "snap-store", "snapd", "tmux", "webstorm"
+13:13:15 packagekitd: resolve transaction /485_cccacbad from uid 1000 finished with success after 301ms
+13:13:14 snap-store: Only 2 apps for recent list, hiding
+13:13:14 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/pixmaps/" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:12 systemd-timesyn: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+13:13:12 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Humanity/apps/192/" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:12 kernel: audit: type=1400 audit(1600114391.919:137): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/24x24/emblems/" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:11 kernel: kauditd_printk_skb: 26 callbacks suppressed
+13:13:11 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/actions/" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:11 packagekitd: resolve transaction /484_debcdebd from uid 1000 finished with success after 5932ms
+13:13:11 kernel: audit: type=1400 audit(1600114391.079:101): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/magic" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:11 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:07 systemd: geoclue.service: Succeeded.
+13:13:07 geoclue: Service not used for 60 seconds. Shutting down..
+13:13:07 systemd: systemd-hostnamed.service: Succeeded.
+13:13:07 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:07 kernel: audit: type=1400 audit(1600114386.875:98): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:06 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=1898 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:13:06 snap-store: hiding category audio-video featured applications: found only 0 to show, need at least 9
+13:13:06 systemd: Started Application launched by gnome-shell.
+13:13:05 snap-store: adding wildcard app */*/*/*/org.gnome.Weather/* to plugin cache
+13:13:05 packagekitd: refresh-cache transaction /483_becbeaab from uid 1000 finished with success after 5686ms
+13:13:02 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+13:13:01 gnome-shell: Impossible to send about-to-show to menu: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: error occurred in AboutToShow
+13:13:01 Keybase: (electron) 'setAutoHideMenuBar function' is deprecated and will be removed. Please use 'autoHideMenuBar property' instead.
+13:13:01 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+13:13:00 Keybase: (electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+13:13:00 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+13:13:00 systemd: NetworkManager-dispatcher.service: Succeeded.
+13:12:59 packagekitd: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+13:12:59 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1898 label="snap.snap-store.ubuntu-software" peer_pid=1585 peer_label="unconfined"
+13:12:59 systemd: Started Firmware update daemon.
+13:12:59 dbus-daemon: [system] Successfully activated service 'org.freedesktop.fwupd'
+13:12:59 Keybase: Version: 5.5.1-20200527202541+39ca0071e5
+13:12:59 fwupd: 20:12:59:0223 FuEngine             device 5dbeb140337f610d54913c0f43d15fdaa0eafb51 [TOSHIBA MQ04ABF100] does not define a vendor-id!
+13:12:57 systemd: Starting Firmware update daemon...
+13:12:57 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1898 label="snap.snap-store.ubuntu-software" peer_pid=1585 peer_label="unconfined"
+13:12:57 kernel: audit: type=1400 audit(1600114377.115:91): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/PackageKit/Vendor.conf" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:57 snap-store: /etc/PackageKit/Vendor.conf file not found
+13:12:56 kernel: audit: type=1400 audit(1600114376.659:90): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:56 kernel: kauditd_printk_skb: 7 callbacks suppressed
+13:12:56 snap-store: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:54 kernel: USER_AVC pid=724 uid=103 auid=4294967295 ses=4294967295 msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.10" pid=1898 label="snap.snap-store.ubuntu-software" peer_pid=741 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+13:12:53 bash: run_keybase: Success!
+13:12:53 systemd: Started Keybase GUI.
+13:12:53 kernel: audit: type=1107 audit(1600114373.051:76): pid=724 uid=103 auid=4294967295 ses=4294967295 msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.17" pid=1898 label="snap.snap-store.ubuntu-software" peer_pid=725 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+13:12:53 kernel: USER_AVC pid=724 uid=103 auid=4294967295 ses=4294967295 msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.17" pid=1898 label="snap.snap-store.ubuntu-software" peer_pid=725 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+13:12:52 kernel: audit: type=1400 audit(1600114372.763:75): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/glib-2.0/schemas/gschemas.compiled" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:52 snap-store: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/glib-2.0/schemas/gschemas.compiled" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:52 kernel: audit: type=1400 audit(1600114371.587:74): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/gnome/defaults.list" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:51 snap-store: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=1898 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+13:12:50 NetworkManager: <info>  [1600114369.9115] device (tun0): Activation: successful, device activated.
+13:12:50 systemd: Started Network Manager Script Dispatcher Service.
+13:12:50 NetworkManager: <info>  [1600114369.8905] device (tun0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+13:12:50 systemd: Starting Network Manager Script Dispatcher Service...
+13:12:50 NetworkManager: <info>  [1600114369.8778] device (tun0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+13:12:50 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+13:12:49 NetworkManager: <info>  [1600114369.8694] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",3:(tun0)]: Data:   Internal Point-to-Point Address: 10.202.6.43
+13:12:49 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=725 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+13:12:49 NetworkManager: <info>  [1600114369.8694] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",3:(tun0)]: Data:   Internal Prefix: 24
+13:12:49 openvpn: Initialization Sequence Completed
+13:12:49 NetworkManager: <info>  [1600114369.8693] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",3:(tun0)]: Data:   Internal Address: 10.202.6.43
+13:12:49 openvpn: UID set to nm-openvpn
+13:12:49 NetworkManager: <info>  [1600114369.8693] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",3:(tun0)]: Data:   Internal Gateway: 10.202.6.1
+13:12:49 openvpn: GID set to nm-openvpn
+13:12:49 NetworkManager: <info>  [1600114369.8693] vpn-connection[0x555716a020d0,78b82f98-cf60-42e0-88d2-ccea4120adb4,"openvpn",3:(tun0)]: Data: IPv4 configuration:
+13:12:49 openvpn: chroot to '/var/lib/openvpn/chroot' and cd to '/' succeeded
