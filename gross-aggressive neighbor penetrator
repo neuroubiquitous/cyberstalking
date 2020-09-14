@@ -1,0 +1,259 @@
+07:37:47 systemd: Started Virtual filesystem metadata service.
+07:37:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.Metadata'
+07:37:47 systemd: Starting Virtual filesystem metadata service...
+07:37:47 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:37:32 snap-store: hiding category games featured applications: found only 0 to show, need at least 9
+07:37:18 gnome-shell: Impossible to send about-to-show to menu: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: error occurred in AboutToShow
+07:37:17 Keybase: (electron) 'setAutoHideMenuBar function' is deprecated and will be removed. Please use 'autoHideMenuBar property' instead.
+07:37:15 snap-store: Only 2 apps for recent list, hiding
+07:37:09 bash: run_keybase: Success!
+07:37:09 systemd: Started Keybase GUI.
+07:37:09 snap-store: not handling error no-network for action refresh: Cannot refresh cache whilst offline
+07:37:06 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1840 label="snap.snap-store.ubuntu-software" peer_pid=1561 peer_label="unconfined"
+07:37:03 snap-store: /etc/PackageKit/Vendor.conf file not found
+07:37:00 systemd: run-user-125.mount: Succeeded.
+07:36:59 snap-store: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+07:36:59 kernel: USER_AVC pid=734 uid=103 auid=4294967295 ses=4294967295 msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.8" pid=1840 label="snap.snap-store.ubuntu-software" peer_pid=747 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:36:57 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Logs'
+07:36:55 systemd: Started Keybase Root Redirector for KBFS.
+07:36:53 dbus-daemon: [session uid=125 pid=2036] AppArmor D-Bus mediation is enabled
+07:36:53 systemd: Stopped GNOME Shell on Wayland.
+07:36:53 gnome-session-b: WARNING: Could not get session class: No such device or address
+07:36:53 systemd: gnome-shell-wayland.service: Succeeded.
+07:36:53 gnome-session-b: gnome-session-binary[1018]: WARNING: Could not get session class: No such device or address
+07:36:53 systemd: Starting Keybase core service...
+07:36:52 bash: Starting via systemd...
+07:36:51 systemd: pulseaudio.service: Succeeded.
+07:36:51 gnome-shell: Connection to xwayland lost
+07:36:51 systemd: Stopping GNOME Shell on Wayland...
+07:36:51 gsd-color: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_AU_Optronics_gdm_125
+07:36:51 systemd: Stopped Monitor Session leader for GNOME Session.
+07:36:50 gnome-shell: Registering session with GDM
+07:36:49 systemd: tmp-snap.rootfs_jQ1gml.mount: Succeeded.
+07:36:48 gnome-shell: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 48 failed: Permission denied
+07:36:48 systemd: Condition check resulted in GNOME Welcome Tour being skipped.
+07:36:48 gsd-media-keys: Failed to grab accelerator for keybinding settings:playback-repeat
+07:36:47 gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+07:36:47 systemd: Reached target GNOME Date & Time handling.
+07:36:47 gnome-session-b: Entering running state
+07:36:47 systemd: Reached target GNOME Accessibility settings.
+07:36:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Shell.Notifications'
+07:36:47 systemd: Finished Signal initialization done to GNOME Session Manager.
+07:36:47 dbus-daemon: [session uid=1000 pid=1333] Activating service name='org.gnome.Shell.Notifications' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:47 systemd: Started Evolution address book service.
+07:36:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+07:36:46 systemd: Started Virtual filesystem service - digital camera monitor.
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+07:36:46 systemd: Starting Virtual filesystem service - digital camera monitor...
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Identity'
+07:36:46 systemd: Started Virtual filesystem service - Apple File Conduit monitor.
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+07:36:46 systemd: Starting Virtual filesystem service - Apple File Conduit monitor...
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:46 systemd: Started Virtual filesystem service - GNOME Online Accounts monitor.
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+07:36:46 systemd: Starting Evolution address book service...
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.47' (uid=1000 pid=1628 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+07:36:46 systemd: Started Evolution calendar service.
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+07:36:46 goa-daemon: goa-daemon version 3.36.0 starting
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Shell.CalendarServer'
+07:36:45 systemd: Starting Evolution calendar service...
+07:36:45 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.42' (uid=1000 pid=1599 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+07:36:45 systemd: Started Evolution source registry.
+07:36:45 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+07:36:45 systemd: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+07:36:45 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:45 systemd: Started Virtual filesystem service - Media Transfer Protocol monitor.
+07:36:45 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+07:36:44 systemd: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+07:36:44 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.42' (uid=1000 pid=1599 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+07:36:44 systemd: Started Virtual filesystem service - disk device monitor.
+07:36:44 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+07:36:44 systemd: Starting Virtual filesystem service - disk device monitor...
+07:36:44 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:44 gnome-shell: Telepathy is not available, chat integration will be disabled.
+07:36:44 dbus-daemon: [session uid=1000 pid=1333] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:44 gnome-shell: Will monitor session 2
+07:36:44 gnome-shell: Will monitor session 2
+07:36:44 gnome-shell: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+07:36:44 systemd: Started Portal service.
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'ca.desrt.dconf'
+07:36:43 systemd: ssh-agent.service: Succeeded.
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.freedesktop.portal.Desktop'
+07:36:43 systemd: Started Monitor Session leader for GNOME Session.
+07:36:43 gnome-keyring-d: The PKCS#11 component was already initialized
+07:36:43 gnome-session-c: Error creating FIFO: File exists
+07:36:43 gnome-keyring-d: The Secret Service was already initialized
+07:36:43 systemd: Started OpenSSH Agent.
+07:36:43 gnome-session-b: WARNING: Could not parse desktop file tracker-extract.desktop or it references a not found TryExec binary
+07:36:43 systemd: Finished Start gnome-keyring as SSH agent.
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+07:36:43 systemd: Starting Session Migration...
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Activating service name='ca.desrt.dconf' requested by ':1.37' (uid=1000 pid=1545 comm="/usr/libexec/xdg-desktop-portal-gtk " label="unconfined")
+07:36:43 systemd: Starting Monitor Session leader for GNOME Session...
+07:36:43 gnome-session-b: WARNING: Could not parse desktop file tracker-miner-fs.desktop or it references a not found TryExec binary
+07:36:43 systemd: Starting Start gnome-keyring for the Secrets Service, and PKCS #11...
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.34' (uid=1000 pid=1504 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+07:36:43 systemd: Starting Start gnome-keyring as SSH agent...
+07:36:43 gnome-session-b: gnome-session-binary[1521]: WARNING: Could not parse desktop file tracker-extract.desktop or it references a not found TryExec binary
+07:36:43 Xorg: (II) modeset(0): Modeline "1920x1080"x0.0   94.00  1920 2028 2076 2100  1080 1090 1100 1116 -hsync -vsync (44.8 kHz e)
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.freedesktop.portal.Documents'
+07:36:43 systemd: Condition check resulted in GNOME Initial Setup Copy Worker being skipped.
+07:36:43 gnome-session-b: gnome-session-binary[1521]: WARNING: Could not parse desktop file tracker-miner-fs.desktop or it references a not found TryExec binary
+07:36:43 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+07:36:42 systemd: Started Path trigger for new release of Ubuntu notifications.
+07:36:42 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.35' (uid=1000 pid=1532 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+07:36:42 systemd: Condition check resulted in Path trigger for Apport crash notifications being skipped.
+07:36:42 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.34' (uid=1000 pid=1504 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+07:36:42 systemd: Started Path trigger for Avahi .local domain notifications.
+07:36:41 at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+07:36:41 systemd: Starting Portal service...
+07:36:41 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.14' (uid=1000 pid=1475 comm="/usr/libexec/ibus-extension-gtk3 " label="unconfined")
+07:36:41 systemd: Started Accessibility services bus.
+07:36:41 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.a11y.Bus'
+07:36:41 systemd: Started Virtual filesystem service.
+07:36:41 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.Daemon'
+07:36:41 systemd: Starting Accessibility services bus...
+07:36:41 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.9' (uid=1000 pid=1450 comm="/usr/libexec/gnome-session-check-accelerated " label="unconfined")
+07:36:41 systemd: Starting Virtual filesystem service...
+07:36:41 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.7' (uid=1000 pid=1449 comm="/usr/bin/ibus-daemon --daemonize --xim " label="unconfined")
+07:36:41 dbus-update-act: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+07:36:39 Xorg: (II) event7  - HP WMI hotkeys: device is a keyboard
+07:36:39 pulseaudio: No UCM verb is valid for hw:0
+07:36:39 Xorg: (II) event5  - ETPS/2 Elantech Touchpad: device removed
+07:36:39 systemd: Startup finished in 770ms.
+07:36:39 Xorg: (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event17)
+07:36:39 systemd: Reached target Main User Target.
+07:36:39 Xorg: (II) event4  - eGalax Inc. eGalaxTouch EXC3200-2505-09.00.00: device removed
+07:36:39 systemd: Started Sound Service.
+07:36:39 Xorg: (II) No input driver specified, ignoring this device.
+07:36:39 Xsession: /etc/gdm3/Xsession: Beginning session setup...
+07:36:39 systemd: Started D-Bus User Message Bus.
+07:36:39 Xorg: (**) Option "xkb_layout" "us"
+07:36:38 systemd: Starting Sound Service...
+07:36:38 Xorg: (II) Unloading fbdev
+07:36:38 Xorg: (II) Unloading fbdev
+07:36:38 Xorg: (II) UnloadModule: "fbdev"
+07:36:38 Xorg: 	ABI class: X.Org ANSI C Emulation, version 0.4
+07:36:38 Xorg: 	compiled for 1.20.8, module version = 1.0.0
+07:36:38 Xorg: (II) Module fb: vendor="X.Org Foundation"
+07:36:38 Xorg: (II) Loading /usr/lib/xorg/modules/libfb.so
+07:36:38 Xorg: (II) LoadModule: "fb"
+07:36:38 Xorg: (II) Loading sub module "fb"
+07:36:38 Xorg: (==) modeset(G0): DPI set to (96, 96)
+07:36:38 Xorg: (==) modeset(G0): Using gamma correction (1.0, 1.0, 1.0)
+07:36:38 Xorg: (II) modeset(G0): glamor initialized
+07:36:38 Xorg: (II) modeset(G0): glamor X acceleration enabled on NV138
+07:36:38 Xorg: 	ABI class: X.Org ANSI C Emulation, version 0.4
+07:36:38 Xorg: 	compiled for 1.20.8, module version = 1.0.1
+07:36:38 Xorg: (II) Module glamoregl: vendor="X.Org Foundation"
+07:36:38 Xorg: (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+07:36:38 Xorg: (II) LoadModule: "glamoregl"
+07:36:38 Xorg: (II) Loading sub module "glamoregl"
+07:36:38 Xorg: (==) modeset(G0): Default visual is TrueColor
+07:36:38 Xorg: (==) modeset(G0): RGB weight 888
+07:36:38 Xorg: (==) modeset(G0): Depth 24, (==) framebuffer bpp 32
+07:36:38 Xorg: 	ABI class: X.Org ANSI C Emulation, version 0.4
+07:36:38 Xorg: 	compiled for 1.20.8, module version = 1.0.0
+07:36:38 Xorg: (II) Module fb: vendor="X.Org Foundation"
+07:36:38 Xorg: (II) Loading /usr/lib/xorg/modules/libfb.so
+07:36:38 Xorg: (II) LoadModule: "fb"
+07:36:38 Xorg: (II) Loading sub module "fb"
+07:36:38 Xorg: (==) modeset(0): DPI set to (96, 96)
+07:36:38 Xorg: (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+07:36:38 Xorg: (II) modeset(0): Output eDP-1 using initial mode 1920x1080 +0+0
+07:36:38 Xorg: (II) modeset(0): Using exact sizes for initial modes
+07:36:38 Xorg: (II) modeset(0): Output HDMI-1 disconnected
+07:36:38 Xorg: (II) modeset(0): Output eDP-1 connected
+07:36:38 Xorg: (II) modeset(0): EDID for output HDMI-1
+07:36:38 Xorg: (II) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+07:36:38 Xorg: (II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+07:36:38 systemd: Reached target Basic System.
+07:36:38 Xorg: (II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+07:36:38 systemd: Reached target Sockets.
+07:36:38 Xorg: (II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+07:36:38 systemd: Listening on D-Bus User Message Bus Socket.
+07:36:38 Xorg: (II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+07:36:38 systemd: Listening on REST API socket for snapd user session agent.
+07:36:38 Xorg: (II) modeset(0): Modeline "1440x810"x120.0  198.12  1440 1548 1704 1968  810 811 814 839 doublescan -hsync +vsync (100.7 kHz d)
+07:36:38 systemd: Listening on Sound System.
+07:36:38 Xorg: (II) modeset(0): Modeline "1920x1080"x119.9  266.50  1920 1944 1960 2000  1080 1081 1084 1111 doublescan +hsync -vsync (133.2 kHz d)
+07:36:38 systemd: Listening on debconf communication socket.
+07:36:38 Xorg: (II) modeset(0): Max Image Size [cm]: horiz.: 34  vert.: 19
+07:36:38 systemd: Listening on GnuPG cryptographic agent and passphrase cache.
+07:36:38 Xorg: 	ABI class: X.Org Video Driver, version 24.0
+07:36:38 systemd: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+07:36:38 dbus-daemon: [session uid=1000 pid=1333] AppArmor D-Bus mediation is enabled
+07:36:36 Xorg: (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+07:36:36 systemd: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+07:36:36 systemd: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+07:36:36 systemd: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+07:36:36 systemd: Listening on GnuPG network certificate management daemon.
+07:36:36 systemd: Starting D-Bus User Message Bus Socket.
+07:36:36 systemd: Reached target Timers.
+07:36:36 systemd: Reached target Paths.
+07:36:36 gdm-session-wor: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+07:36:30 systemd: Started Pending report trigger for Ubuntu Report.
+07:36:30 (systemd): pam_unix(systemd-user:session): session opened for user azane by (uid=0)
+07:36:30 gdm-session-wor: pam_unix(gdm-password:session): session opened for user azane by (uid=0)
+07:36:24 gnome-shell: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 24]: reference to undefined property "MetaWindowXwayland"
+07:36:23 systemd: Started GNOME XSettings.
+07:36:22 dbus-daemon: [session uid=125 pid=961] Successfully activated service 'org.freedesktop.portal.IBus'
+07:36:22 xkbcomp: Errors from xkbcomp are not fatal to the X server
+07:36:22 gsd-media-keys: Failed to grab accelerator for keybinding settings:hibernate
+07:36:22 systemd: Startup finished in 22.241s.
+07:36:22 gnome-shell: Registering session with GDM
+07:36:19 systemd: Reached target GNOME Smartcard handling.
+07:36:19 gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+07:36:18 gnome-session-b: Entering running state
+07:36:18 gnome-shell: Error setting property 'Powered' on interface org.bluez.Adapter1: GDBus.Error:org.bluez.Error.Blocked: Blocked through rfkill (g-io-error-quark, 36)
+07:36:18 systemd: Reached target GNOME RFKill handling.
+07:36:18 at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+07:36:18 systemd: Starting GNOME Wacom handling...
+07:36:18 dbus-daemon: dbus-daemon[1047]: Successfully activated service 'org.a11y.atspi.Registry'
+07:36:18 systemd: Starting GNOME USB protection handling...
+07:36:18 dbus-daemon: dbus-daemon[1047]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=125 pid=1028 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:17 systemd: Started sandboxed app permission store.
+07:36:17 dbus-daemon: [session uid=125 pid=961] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+07:36:17 systemd: Starting sandboxed app permission store...
+07:36:17 dbus-daemon: [session uid=125 pid=961] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.20' (uid=125 pid=1028 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:15 gnome-shell: Will monitor session c1
+07:36:12 systemd: Started Accessibility services bus.
+07:36:12 dbus-daemon: [session uid=125 pid=961] Successfully activated service 'org.a11y.Bus'
+07:36:12 systemd: Starting Accessibility services bus...
+07:36:12 dbus-daemon: [session uid=125 pid=961] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.21' (uid=125 pid=1028 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:05 systemd: Starting GNOME Shell on Wayland...
+07:36:05 sh: /bin/sh: 1: initctl: not found
+07:36:05 dbus-update-act: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=gnome-keyring
+07:36:05 systemd: Finished Start gnome-keyring for the Secrets Service, and PKCS #11.
+07:36:05 gnome-keyring-d: couldn't access control socket: /run/user/125/keyring/control: No such file or directory
+07:36:04 systemd: Started Monitor Session leader for GNOME Session.
+07:36:04 gnome-session-c: Error creating FIFO: File exists
+07:36:04 systemd: Finished Session Migration.
+07:36:04 pulseaudio: No UCM verb is valid for hw:0
+07:36:04 systemd: gnome-session-pre.target: Requested dependency OnFailure=gnome-session-shutdown.target ignored (target units cannot fail).
+07:36:02 dbus-daemon: [session uid=125 pid=961] AppArmor D-Bus mediation is enabled
+07:36:01 systemd: Started D-Bus User Message Bus.
+07:36:00 (systemd): pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
