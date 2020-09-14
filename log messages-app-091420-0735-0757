@@ -1,0 +1,78 @@
+07:57:03 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Screenshot'
+07:53:20 systemd: Started Application launched by gnome-shell.
+07:53:20 systemd: Started Application launched by gnome-shell.
+07:51:25 systemd: Started Application launched by gnome-shell.
+07:43:52 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+07:43:46 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1840 label="snap.snap-store.ubuntu-software" peer_pid=1561 peer_label="unconfined"
+07:43:12 snap-store: not handling error download-failed for action refresh: E: http://security.ubuntu.com/ubuntu focal-security InRelease is not (yet) available (Temporary failure resolving 'security.ubuntu.com')
+E: http://us.archive.ubuntu.com/ubuntu focal InRelease is not (yet) available (Temporary failure resolving 'us.archive.ubuntu.com')
+E: https://dl.winehq.org/wine-builds/ubuntu focal InRelease is not (yet) available (Temporary failure resolving 'dl.winehq.org')
+E: http://us.archive.ubuntu.com/ubuntu focal-updates InRelease is not (yet) available (Temporary failure resolving 'us.archive.ubuntu.com')
+E: http://us.archive.ubuntu.com/ubuntu focal-backports InRelease is not (yet) available (Temporary failure resolving 'us.archive.ubuntu.com')
+
+07:43:08 systemd: Started Application launched by gnome-shell.
+07:42:17 gnome-shell: Window manager warning: WM_TRANSIENT_FOR window 0x2009843 for 0x200bd7b window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x2009737.
+07:42:17 gnome-shell: Window manager warning: WM_TRANSIENT_FOR window 0x2009843 for 0x200bd7b window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x2009737.
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+07:39:21 gnome-shell: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+07:38:55 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Screenshot'
+07:38:34 snap-store: not handling error failed for action refine: Failed to write to snapd: Operation was cancelled
+07:38:03 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1840 label="snap.snap-store.ubuntu-software" peer_pid=1561 peer_label="unconfined"
+07:37:57 snap-store: Failed to find refreshable snaps: cannot list updates: persistent network error: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+07:37:47 systemd: Started Virtual filesystem metadata service.
+07:37:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.Metadata'
+07:37:47 systemd: Starting Virtual filesystem metadata service...
+07:37:47 dbus-daemon: [session uid=1000 pid=1333] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:37:32 snap-store: hiding category games featured applications: found only 0 to show, need at least 9
+07:37:18 gnome-shell: Impossible to send about-to-show to menu: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: error occurred in AboutToShow
+07:37:17 Keybase: (electron) 'setAutoHideMenuBar function' is deprecated and will be removed. Please use 'autoHideMenuBar property' instead.
+07:37:15 snap-store: Only 2 apps for recent list, hiding
+07:37:09 bash: run_keybase: Success!
+07:37:09 systemd: Started Keybase GUI.
+07:37:09 snap-store: not handling error no-network for action refresh: Cannot refresh cache whilst offline
+07:37:06 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1840 label="snap.snap-store.ubuntu-software" peer_pid=1561 peer_label="unconfined"
+07:37:03 snap-store: /etc/PackageKit/Vendor.conf file not found
+07:37:00 systemd: run-user-125.mount: Succeeded.
+07:36:59 snap-store: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+07:36:57 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Logs'
+07:36:55 kernel: 2020-09-14T07:36:55.169585-07:00 ▶ [WARN keybase json.go:81] 003 Permission denied opening updater config file /etc/keybase/updater.json
+07:36:55 kernel: 2020-09-14T07:36:55.169564-07:00 ▶ [WARN keybase json.go:81] 002 Permission denied opening gui config file /etc/keybase/gui_config.json
+07:36:55 kernel: 2020-09-14T07:36:55.169516-07:00 ▶ [WARN keybase json.go:81] 001 Permission denied opening config file /etc/keybase/config.json
+07:36:55 systemd: Started Keybase Root Redirector for KBFS.
+07:36:55 kernel: fusermount: entry for /run/user/1000/keybase/kbfs not found in /etc/mtab
+07:36:55 systemd: Starting Keybase Root Redirector for KBFS...
+07:36:52 bash: Starting via systemd...
+07:36:51 gsd-color: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_AU_Optronics_gdm_125
+07:36:50 gnome-shell: Registering session with GDM
+07:36:49 systemd: tmp-snap.rootfs_jQ1gml.mount: Succeeded.
+07:36:49 systemd: tmp-snap.rootfs_jQ1gml.mount: Succeeded.
+07:36:48 systemd: Condition check resulted in GNOME Welcome Tour being skipped.
+07:36:48 systemd: Condition check resulted in GNOME Initial Setup being skipped.
+07:36:48 systemd: Reached target Current graphical user session.
+07:36:48 systemd: Reached target GNOME X11 Session (session: ubuntu).
+07:36:48 systemd: Reached target GNOME Session.
+07:36:48 systemd: Reached target GNOME Printer notifications.
+07:36:48 systemd: Started GNOME Printer notifications.
+07:36:48 systemd: Reached target GNOME XSettings.
+07:36:48 systemd: Started GNOME XSettings.
+07:36:48 gsd-media-keys: Failed to grab accelerator for keybinding settings:playback-repeat
+07:36:47 kernel: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Tracker1 was not provided by any .service files
+07:36:47 gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+07:36:47 systemd: Reached target GNOME Date & Time handling.
+07:36:47 gnome-session-b: Entering running state
+07:36:47 systemd: Reached target GNOME Accessibility settings.
+07:36:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.Shell.Notifications'
+07:36:47 systemd: Finished Signal initialization done to GNOME Session Manager.
+07:36:47 dbus-daemon: [session uid=1000 pid=1333] Activating service name='org.gnome.Shell.Notifications' requested by ':1.39' (uid=1000 pid=1561 comm="/usr/bin/gnome-shell " label="unconfined")
+07:36:47 systemd: Started Evolution address book service.
+07:36:47 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+07:36:46 systemd: Started Virtual filesystem service - digital camera monitor.
+07:36:46 dbus-daemon: [session uid=1000 pid=1333] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+07:36:46 systemd: Starting Virtual filesystem service - digital camera monitor...

@@ -1,0 +1,175 @@
+Sep 13 22:08:43 systemd-journal: Journal stopped
+Sep 13 22:08:43 kernel: Sending SIGTERM to remaining processes...
+Sep 13 22:08:42 kernel: Syncing filesystems and block devices.
+Sep 13 22:08:42 systemd: Shutting down.
+Sep 13 22:08:41 NetworkManager: <info>  [1600060121.6236] exiting (success)
+Sep 13 22:08:41 systemd: Stopped Network Name Resolution.
+Sep 13 22:08:41 dbus-daemon: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:41 systemd: Stopped target User and Group Name Lookups.
+Sep 13 22:08:41 NetworkManager: <info>  [1600060121.5677] caught SIGTERM, shutting down normally.
+Sep 13 22:08:41 systemd: Stopping Network Manager...
+Sep 13 22:08:41 systemd-logind: Removed session 2.
+Sep 13 22:08:41 systemd: Stopped target Main User Target.
+Sep 13 22:08:41 Xorg: (II) Server terminated successfully (0). Closing log file.
+Sep 13 22:08:41 systemd: Stopped CUPS Scheduler.
+Sep 13 22:08:41 Xorg: (WW) xf86CloseConsole: VT_ACTIVATE failed: Input/output error
+Sep 13 22:08:41 kernel: ---[ end trace 38bc90b1bcd1619d ]---
+Sep 13 22:08:41 kernel: R13: 0000000000000013 R14: 00005601c1727780 R15: 00007fffc442ac88
+Sep 13 22:08:41 kernel: R10: 00007fffc442a7f0 R11: 0000000000000246 R12: 00005601c0efb050
+Sep 13 22:08:41 kernel: RBP: 0000000040086409 R08: 0000000000000007 R09: 0000000000000001
+Sep 13 22:08:41 kernel: RDX: 00007fffc442a990 RSI: 0000000040086409 RDI: 0000000000000013
+Sep 13 22:08:41 kernel: RAX: ffffffffffffffda RBX: 00007fffc442a990 RCX: 00007f2e1137a37b
+Sep 13 22:08:41 kernel: RSP: 002b:00007fffc442a958 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Sep 13 22:08:41 kernel: Code: 0f 1e fa 48 8b 05 15 3b 0d 00 64 c7 00 26 00 00 00 48 c7 c0 ff ff ff ff c3 66 0f 1f 44 00 00 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d e5 3a 0d 00 f7 d8 64 89 01 48
+Sep 13 22:08:41 kernel: RIP: 0033:0x7f2e1137a37b
+Sep 13 22:08:41 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+Sep 13 22:08:41 kernel: Call Trace:
+Sep 13 22:08:41 kernel: CR2: 00007fbe4d4e8870 CR3: 000000041b500005 CR4: 00000000003606e0
+Sep 13 22:08:41 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Sep 13 22:08:41 kernel: FS:  00007f2e1101aa80(0000) GS:ffff9b6c9ea80000(0000) knlGS:0000000000000000
+Sep 13 22:08:41 kernel: R13: ffff9b6c9bf3d360 R14: 0000000000000012 R15: 0000005a6e9c9a34
+Sep 13 22:08:41 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff9b6c9395bcc0
+Sep 13 22:08:41 kernel: RBP: ffffbaf2c1647b08 R08: 00000000000005cb R09: 0000000000000004
+Sep 13 22:08:41 kernel: RDX: 0000000000000007 RSI: 0000000000000096 RDI: ffff9b6c9ea978c0
+Sep 13 22:08:41 kernel: RAX: 0000000000000000 RBX: ffff9b6c949de400 RCX: 0000000000000006
+Sep 13 22:08:41 kernel: RSP: 0018:ffffbaf2c1647ac0 EFLAGS: 00010282
+Sep 13 22:08:41 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 f4 38 cd 4c 89 ea 48 c7 c7 bf e5 a7 c0 48 89 c6 e8 6a 49 d3 cc <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 46 d3 cc
+Sep 13 22:08:41 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+Sep 13 22:08:41 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+Sep 13 22:08:41 kernel: CPU: 2 PID: 1356 Comm: Xorg Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+Sep 13 22:08:41 kernel:  int3403_thermal int340x_thermal_zone wmi_bmof hp_wireless int3400_thermal acpi_thermal_rel sch_fq_codel parport_pc ppdev lp parport drm ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul psmouse r8169 ahci i2c_i801 realtek libahci wmi video
+Sep 13 22:08:41 kernel: Modules linked in: rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 snd_hda_codec_hdmi snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio snd_hda_intel snd_intel_dspcfg snd_hda_codec snd_hda_core snd_hwdep snd_pcm x86_pkg_temp_thermal intel_powerclamp coretemp snd_seq_midi uvcvideo kvm_intel snd_seq_midi_event kvm mei_hdcp videobuf2_vmalloc videobuf2_memops snd_rawmidi videobuf2_v4l2 videobuf2_common snd_seq nouveau videodev mc hid_multitouch intel_rapl_msr mxm_wmi i915 btusb btrtl crct10dif_pclmul snd_seq_device btbcm ghash_clmulni_intel ttm aesni_intel snd_timer btintel crypto_simd cryptd bluetooth glue_helper ecdh_generic ecc drm_kms_helper snd mei_me rapl joydev intel_cstate input_leds mei mac_hid soundcore processor_thermal_device intel_rapl_common i2c_algo_bit fb_sys_fops syscopyarea sysfillrect intel_xhci_usb_role_switch roles sysimgblt intel_soc_dts_iosf intel_pch_thermal hp_accel lis3lv02d input_polldev acpi_pad hp_wmi serio_raw sparse_keymap
+Sep 13 22:08:41 kernel: WARNING: CPU: 2 PID: 1356 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+Sep 13 22:08:41 kernel: nouveau 0000:01:00.0: timeout
+Sep 13 22:08:41 kernel: ------------[ cut here ]------------
+Sep 13 22:08:39 systemd: keybase.gui.service: Failed with result 'signal'.
+Sep 13 22:08:39 thermald: [WARN]terminating on user request ..
+Sep 13 22:08:39 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+Sep 13 22:08:39 systemd: gvfs-metadata.service: Succeeded.
+Sep 13 22:08:38 kernel: After module unload, module 'module-null-sink' was still loaded!
+Sep 13 22:08:38 systemd: Stopped Authorization Manager.
+Sep 13 22:08:38 systemd-logind: Session 2 logged out. Waiting for processes to exit.
+Sep 13 22:08:38 systemd: xdg-document-portal.service: Failed with result 'exit-code'.
+Sep 13 22:08:38 evolution-addre: Error setting property 'ConnectionStatus' on interface org.gnome.evolution.dataserver.Source: The connection is closed (g-io-error-quark, 18)
+Sep 13 22:08:38 systemd: gnome-session-restart-dbus.service: Succeeded.
+Sep 13 22:08:38 kernel: udisks daemon version 2.8.4 exiting
+Sep 13 22:08:38 systemd: Stopped GNOME Session Manager (session: ubuntu).
+Sep 13 22:08:38 NetworkManager: <info>  [1600060118.5799] modem-manager: ModemManager no longer available
+Sep 13 22:08:38 systemd: Condition check resulted in Ubuntu core (all-snaps) system shutdown helper setup service being skipped.
+Sep 13 22:08:38 kernel: update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 13 22:08:38 kernel: gnome-todo: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 13 22:08:38 kernel: evolution-alarm-notify: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 13 22:08:38 systemd: Stopping Bluetooth service...
+Sep 13 22:08:38 kernel: gnome-shell: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 13 22:08:38 systemd: Stopped Daily Cleanup of Temporary Directories.
+Sep 13 22:08:38 kernel: xdg-desktop-portal-gtk: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Sep 13 22:08:38 systemd: Stopped GNOME XSettings.
+Sep 13 22:08:38 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped GNOME Sound sample caching handling.
+Sep 13 22:08:38 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.104' (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 13 22:08:38 systemd: gsd-sound.service: Succeeded.
+Sep 13 22:08:38 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped GNOME Keyboard handling.
+Sep 13 22:08:38 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.103' (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 13 22:08:38 systemd: gsd-keyboard.service: Succeeded.
+Sep 13 22:08:38 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped GNOME Color management.
+Sep 13 22:08:38 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.102' (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 13 22:08:38 systemd: gsd-color.service: Succeeded.
+Sep 13 22:08:38 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped GNOME Maintenance of expirable data.
+Sep 13 22:08:38 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.101' (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 13 22:08:38 systemd: gsd-housekeeping.service: Succeeded.
+Sep 13 22:08:38 kernel: avahi-daemon 0.7 exiting.
+Sep 13 22:08:38 systemd: Stopped target GNOME XSettings.
+Sep 13 22:08:38 dbus-daemon: [system] Activation via systemd failed for unit 'rtkit-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped GNOME Smartcard handling.
+Sep 13 22:08:38 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.100' (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Sep 13 22:08:38 systemd: gsd-smartcard.service: Succeeded.
+Sep 13 22:08:38 kernel: Freeing conversation 'gdm-password' with active job
+Sep 13 22:08:38 systemd: Stopped target GNOME WWan management.
+Sep 13 22:08:38 dbus-daemon: [session uid=1000 pid=2572] AppArmor D-Bus mediation is enabled
+Sep 13 22:08:38 systemd: Stopped target GNOME RFKill handling.
+Sep 13 22:08:38 kernel: Leaving mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Sep 13 22:08:38 systemd: Stopped target GNOME Media keys handling.
+Sep 13 22:08:38 kernel: Leaving mDNS multicast group on interface lo.IPv6 with address ::1.
+Sep 13 22:08:38 systemd: Stopped target GNOME Keyboard handling.
+Sep 13 22:08:38 kernel: Got SIGTERM, quitting.
+Sep 13 22:08:38 systemd: Stopped target GNOME Maintenance of expirable data.
+Sep 13 22:08:38 kernel: Failed to contact accountsservice: Error calling StartServiceByName for org.freedesktop.Accounts: Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped target GNOME Color management.
+Sep 13 22:08:38 dbus-daemon: [system] Activation via systemd failed for unit 'accounts-daemon.service': Refusing activation, D-Bus is shutting down.
+Sep 13 22:08:38 systemd: Stopped target GNOME Accessibility settings.
+Sep 13 22:08:38 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.Accounts' unit='accounts-daemon.service' requested by ':1.21' (uid=0 pid=899 comm="/usr/sbin/gdm3 " label="unconfined")
+Sep 13 22:08:38 systemd: Stopped GNOME RFKill handling.
+Sep 13 22:08:38 kernel: Unregistered Authentication Agent for unix-session:2 (system bus name :1.75, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 13 22:08:38 systemd: gsd-rfkill.service: Succeeded.
+Sep 13 22:08:38 apport:    ...done.
+Sep 13 22:08:38 kernel: A connection to the bus can't be made
+Sep 13 22:08:38 Keybase: [2169:0913/220838.624364:FATAL:bus.cc(1220)] D-Bus connection was disconnected. Aborting.
+Sep 13 22:08:38 Xorg: (II) systemd-logind: releasing fd for 13:66
+Sep 13 22:08:38 kernel: traps: ThreadPoolSingl[2223] trap int3 ip:5559ff7fac53 sp:7efe8522ac90 error:0 in Keybase[5559fd983000+53d3000]
+Sep 13 22:08:38 systemd: Stopped GNOME WWan management.
+Sep 13 22:08:38 kernel: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="739" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Sep 13 22:08:38 systemd: Stopped GNOME Date & Time handling.
+Sep 13 22:08:38 dbus-daemon: [system] Rejected send message, 0 matched rules; type="error", sender=":1.66" (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.6" (uid=0 pid=722 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+Sep 13 22:08:38 systemd: gsd-datetime.service: Succeeded.
+Sep 13 22:08:38 dbus-daemon: [system] Rejected send message, 0 matched rules; type="error", sender=":1.66" (uid=1000 pid=1339 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.6" (uid=0 pid=722 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+Sep 13 22:08:38 systemd: Stopped GNOME Sharing handling.
+Sep 13 22:08:38 kernel: Exit
+Sep 13 22:08:38 systemd: gsd-sharing.service: Succeeded.
+Sep 13 22:08:38 kernel: Stopping SDP server
+Sep 13 22:08:38 systemd: Stopped target GNOME Freedesktop screensaver handling.
+Sep 13 22:08:38 kernel: Endpoint unregistered: sender=:1.66 path=/MediaEndpoint/A2DPSource/sbc
+Sep 13 22:08:38 systemd: Stopped target GNOME Sharing handling.
+Sep 13 22:08:38 kernel: Endpoint unregistered: sender=:1.66 path=/MediaEndpoint/A2DPSink/sbc
+Sep 13 22:08:38 systemd: Stopped target GNOME Sound sample caching handling.
+Sep 13 22:08:38 kernel: Terminating
+Sep 13 22:08:38 systemd: Stopped target GNOME Date & Time handling.
+Sep 13 22:08:38 ModemManager: <info>  ModemManager is shut down
+Sep 13 22:08:38 systemd-logind: System is powering down.
+Sep 13 22:08:38 ModemManager: <info>  Caught signal, shutting down...
+Sep 13 22:08:38 Xorg: (II) systemd-logind: releasing fd for 13:71
+Sep 13 22:08:38 snapd: main.go:155: Exiting on terminated signal.
+Sep 13 22:08:38 thermald: [WARN]Terminating ...
+Sep 13 22:08:38 kernel: rfkill: input handler enabled
+Sep 13 22:08:38 systemd: unattended-upgrades.service: Succeeded.
+Sep 13 22:08:36 gnome-shell: endSessionDialog: No XDG_SESSION_ID, fetched from logind: 2
+Sep 13 22:08:36 gnome-shell: endSessionDialog: No XDG_SESSION_ID, fetched from logind: 2
+Sep 13 22:08:33 gnome-shell: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 13 22:05:30 kernel: audit: type=1400 audit(1600059930.566:8031): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:05:30 snap-store: not handling error failed for action refine: Failed to write to snapd: Operation was cancelled
+Sep 13 22:05:30 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:05:18 kernel: audit: type=1400 audit(1600059918.670:8024): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:05:18 kernel: kauditd_printk_skb: 4731 callbacks suppressed
+Sep 13 22:05:18 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:05:11 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1883 label="snap.snap-store.ubuntu-software" peer_pid=1584 peer_label="unconfined"
+Sep 13 22:05:06 snap-store: Failed to find refreshable snaps: cannot list updates: persistent network error: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+Sep 13 22:05:05 gnome-shell: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 13 22:04:56 snap-store: automatically prevented from changing kind on system/snap/*/runtime/io.snapcraft.core18-CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6/latest/stable from runtime to unknown!
+Sep 13 22:04:56 packagekitd: get-details transaction /462_dccdbaab from uid 1000 finished with success after 526ms
+Sep 13 22:04:56 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/pixmaps/" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:55 packagekitd: search-file transaction /461_ebbeacdb from uid 1000 finished with success after 319ms
+Sep 13 22:04:55 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/pixmaps/" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:55 kernel: audit: type=1400 audit(1600059895.106:3286): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/devices/" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:55 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/categories/" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:55 kernel: audit: type=1400 audit(1600059895.106:3280): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/actions/" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:55 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/8x8/emblems/" pid=1883 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:55 packagekitd: resolve transaction /460_baaeeeab from uid 1000 finished with success after 296ms
+Sep 13 22:04:53 systemd: Started Virtual filesystem metadata service.
+Sep 13 22:04:53 dbus-daemon: [session uid=1000 pid=1350] Successfully activated service 'org.gtk.vfs.Metadata'
+Sep 13 22:04:53 systemd: Starting Virtual filesystem metadata service...
+Sep 13 22:04:53 dbus-daemon: [session uid=1000 pid=1350] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.40' (uid=1000 pid=1584 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 13 22:04:43 snap-store: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1883 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:43 kernel: audit: type=1400 audit(1600059883.494:3276): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1883 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:43 kernel: kauditd_printk_skb: 1583 callbacks suppressed
+Sep 13 22:04:43 snap-store: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/globs2" pid=1883 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 13 22:04:31 packagekitd: resolve transaction /458_cbcedbda from uid 1000 finished with success after 302ms
+Sep 13 22:04:26 systemd: geoclue.service: Succeeded.
+Sep 13 22:04:26 kernel: Service not used for 60 seconds. Shutting down..
+Sep 13 22:04:26 systemd: gnome-launched-snap-store_ubuntu-software.desktop-2322.scope: Succeeded.
