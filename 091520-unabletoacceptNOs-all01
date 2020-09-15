@@ -1,0 +1,51 @@
+09:37:37 kernel: audit: type=1400 audit(1600187857.551:6438): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:37:37 snap-store: not handling error failed for action refine: Failed to write to snapd: Operation was cancelled
+09:37:37 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:37:33 gnome-shell: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+09:37:24 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:37:24 kernel: audit: type=1400 audit(1600187844.619:6431): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:37:22 systemd: Started Hostname Service.
+09:37:22 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+09:37:22 systemd: Starting Hostname Service...
+09:37:22 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.99' (uid=1000 pid=2410 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+09:37:02 snap-store: automatically prevented from changing kind on system/snap/*/runtime/io.snapcraft.core18-CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6/latest/stable from runtime to unknown!
+09:37:02 kernel: audit: type=1400 audit(1600187822.051:6424): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:37:02 kernel: kauditd_printk_skb: 4731 callbacks suppressed
+09:37:02 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:37:02 packagekitd: get-details transaction /509_beadabbd from uid 1000 finished with success after 428ms
+09:37:00 snap-store: Failed to find refreshable snaps: cannot list updates: persistent network error: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+09:36:55 pkexec: azane: Executing command [USER=root] [TTY=unknown] [CWD=/home/azane] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+09:36:51 systemd: Started Virtual filesystem metadata service.
+09:36:51 dbus-daemon: [session uid=1000 pid=1345] Successfully activated service 'org.gtk.vfs.Metadata'
+09:36:51 systemd: Starting Virtual filesystem metadata service...
+09:36:51 dbus-daemon: [session uid=1000 pid=1345] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.40' (uid=1000 pid=1578 comm="/usr/bin/gnome-shell " label="unconfined")
+09:36:38 packagekitd: resolve transaction /506_eedcddcd from uid 1000 finished with success after 318ms
+09:36:37 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/pixmaps/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:36 kernel: audit: type=1400 audit(1600187796.731:1686): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/devices/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:36 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/apps/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:36 kernel: audit: type=1400 audit(1600187796.723:1678): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/8x8/emblems/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:36 kernel: kauditd_printk_skb: 1575 callbacks suppressed
+09:36:36 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/8x8/emblems/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:36 packagekitd: resolve transaction /505_eddbbdea from uid 1000 finished with success after 366ms
+09:36:36 snap-store: not handling error failed for action get-category-apps: persistent network error: Get https://api.snapcraft.io/v2/snaps/find?architecture=amd64&category=productivity-featured&confinement=strict%2Cclassic&fields=base%2Cconfinement%2Ccontact%2Cdescription%2Cdownload%2Clicense%2Cprices%2Cprivate%2Cpublisher%2Crevision%2Csummary%2Ctitle%2Ctype%2Cversion%2Cwebsite%2Cstore-url%2Cmedia%2Ccommon-ids%2Cchannel: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+09:36:25 dbus-daemon: [session uid=1000 pid=1345] Successfully activated service 'org.gnome.Logs'
+09:36:25 systemd: geoclue.service: Succeeded.
+09:36:25 geoclue: Service not used for 60 seconds. Shutting down..
+09:36:25 dbus-daemon: [session uid=1000 pid=1345] Activating service name='org.gnome.Logs' requested by ':1.40' (uid=1000 pid=1578 comm="/usr/bin/gnome-shell " label="unconfined")
+09:36:22 systemd: systemd-hostnamed.service: Succeeded.
+09:36:18 snap-store: Only 2 apps for recent list, hiding
+09:36:18 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:16 systemd: systemd-rfkill.service: Succeeded.
+09:36:16 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Humanity/mimes/24/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:15 kernel: audit: type=1400 audit(1600187775.271:101): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/devices/" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:15 kernel: kauditd_printk_skb: 15 callbacks suppressed
+09:36:15 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/icon-theme.cache" pid=1875 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+09:36:15 packagekitd: resolve transaction /504_beaadbae from uid 1000 finished with success after 1205ms
+09:36:13 gnome-shell: Impossible to send about-to-show to menu: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: error occurred in AboutToShow
+09:36:13 snap-store: adding wildcard app */*/*/*/org.gnome.Weather/* to plugin cache
+09:36:13 Keybase: (electron) 'setAutoHideMenuBar function' is deprecated and will be removed. Please use 'autoHideMenuBar property' instead.
+09:36:13 snap-store: not handling error no-network for action refresh: Cannot refresh cache whilst offline
+09:36:13 packagekitd: refresh-cache transaction /503_eccceeeb from uid 1000 finished with failed after 2005ms
+09:36:12 NetworkManager: <info>  [1600187772.0114] audit: op="radio-control" arg="wwan-enabled" pid=1711 uid=1000 result="success"
+09:36:11 Keybase: Version: 5.5.1-20200527202541+39ca0071e5
+09:36:11 packagekitd: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh

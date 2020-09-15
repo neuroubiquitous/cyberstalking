@@ -1,0 +1,113 @@
+09:22:16 systemd: Started Application launched by gnome-shell.
+09:17:01 cron: pam_unix(cron:session): session closed for user root
+09:17:01 kernel: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+09:17:01 cron: pam_unix(cron:session): session opened for user root by (uid=0)
+09:11:40 snapd: stateengine.go:150: state ensure error: persistent network error: Get https://api.snapcraft.io/api/v1/snaps/assertions/snap-declaration/16/TIM9dBBJEceEjMpwaB3fiuZ3AdSykgDO?max-format=4: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+09:11:40 snapd: stateengine.go:150: state ensure error: persistent network error: Get https://api.snapcraft.io/api/v1/snaps/assertions/snap-declaration/16/TIM9dBBJEceEjMpwaB3fiuZ3AdSykgDO?max-format=4: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+09:11:40 snapd: autorefresh.go:385: Cannot prepare auto-refresh change due to a permanent network error: persistent network error: Get https://api.snapcraft.io/api/v1/snaps/assertions/snap-declaration/16/TIM9dBBJEceEjMpwaB3fiuZ3AdSykgDO?max-format=4: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+08:51:40 snapd: stateengine.go:150: state ensure error: persistent network error: Get https://api.snapcraft.io/api/v1/snaps/assertions/snap-declaration/16/CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6?max-format=4: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+08:51:40 snapd: autorefresh.go:385: Cannot prepare auto-refresh change due to a permanent network error: persistent network error: Get https://api.snapcraft.io/api/v1/snaps/assertions/snap-declaration/16/CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6?max-format=4: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+08:48:11 systemd: Finished Daily apt upgrade and clean activities.
+08:48:11 systemd: Finished Daily apt upgrade and clean activities.
+08:48:11 systemd: apt-daily-upgrade.service: Succeeded.
+08:48:11 unattended-upgr: The URI http://security.ubuntu.com/ubuntu/pool/main/c/cryptsetup/libcryptsetup12_2.2.2-3ubuntu2.2_amd64.deb failed to download, aborting
+08:48:09 apt-helper: E: Sub-process nm-online returned an error code (1)
+08:47:39 systemd: Starting Daily apt upgrade and clean activities...
+08:34:20 kernel: Normal exit (0 jobs run)
+08:34:20 kernel: Anacron 2.3 started on 2020-09-15
+08:34:20 systemd: anacron.service: Succeeded.
+08:30:01 cron: pam_unix(cron:session): session closed for user root
+08:30:01 cron: pam_unix(cron:session): session closed for user root
+08:30:01 cron: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+08:30:01 cron: pam_unix(cron:session): session opened for user root by (uid=0)
+08:28:01 systemd: fprintd.service: Succeeded.
+08:27:39 gnome-shell: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+08:27:38 NetworkManager: <info>  [1600183658.5870] agent-manager: agent[9c94fa0d07859c71,:1.77/org.gnome.Shell.NetworkAgent/1000]: agent registered
+08:27:38 gdm-session-wor: gkr-pam: unlocked login keyring
+08:27:36 systemd: systemd-rfkill.service: Succeeded.
+08:27:35 gdm-session-wor: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+08:27:32 ModemManager: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.5/0000:03:00.0': not supported by any plugin
+08:27:31 gnome-shell: clutter_input_focus_set_cursor_location: assertion 'clutter_input_focus_is_focused (focus)' failed
+08:27:31 gdm-session-wor: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=azane
+08:27:31 gdm-session-wor: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=azane
+08:27:31 gdm-session-wor: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+08:27:31 gdm-session-wor: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+08:27:31 systemd: Started Fingerprint Authentication Daemon.
+08:27:31 NetworkManager: <info>  [1600183650.4206] manager: NetworkManager state is now DISCONNECTED
+08:27:31 systemd-logind: Operation 'sleep' finished.
+08:27:31 dbus-daemon: [system] Successfully activated service 'net.reactivated.Fprint'
+08:27:31 systemd: Stopped target Suspend.
+08:27:31 bluetoothd: Endpoint registered: sender=:1.68 path=/MediaEndpoint/A2DPSource/sbc
+08:27:31 kernel: ---[ end trace cc92785fee758c15 ]---
+08:27:31 kernel:  ret_from_fork+0x35/0x40
+08:27:31 kernel: Call Trace:
+08:27:31 kernel: CR2: 0000555c40ca5730 CR3: 0000000425ed0006 CR4: 00000000003606f0
+08:27:31 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+08:27:31 kernel: FS:  0000000000000000(0000) GS:ffff96b29ea00000(0000) knlGS:0000000000000000
+08:27:31 kernel: R13: ffff96b29bf4fe80 R14: 0000000000000012 R15: 0000017b6fcddda3
+08:27:31 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96b29692f480
+08:27:31 kernel: RBP: ffffba3381affb60 R08: 00000000000005f4 R09: 0000000000000004
+08:27:31 kernel: RDX: 0000000000000007 RSI: 0000000000000086 RDI: ffff96b29ea178c0
+08:27:31 kernel: RAX: 0000000000000000 RBX: ffff96b296cc4800 RCX: 0000000000000006
+08:27:31 kernel: RSP: 0018:ffffba3381affb18 EFLAGS: 00010286
+08:27:31 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 24 2b d6 4c 89 ea 48 c7 c7 bf b5 75 c0 48 89 c6 e8 6a 79 c5 d5 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 76 c5 d5
+08:27:31 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+08:27:31 kernel: Workqueue: pm pm_runtime_work
+08:27:31 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+08:27:31 kernel: CPU: 0 PID: 3116 Comm: kworker/0:1 Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+08:27:31 kernel:  int3403_thermal int340x_thermal_zone int3400_thermal acpi_thermal_rel hp_wireless wmi_bmof sch_fq_codel parport_pc ppdev lp parport drm ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul psmouse r8169 i2c_i801 ahci realtek libahci wmi video
+08:27:31 kernel: Modules linked in: rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 x86_pkg_temp_thermal intel_powerclamp snd_hda_codec_hdmi snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio snd_hda_intel coretemp snd_intel_dspcfg uvcvideo snd_hda_codec snd_hda_core snd_hwdep mei_hdcp kvm_intel kvm snd_pcm btusb btrtl intel_rapl_msr videobuf2_vmalloc btbcm btintel snd_seq_midi videobuf2_memops videobuf2_v4l2 crct10dif_pclmul ghash_clmulni_intel hid_multitouch videobuf2_common snd_seq_midi_event videodev bluetooth aesni_intel nouveau mc snd_rawmidi crypto_simd ecdh_generic cryptd ecc snd_seq snd_seq_device snd_timer glue_helper mxm_wmi i915 ttm snd intel_xhci_usb_role_switch roles soundcore drm_kms_helper joydev input_leds serio_raw i2c_algo_bit acpi_pad rapl intel_cstate mei_me mei hp_accel lis3lv02d mac_hid processor_thermal_device intel_rapl_common intel_pch_thermal hp_wmi input_polldev sparse_keymap fb_sys_fops syscopyarea sysfillrect sysimgblt intel_soc_dts_iosf
+08:27:31 kernel: WARNING: CPU: 0 PID: 3116 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+08:27:31 kernel: nouveau 0000:01:00.0: timeout
+08:27:31 kernel: ------------[ cut here ]------------
+08:27:31 kernel: r8169 0000:03:00.0 eno1: Link is Down
+08:27:31 kernel: Generic FE-GE Realtek PHY r8169-300:00: attached PHY driver [Generic FE-GE Realtek PHY] (mii_bus:phy_addr=r8169-300:00, irq=IGNORE)
+08:27:30 systemd: Reached target Bluetooth.
+08:27:30 bluetoothd: Endpoint registered: sender=:1.68 path=/MediaEndpoint/A2DPSink/sbc
+08:27:30 systemd-sleep: System resumed.
+08:27:30 bluetoothd: Failed to set mode: Blocked through rfkill (0x12)
+08:27:30 systemd: Stopped target Bluetooth.
+08:27:30 dbus-daemon: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.77' (uid=1000 pid=1603 comm="/usr/bin/gnome-shell " label="unconfined")
+08:27:30 systemd: Started Load/Save RF Kill Switch Status.
+08:27:30 bluetoothd: Endpoint unregistered: sender=:1.68 path=/MediaEndpoint/A2DPSource/sbc
+08:27:30 systemd: Starting Load/Save RF Kill Switch Status...
+08:27:30 kernel:  APM_level	= 254
+08:27:30 kernel: /dev/sda:
+08:27:30 bluetoothd: Endpoint unregistered: sender=:1.68 path=/MediaEndpoint/A2DPSink/sbc
+08:27:30 systemd-logind: Lid opened.
+08:27:30 kernel: ata1.00: configured for UDMA/100
+08:27:30 kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+08:27:30 kernel: Bluetooth: hci0: RTL: fw version 0x826ca99e
+08:27:30 kernel: PM: suspend exit
+08:27:30 kernel: Bluetooth: hci0: RTL: cfg_sz 10, total sz 21678
+08:27:30 kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_component_ops [i915])
+08:27:30 kernel: done.
+08:27:30 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+08:27:30 kernel: Restarting tasks ... 
+08:27:30 kernel: OOM killer enabled.
+08:27:30 kernel: usb 1-3: reset high-speed USB device number 2 using xhci_hcd
+08:27:30 kernel: ACPI: EC: event unblocked
+08:27:30 kernel: sd 0:0:0:0: [sda] Starting disk
+08:27:30 kernel: ACPI: EC: interrupt unblocked
+08:27:30 kernel: CPU7 is up
+08:27:30 kernel: smpboot: Booting Node 0 Processor 7 APIC 0x7
+08:27:30 kernel: CPU6 is up
+08:27:30 kernel: smpboot: Booting Node 0 Processor 6 APIC 0x5
+08:27:30 kernel: CPU5 is up
+08:27:30 kernel: smpboot: Booting Node 0 Processor 5 APIC 0x3
+08:27:30 kernel: CPU4 is up
+08:27:30 kernel: microcode: sig=0x806ea, pf=0x80, revision=0xd6
+08:27:30 kernel: smpboot: Booting Node 0 Processor 4 APIC 0x1
+08:27:30 kernel: CPU3 is up
+08:27:30 kernel: smpboot: Booting Node 0 Processor 3 APIC 0x6
+08:27:30 kernel: CPU2 is up
+08:27:30 kernel: smpboot: Booting Node 0 Processor 2 APIC 0x4
+08:27:30 kernel: CPU1 is up
+08:27:30 kernel: microcode: updated to revision 0xd6, date = 2020-04-27
+08:27:30 kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+08:27:30 kernel: x86: Booting SMP configuration:
+08:27:30 kernel: Enabling non-boot CPUs ...
+08:27:30 kernel: PM: Restoring platform NVS memory
+08:27:30 kernel: ACPI: EC: EC started
+08:27:30 kernel: smpboot: CPU 7 is now offline
+08:27:30 kernel: IRQ 125: no longer affine to CPU7
