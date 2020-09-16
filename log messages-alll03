@@ -1,0 +1,42 @@
+08:47:45 systemd: systemd-hostnamed.service: Succeeded.
+08:46:58 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+08:46:58 systemd: Starting Hostname Service...
+08:46:58 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.106' (uid=1000 pid=2149 comm="/usr/bin/gnome-logs --gapplication-service " label="unconfined")
+08:46:45 systemd: systemd-hostnamed.service: Succeeded.
+08:46:32 gnome-shell: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+08:46:15 systemd: Started Hostname Service.
+08:46:15 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+08:46:15 systemd: Starting Hostname Service...
+08:46:15 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.104' (uid=1000 pid=2149 comm="/usr/bin/gnome-logs --gapplication-service " label="unconfined")
+08:46:12 systemd: systemd-hostnamed.service: Succeeded.
+08:45:42 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+08:45:42 systemd: Starting Hostname Service...
+08:45:42 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.101' (uid=1000 pid=2149 comm="/usr/bin/gnome-logs --gapplication-service " label="unconfined")
+08:43:42 systemd: anacron.service: Succeeded.
+08:43:42 anacron: Normal exit (0 jobs run)
+08:43:42 systemd: Started Run anacron jobs.
+08:43:36 snap-store: not handling error failed for action refine: Failed to write to snapd: Operation was cancelled
+08:43:36 kernel: audit: type=1400 audit(1600271016.527:6424): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:43:36 snap-store: Failed to get snap interfaces: Failed to write to snapd: Operation was cancelled
+08:43:36 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:43:25 kernel: audit: type=1400 audit(1600271005.151:6417): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:43:25 kernel: kauditd_printk_skb: 4731 callbacks suppressed
+08:43:25 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:43:08 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1876 label="snap.snap-store.ubuntu-software" peer_pid=1575 peer_label="unconfined"
+08:43:02 snap-store: automatically prevented from changing kind on system/snap/*/runtime/io.snapcraft.core18-CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6/latest/stable from runtime to unknown!
+08:43:02 packagekitd: get-details transaction /573_bbdaeebe from uid 1000 finished with success after 449ms
+08:42:59 snap-store: Failed to find refreshable snaps: cannot list updates: persistent network error: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+08:42:55 pkexec: azane: Executing command [USER=root] [TTY=unknown] [CWD=/home/azane] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+08:42:51 systemd: Started Virtual filesystem metadata service.
+08:42:51 dbus-daemon: [session uid=1000 pid=1341] Successfully activated service 'org.gtk.vfs.Metadata'
+08:42:51 systemd: Starting Virtual filesystem metadata service...
+08:42:51 dbus-daemon: [session uid=1000 pid=1341] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.40' (uid=1000 pid=1575 comm="/usr/bin/gnome-shell " label="unconfined")
+08:42:37 packagekitd: resolve transaction /570_cbaacdbd from uid 1000 finished with success after 280ms
+08:42:36 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/pixmaps/" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:42:35 kernel: audit: type=1400 audit(1600270955.895:1679): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/devices/" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:42:35 kernel: kauditd_printk_skb: 1575 callbacks suppressed
+08:42:35 pool-org.gnome.: AVC apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/icon-theme.cache" pid=1876 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+08:42:35 packagekitd: resolve transaction /569_cdbdcacc from uid 1000 finished with success after 328ms
+08:42:35 snap-store: hiding category games featured applications: found only 0 to show, need at least 9
+08:42:29 systemd: keybase.gui.service: Failed with result 'signal'.
+08:42:17 snap-store: Only 2 apps for recent list, hiding

@@ -1,0 +1,51 @@
+07:50:56 systemd-journal: Journal stopped
+07:50:56 kernel: Sending SIGTERM to remaining processes...
+07:50:55 kernel: Syncing filesystems and block devices.
+07:50:55 systemd: Shutting down.
+07:50:54 NetworkManager: <info>  [1600267854.6978] exiting (success)
+07:50:54 systemd: Stopped Network Name Resolution.
+07:50:54 dbus-daemon: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Refusing activation, D-Bus is shutting down.
+07:50:54 systemd: Stopped WPA supplicant.
+07:50:54 NetworkManager: <info>  [1600267854.6453] caught SIGTERM, shutting down normally.
+07:50:54 systemd: Stopping Network Manager...
+07:50:54 Xorg: (II) Server terminated successfully (0). Closing log file.
+07:50:54 systemd: Started Show Plymouth Power Off Screen.
+07:50:54 Xorg: (II) systemd-logind: releasing fd for 13:66
+07:50:54 kernel: ---[ end trace f50886f034078f96 ]---
+07:50:54 kernel: R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+07:50:54 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000002
+07:50:54 kernel: RBP: 000055a7dd8118a0 R08: 000055a7dd811880 R09: 00007f6cad862600
+07:50:54 kernel: RDX: 0000000000000002 RSI: 000055a7dd8118a0 RDI: 00000000ffffff9c
+07:50:54 kernel: RAX: ffffffffffffffda RBX: 00007f6cad4886c0 RCX: 00007f6cad741d1b
+07:50:54 kernel: RSP: 002b:00007ffee5810600 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:50:54 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 33 0c 25
+07:50:54 kernel: RIP: 0033:0x7f6cad741d1b
+07:50:54 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:50:54 kernel: Call Trace:
+07:50:54 kernel: CR2: 0000555e06f93a60 CR3: 0000000439574006 CR4: 00000000003606e0
+07:50:54 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:50:54 kernel: FS:  00007f6cad488740(0000) GS:ffff90a5debc0000(0000) knlGS:0000000000000000
+07:50:54 kernel: R13: ffff90a5dbfb6260 R14: 0000000000000012 R15: 000001b16cd8d4fd
+07:50:54 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff90a5d3c3b600
+07:50:54 kernel: RBP: ffff9ecd00ca7800 R08: 000000000000058e R09: 0000000000000004
+07:50:54 kernel: RDX: 0000000000000007 RSI: 0000000000000082 RDI: ffff90a5debd78c0
+07:50:54 kernel: RAX: 0000000000000000 RBX: ffff90a5d1376000 RCX: 0000000000000006
+07:50:54 kernel: RSP: 0018:ffff9ecd00ca77b8 EFLAGS: 00010286
+07:50:54 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 04 1a d7 4c 89 ea 48 c7 c7 bf d5 a6 c0 48 89 c6 e8 6a 59 b4 d6 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 56 b4 d6
+07:50:54 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:50:54 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:50:54 kernel: CPU: 7 PID: 3985 Comm: plymouthd Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:50:54 kernel:  intel_pch_thermal int3400_thermal int340x_thermal_zone acpi_thermal_rel serio_raw acpi_pad sch_fq_codel parport_pc ppdev lp parport drm ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul psmouse i2c_i801 r8169 ahci realtek libahci wmi video
+07:50:54 kernel: Modules linked in: rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 x86_pkg_temp_thermal intel_powerclamp coretemp uvcvideo videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 snd_hda_codec_hdmi snd_hda_codec_realtek videobuf2_common videodev snd_hda_codec_generic mc mei_hdcp ledtrig_audio hid_multitouch intel_rapl_msr kvm_intel snd_hda_intel kvm snd_intel_dspcfg crct10dif_pclmul ghash_clmulni_intel snd_hda_codec snd_hda_core snd_hwdep snd_pcm btusb aesni_intel btrtl hp_accel btbcm snd_seq_midi joydev input_leds mac_hid btintel snd_seq_midi_event bluetooth crypto_simd cryptd ecdh_generic ecc snd_rawmidi snd_seq hp_wmi glue_helper snd_seq_device snd_timer nouveau lis3lv02d sparse_keymap input_polldev i915 mxm_wmi ttm snd mei_me soundcore rapl mei drm_kms_helper intel_cstate processor_thermal_device intel_rapl_common intel_xhci_usb_role_switch roles i2c_algo_bit fb_sys_fops syscopyarea sysfillrect sysimgblt int3403_thermal intel_soc_dts_iosf wmi_bmof hp_wireless
+07:50:54 kernel: WARNING: CPU: 7 PID: 3985 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:50:54 kernel: nouveau 0000:01:00.0: timeout
+07:50:54 kernel: ------------[ cut here ]------------
+07:50:53 systemd: Stopped Thermal Daemon Service.
+07:50:52 thermald: [WARN]terminating on user request ..
+07:50:52 systemd: keybase.gui.service: Failed with result 'signal'.
+07:50:52 pulseaudio: GetManagedObjects() failed: org.freedesktop.systemd1.ShuttingDown: Refusing activation, D-Bus is shutting down.
+07:50:52 systemd: Started Sound Service.
+07:50:52 dbus-daemon: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Refusing activation, D-Bus is shutting down.
+07:50:52 pulseaudio: No UCM verb is valid for hw:0
+07:50:52 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:50:52 pulseaudio: Stale PID file, overwriting.
