@@ -1,0 +1,236 @@
+23:57:04 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gnome.Logs'
+23:57:00 gnome-shell: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+23:56:44 systemd: tracker-store.service: Succeeded.
+23:56:44 tracker-store: OK
+23:56:30 systemd: run-user-125.mount: Succeeded.
+23:56:20 tracker-miner-f: OK
+23:56:20 dbus-daemon: [session uid=125 pid=38705] AppArmor D-Bus mediation is enabled
+23:56:20 systemd: Started D-Bus User Message Bus.
+23:56:20 tracker-miner-f: Error while sending AddMatch() message: The connection is closed
+23:56:20 gvfsd: A connection to the bus can't be made
+23:56:20 tracker-miner-f: Error while sending AddMatch() message: The connection is closed
+23:56:20 systemd: Stopped Start gnome-keyring as SSH agent.
+23:56:20 sh: /bin/sh: 1: initctl: not found
+23:56:20 systemd: Started Restart DBus after GNOME Session shutdown.
+23:56:20 gnome-session-b: WARNING: Could not get session class: No such device or address
+23:56:20 systemd: Stopping GNOME Session Manager (session: gnome-login)...
+23:56:20 gnome-shell: Connection to xwayland lost
+23:56:20 systemd: Stopping GNOME XSettings...
+23:56:20 gsd-xsettings: gsd-xsettings: Fatal IO error 11 (Resource temporarily unavailable) on X server :1025.
+
+23:56:20 systemd: Stopped target GNOME Shell on Wayland.
+23:56:20 gsd-color: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_AU_Optronics_gdm_125
+23:56:20 systemd: Stopped GNOME Sound sample caching handling.
+23:56:20 gnome-shell: Registering session with GDM
+23:56:18 gsd-media-keys: Failed to grab accelerator for keybinding settings:hibernate
+23:56:18 systemd: Condition check resulted in GNOME Welcome Tour being skipped.
+23:56:18 gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.freedesktop.FileManager1'
+23:56:18 systemd: Reached target GNOME Wacom handling.
+23:56:18 gdbus: (uint32 2,)
+23:56:18 systemd: Reached target GNOME Sound sample caching handling.
+23:56:18 gnome-session-b: Entering running state
+23:56:18 systemd: Finished Signal initialization done to GNOME Session Manager.
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gnome.Shell.Notifications'
+23:56:18 systemd: Started Evolution address book service.
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+23:56:18 systemd: Starting Evolution address book service...
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.47' (uid=1000 pid=38459 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+23:56:18 gnome-shell: Telepathy is not available, chat integration will be disabled.
+23:56:18 systemd: Started Virtual filesystem metadata service.
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.Metadata'
+23:56:18 systemd: Starting Virtual filesystem metadata service...
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.47' (uid=1000 pid=38459 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+23:56:18 systemd: Started Evolution calendar service.
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+23:56:18 systemd: Starting Evolution calendar service...
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.45' (uid=1000 pid=38440 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+23:56:18 systemd: Started Evolution source registry.
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+23:56:18 systemd: Starting Evolution source registry...
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.45' (uid=1000 pid=38440 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+23:56:18 systemd: Started sandboxed app permission store.
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+23:56:18 systemd: Starting sandboxed app permission store...
+23:56:18 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.37' (uid=1000 pid=38387 comm="/usr/bin/gnome-shell " label="unconfined")
+23:56:18 at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+23:56:18 dbus-daemon: dbus-daemon[38356]: Successfully activated service 'org.a11y.atspi.Registry'
+23:56:17 gnome-shell: Will monitor session 6
+23:56:17 Xorg: (II) modeset(0): Modeline "1920x1080"x0.0   94.00  1920 2028 2076 2100  1080 1090 1100 1116 -hsync -vsync (44.8 kHz e)
+23:56:17 systemd: Starting GNOME Shell on X11...
+23:56:17 gnome-keyring-d: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+23:56:17 systemd: Starting GNOME Session Manager (session: ubuntu)...
+23:56:17 gnome-session-c: Error creating FIFO: File exists
+23:56:17 systemd: Started Monitor Session leader for GNOME Session.
+23:56:17 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.a11y.Bus'
+23:56:17 systemd: Starting Accessibility services bus...
+23:56:17 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.19' (uid=1000 pid=38346 comm="/usr/libexec/gnome-session-check-accelerated " label="unconfined")
+23:56:17 dbus-update-act: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+23:56:16 Xsession: /etc/gdm3/Xsession: Beginning session setup...
+23:56:16 Xorg: (II) event9  - HP WMI hotkeys: device is a keyboard
+23:56:16 pulseaudio: No UCM verb is valid for hw:0
+23:56:13 systemd: Startup finished in 257ms.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.freedesktop.Tracker1'
+23:56:13 systemd: Reached target Main User Target.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 systemd: Started Virtual filesystem service - GNOME Online Accounts monitor.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+23:56:13 goa-daemon: goa-daemon version 3.36.0 starting
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating service name='org.gnome.OnlineAccounts' requested by ':1.10' (uid=1000 pid=38212 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+23:56:13 systemd: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 systemd: Started Virtual filesystem service - Media Transfer Protocol monitor.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+23:56:13 systemd: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 systemd: Started Virtual filesystem service - Apple File Conduit monitor.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+23:56:13 systemd: Started Sound Service.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 systemd: Started Virtual filesystem service - digital camera monitor.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+23:56:13 systemd: Starting Virtual filesystem service - digital camera monitor...
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 systemd: Started Virtual filesystem service - disk device monitor.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+23:56:13 systemd: Starting Virtual filesystem service - disk device monitor...
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 systemd: Started Virtual filesystem service.
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Successfully activated service 'org.gtk.vfs.Daemon'
+23:56:13 systemd: Starting Virtual filesystem service...
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1000 pid=38156 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:56:13 gdm-session-wor: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+23:56:13 dbus-daemon: [session uid=1000 pid=38160] AppArmor D-Bus mediation is enabled
+23:56:13 systemd: Started D-Bus User Message Bus.
+23:56:13 tracker-miner-f: Setting priority nice level to 19
+23:56:13 tracker-extract: Setting priority nice level to 19
+23:56:13 systemd: Starting Tracker file system data miner...
+23:56:13 (systemd): pam_unix(systemd-user:session): session opened for user silkmachina by (uid=0)
+23:56:13 gdm-session-wor: pam_unix(gdm-password:session): session opened for user silkmachina by (uid=0)
+23:56:06 systemd: tracker-store.service: Succeeded.
+23:56:06 tracker-store: OK
+23:56:03 gnome-shell: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+23:55:53 systemd: run-user-1000.mount: Succeeded.
+23:55:47 gnome-shell: ActUserManager: user (null) has no username (uid: -1)
+23:55:46 systemd: tracker-extract.service: Succeeded.
+23:55:38 gnome-shell: Registering session with GDM
+23:55:38 systemd: Startup finished in 1.573s.
+23:55:38 gsd-media-keys: Failed to grab accelerator for keybinding settings:playback-repeat
+23:55:38 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.freedesktop.portal.IBus'
+23:55:38 xkbcomp: Errors from xkbcomp are not fatal to the X server
+23:55:38 systemd: Condition check resulted in GNOME Welcome Tour being skipped.
+23:55:37 gnome-shell: Getting invalid resource scale property
+23:55:37 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gnome.Shell.Notifications'
+23:55:37 systemd: Reached target GNOME Printer notifications.
+23:55:37 gnome-session-b: Entering running state
+23:55:37 systemd: Reached target GNOME Accessibility settings.
+23:55:37 at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+23:55:37 dbus-daemon: dbus-daemon[37851]: Successfully activated service 'org.a11y.atspi.Registry'
+23:55:37 systemd: Started sandboxed app permission store.
+23:55:37 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+23:55:37 systemd: Starting sandboxed app permission store...
+23:55:37 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.31' (uid=125 pid=37807 comm="/usr/bin/gnome-shell " label="unconfined")
+23:55:37 gnome-shell: Will monitor session c3
+23:55:37 systemd: Started Accessibility services bus.
+23:55:37 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.a11y.Bus'
+23:55:37 systemd: Starting Accessibility services bus...
+23:55:37 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.33' (uid=125 pid=37807 comm="/usr/bin/gnome-shell " label="unconfined")
+23:55:37 systemd: Reached target Main User Target.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.freedesktop.Tracker1'
+23:55:36 systemd: Started Tracker file system data miner.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 systemd: Started Virtual filesystem service - GNOME Online Accounts monitor.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+23:55:36 goa-daemon: goa-daemon version 3.36.0 starting
+23:55:36 systemd: Starting GNOME Shell on Wayland...
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating service name='org.gnome.OnlineAccounts' requested by ':1.27' (uid=125 pid=37799 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+23:55:36 systemd: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 systemd: Started Virtual filesystem service - Media Transfer Protocol monitor.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+23:55:36 systemd: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 systemd: Started Virtual filesystem service - Apple File Conduit monitor.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+23:55:36 systemd: ssh-agent.service: Succeeded.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 systemd: Finished Start gnome-keyring as SSH agent.
+23:55:36 sh: /bin/sh: 1: initctl: not found
+23:55:36 dbus-update-act: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=gnome-keyring
+23:55:36 systemd: Started Virtual filesystem service - digital camera monitor.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+23:55:36 gnome-keyring-d: couldn't access control socket: /run/user/125/keyring/control: No such file or directory
+23:55:36 systemd: Finished Session Migration.
+23:55:36 gnome-session-c: Error creating FIFO: File exists
+23:55:36 systemd: Started Monitor Session leader for GNOME Session.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 systemd: gnome-session@gnome-login.target: Requested dependency OnFailure=gnome-session-failed.target ignored (target units cannot fail).
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+23:55:36 systemd: gnome-session-failed.target: Requested dependency OnFailure=gnome-session-shutdown.target ignored (target units cannot fail).
+23:55:36 pulseaudio: No UCM verb is valid for hw:0
+23:55:36 systemd: gnome-session-initialized.target: Requested dependency OnFailure=gnome-session-shutdown.target ignored (target units cannot fail).
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 tracker-miner-f: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+23:55:36 systemd: Started Virtual filesystem service.
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Successfully activated service 'org.gtk.vfs.Daemon'
+23:55:36 systemd: Starting Virtual filesystem service...
+23:55:36 dbus-daemon: [session uid=125 pid=37724] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=125 pid=37721 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+23:55:36 systemd: Started D-Bus User Message Bus.
+23:55:36 tracker-miner-f: Setting priority nice level to 19
+23:55:36 tracker-extract: Setting priority nice level to 19
+23:55:36 systemd: Starting Tracker file system data miner...
+23:55:36 (systemd): pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+23:55:36 systemd: pulseaudio.service: Succeeded.
+23:55:36 pulseaudio: After module unload, module 'module-null-sink' was still loaded!
+23:55:36 gdm-session-wor: pam_unix(gdm-password:session): session closed for user silkmachina
+23:55:36 Xorg: (II) Server terminated successfully (0). Closing log file.
+23:55:33 systemd: evolution-addressbook-factory.service: Succeeded.
+23:55:33 dbus-daemon: [session uid=1000 pid=37691] AppArmor D-Bus mediation is enabled
+23:55:33 Xorg: (II) systemd-logind: releasing fd for 13:73
+23:55:33 systemd: Started D-Bus User Message Bus.
+23:55:33 gvfsd-network: A connection to the bus can't be made
+23:55:33 evolution-addre: Error setting property 'ConnectionStatus' on interface org.gnome.evolution.dataserver.Source: The connection is closed (g-io-error-quark, 18)
+23:55:33 gvfsd-http: A connection to the bus can't be made
+23:55:33 systemd: xdg-permission-store.service: Failed with result 'exit-code'.
+23:55:33 gvfsd-dnssd: A connection to the bus can't be made
+23:55:33 systemd: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+23:55:33 gvfsd-trash: A connection to the bus can't be made
+23:55:33 systemd: gvfs-mtp-volume-monitor.service: Succeeded.
+23:55:33 tracker-miner-f: Error while sending AddMatch() message: The connection is closed
+23:55:33 gvfsd: A connection to the bus can't be made
+23:55:33 tracker-miner-f: Error while sending AddMatch() message: The connection is closed
+23:55:33 Xorg: (II) event9  - HP WMI hotkeys: device removed
+23:55:33 systemd: Started Restart DBus after GNOME Session shutdown.
+23:55:33 Xorg: (II) event6  - ETPS/2 Elantech Touchpad: device removed
+23:55:33 nautilus: org.gnome.Nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+23:55:33 systemd: Stopped Monitor Session leader for GNOME Session.
+23:55:33 gnome-shell: The offending signal was state-changed on NMDeviceEthernet 0x5620e52b01e0.
+23:55:33 systemd: Stopping GNOME Shell on X11...
+23:55:09 nautilus: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+23:55:08 dbus-daemon: [session uid=1000 pid=36270] Successfully activated service 'org.gnome.Nautilus'
+23:55:06 systemd: gnome-launched-gnome-control-center.desktop-37592.scope: Succeeded.
+23:55:04 Xorg: (II) modeset(0): Modeline "1920x1080"x0.0   94.00  1920 2028 2076 2100  1080 1090 1100 1116 -hsync -vsync (44.8 kHz e)
+23:55:04 systemd: Started Application launched by gnome-shell.
+23:54:57 dbus-daemon: [session uid=1000 pid=36270] Successfully activated service 'org.bluez.obex'
+23:54:57 obexd: OBEX daemon 5.53
+23:54:57 systemd: Starting Bluetooth OBEX service...
+23:54:57 dbus-daemon: [session uid=1000 pid=36270] Activating via systemd: service name='org.bluez.obex' unit='dbus-org.bluez.obex.service' requested by ':1.100' (uid=1000 pid=37545 comm="gnome-control-center " label="unconfined")
+23:54:47 Xorg: (II) modeset(0): Modeline "1920x1080"x0.0   94.00  1920 2028 2076 2100  1080 1090 1100 1116 -hsync -vsync (44.8 kHz e)
+23:54:46 systemd: Started Application launched by gnome-shell.
+23:54:29 gnome-initial-s: Failed to send report: metrics from this machine have already been reported and can be found in: /home/silkmachina/.cache/ubuntu-report/ubuntu.20.04
+23:54:17 check-new-relea: WARNING:root:timeout reached, exiting
+23:54:16 gnome-initial-s: time="2020-09-16T23:54:16-07:00" level=info msg="no upgrade data found: couldn't open /var/log/upgrade/telemetry: open /var/log/upgrade/telemetry: no such file or directory"
+23:54:16 Xorg: (II) modeset(0): Modeline "1920x1080"x0.0   94.00  1920 2028 2076 2100  1080 1090 1100 1116 -hsync -vsync (44.8 kHz e)
+23:54:14 gnome-shell: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2000013
+23:54:13 gnome-initial-s: time="2020-09-16T23:54:13-07:00" level=info msg="no DCD information: couldn't open /var/lib/ubuntu_dist_channel: open /var/lib/ubuntu_dist_channel: no such file or directory"
+23:53:35 systemd: tracker-store.service: Succeeded.
+23:53:35 tracker-store: OK
+23:53:18 gnome-shell: g_object_run_dispose: assertion 'G_IS_OBJECT (object)' failed
+23:53:15 systemd: tracker-extract.service: Succeeded.
+23:53:13 gnome-shell: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+23:53:06 systemd: run-user-125.mount: Succeeded.
+23:53:04 dbus-daemon: [session uid=1000 pid=36270] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+23:53:04 tracker-extract: Setting priority nice level to 19
+23:53:04 systemd: Starting Tracker metadata extractor...
+23:53:04 dbus-daemon: [session uid=1000 pid=36270] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=36266 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
