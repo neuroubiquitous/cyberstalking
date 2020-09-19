@@ -1,0 +1,19 @@
+vram_pushbuf:Create DMA push buffers in VRAM (int)
+tv_norm:Default TV norm.
+		Supported: PAL, PAL-M, PAL-N, PAL-Nc, NTSC-M, NTSC-J,
+			hd480i, hd480p, hd576i, hd576p, hd720p, hd1080i.
+		Default: PAL
+		*NOTE* Ignored for cards with external TV encoders. (charp)
+nofbaccel:Disable fbcon acceleration (int)
+fbcon_bpp:fbcon bits-per-pixel (default: auto) (int)
+mst:Enable DisplayPort multi-stream (default: enabled) (int)
+tv_disable:Disable TV-out detection (int)
+ignorelid:Ignore ACPI lid status (int)
+duallink:Allow dual-link TMDS (default: enabled) (int)
+hdmimhz:Force a maximum HDMI pixel clock (in MHz) (int)
+config:option string to pass to driver core (charp)
+debug:debug string to pass to driver core (charp)
+noaccel:disable kernel/abi16 acceleration (int)
+modeset:enable driver (default: auto, 0 = disabled, 1 = enabled, 2 = headless) (int)
+atomic:Expose atomic ioctl (default: disabled) (int)
+runpm:disable (0), force enable (1), optimus only default (-1) (int)
