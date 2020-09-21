@@ -1,0 +1,378 @@
+09:33:51 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:33:51 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:33:51 openvpn: Could not determine IPv4/IPv6 protocol
+09:33:51 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:51 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:50 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:33:50 systemd: Started Tracker metadata extractor.
+09:33:50 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+09:33:50 tracker-extract: Setting priority nice level to 19
+09:33:50 systemd: Starting Tracker metadata extractor...
+09:33:50 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:33:50 systemd: Started Tracker metadata database store and lookup manager.
+09:33:50 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1'
+09:33:50 systemd: Starting Tracker metadata database store and lookup manager...
+09:33:50 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:33:32 systemd: tracker-store.service: Succeeded.
+09:33:32 tracker-store: OK
+09:33:30 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:33:30 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:30 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:30 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:30 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:33:20 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:20 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:20 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:20 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:33:15 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:15 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:15 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:14 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:33:12 systemd: tracker-extract.service: Succeeded.
+09:33:09 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:33:09 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:09 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:09 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:08 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:33:07 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:03 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:33:03 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:03 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:33:03 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:33:03 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:33:02 systemd: Started Tracker metadata extractor.
+09:33:02 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+09:33:02 tracker-extract: Setting priority nice level to 19
+09:33:02 systemd: Starting Tracker metadata extractor...
+09:33:02 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:33:02 systemd: Started Tracker metadata database store and lookup manager.
+09:33:02 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1'
+09:33:02 systemd: Starting Tracker metadata database store and lookup manager...
+09:33:02 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:32:58 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:32:58 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:58 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:32:58 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:57 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:32:57 NetworkManager: <info>  [1600705977.0775] vpn-connection[0x56447e8ee750,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:32:55 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:32:54 systemd: tracker-store.service: Succeeded.
+09:32:54 tracker-store: OK
+09:32:52 NetworkManager: <info>  [1600705972.5659] vpn-connection[0x56447e8ee750,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:32:52 openvpn: SIGTERM[hard,init_instance] received, process exiting
+09:32:52 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:32:52 NetworkManager: <warn>  [1600705972.5574] vpn-connection[0x56447e8ee750,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:32:47 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:32:47 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:47 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:32:47 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:47 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:32:38 systemd: NetworkManager-dispatcher.service: Succeeded.
+09:32:28 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+09:32:28 systemd: Starting Network Manager Script Dispatcher Service...
+09:32:28 NetworkManager: <info>  [1600705948.1400] dhcp4 (eno1): state changed extended -> extended
+09:32:28 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=845 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+09:32:28 NetworkManager: <info>  [1600705948.1398] dhcp4 (eno1): option requested_nis_domain => '1'
+09:32:27 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:32:27 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:27 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:32:27 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:27 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:32:24 systemd: Started Tracker metadata database store and lookup manager.
+09:32:24 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1'
+09:32:24 systemd: Starting Tracker metadata database store and lookup manager...
+09:32:24 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:32:17 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:32:17 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:17 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:32:17 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:16 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:32:11 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:11 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:32:10 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:10 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:32:05 systemd: systemd-hostnamed.service: Succeeded.
+09:32:05 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:32:05 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:04 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:32:04 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:32:04 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:32:02 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:59 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:31:59 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:59 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:31:59 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:58 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:31:53 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:53 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:31:53 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:52 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:31:52 NetworkManager: <info>  [1600705912.1354] vpn-connection[0x56447e8ee750,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:31:49 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:31:45 NetworkManager: <info>  [1600705905.5623] vpn-connection[0x56447e8ee540,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:31:45 openvpn: SIGTERM[hard,init_instance] received, process exiting
+09:31:45 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:31:45 NetworkManager: <warn>  [1600705905.5470] vpn-connection[0x56447e8ee540,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:31:41 systemd: tracker-store.service: Succeeded.
+09:31:41 tracker-store: OK
+09:31:38 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:31:38 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:38 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:31:38 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:38 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:31:35 systemd: Started Hostname Service.
+09:31:35 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+09:31:35 systemd: Starting Hostname Service...
+09:31:35 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.206' (uid=1000 pid=7966 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+09:31:22 systemd: systemd-hostnamed.service: Succeeded.
+09:31:18 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:31:18 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:18 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:31:18 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:18 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:31:11 systemd: Started Tracker metadata extractor.
+09:31:11 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+09:31:11 tracker-extract: Setting priority nice level to 19
+09:31:11 systemd: Starting Tracker metadata extractor...
+09:31:11 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:31:11 systemd: Started Tracker metadata database store and lookup manager.
+09:31:11 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.freedesktop.Tracker1'
+09:31:11 systemd: Starting Tracker metadata database store and lookup manager...
+09:31:11 dbus-daemon: [session uid=1000 pid=1583] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.0' (uid=1000 pid=1578 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+09:31:08 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:31:08 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:07 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:31:07 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:07 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:31:02 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:02 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:31:02 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:31:02 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:30:57 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:57 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:30:57 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:57 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:30:55 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:52 systemd: Started Hostname Service.
+09:30:52 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+09:30:52 systemd: Starting Hostname Service...
+09:30:52 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.204' (uid=1000 pid=7877 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+09:30:52 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:30:52 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:52 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:30:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:51 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:30:50 dbus-daemon: [session uid=1000 pid=1583] Successfully activated service 'org.gnome.Screenshot'
+09:30:46 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:30:46 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:46 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:30:45 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:45 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:30:45 NetworkManager: <info>  [1600705845.5178] vpn-connection[0x56447e8ee540,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:30:42 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:30:39 NetworkManager: <info>  [1600705839.5731] vpn-connection[0x56447e8ee330,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:30:39 openvpn: SIGTERM[hard,init_instance] received, process exiting
+09:30:39 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:30:39 NetworkManager: <warn>  [1600705839.5590] vpn-connection[0x56447e8ee330,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:30:31 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:30:31 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:31 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:30:31 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:31 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:30:18 systemd: anacron.service: Succeeded.
+09:30:18 anacron: Normal exit (0 jobs run)
+09:30:18 systemd: Started Run anacron jobs.
+09:30:11 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:30:10 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:10 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:30:10 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:10 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:30:01 cron: pam_unix(cron:session): session closed for user root
+09:30:00 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:30:00 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:00 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:30:00 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:30:00 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:29:55 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:55 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:29:55 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:55 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:29:50 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:50 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:29:49 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:49 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:29:49 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:44 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:29:44 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:44 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:29:44 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:44 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:29:39 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:39 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:29:39 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:39 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:29:39 NetworkManager: <info>  [1600705779.1509] vpn-connection[0x56447e8ee330,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:29:37 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:29:34 NetworkManager: <info>  [1600705774.5768] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:29:34 kernel: SIGTERM[hard,init_instance] received, process exiting
+09:29:34 NetworkManager: <warn>  [1600705774.5739] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN plugin: failed: connect-failed (1)
+09:29:34 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:29:34 NetworkManager: <warn>  [1600705774.5685] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:29:28 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:29:28 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:28 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:29:27 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:27 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:29:07 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:07 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:29:07 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:29:06 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:28:56 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:56 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:28:56 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:56 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:28:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:51 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:28:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:51 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:28:46 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:46 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:28:46 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:45 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:28:44 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:40 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:28:40 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:40 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:28:40 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:39 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:28:34 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:34 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:28:34 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:28:34 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:28:34 NetworkManager: <info>  [1600705714.0826] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:28:32 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:27:45 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:27:35 NetworkManager: <info>  [1600705655.6062] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:27:35 openvpn: SIGTERM[hard,init_instance] received, process exiting
+09:27:35 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:27:35 NetworkManager: <warn>  [1600705655.5989] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:27:27 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:27:27 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:27:27 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:27:27 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:27:26 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:27:06 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:27:06 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:27:06 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:27:06 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:56 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:56 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:56 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:56 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:51 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:51 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:46 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:46 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:45 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:45 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:45 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:40 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:26:40 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:40 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:40 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:40 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:35 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:35 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:35 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:35 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:35 NetworkManager: <info>  [1600705595.0974] vpn-connection[0x56447e8ee120,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:26:32 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:26:30 NetworkManager: <info>  [1600705590.5632] vpn-connection[0x56447e8ee330,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:26:30 kernel: SIGTERM[hard,init_instance] received, process exiting
+09:26:30 kernel: Connect timer expired, disconnecting.
+09:26:30 NetworkManager: <warn>  [1600705590.5549] vpn-connection[0x56447e8ee330,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:26:22 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:26:22 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:22 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:22 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:22 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:26:02 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:02 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:26:02 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:26:01 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:25:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:51 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:25:51 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:50 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:25:45 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:45 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:25:45 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:45 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:25:40 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:40 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:25:40 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:40 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:25:35 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:35 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:25:35 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:35 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:25:30 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:30 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:25:30 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:30 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:25:29 NetworkManager: <info>  [1600705529.8745] vpn-connection[0x56447e8ee330,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:25:27 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:25:25 NetworkManager: <info>  [1600705525.5525] vpn-connection[0x56447e8ee540,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:25:25 kernel: SIGTERM[hard,init_instance] received, process exiting
+09:25:25 NetworkManager: <warn>  [1600705525.5466] vpn-connection[0x56447e8ee540,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:25:25 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:25:18 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:25:18 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:18 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:25:18 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:25:18 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:58 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:58 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:58 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:58 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:48 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:48 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:48 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:47 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:42 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:42 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:42 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:42 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:37 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:37 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:37 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:37 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:35 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:32 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:24:32 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:32 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:32 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:31 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:26 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:26 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:26 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:25 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:24:25 NetworkManager: <info>  [1600705465.5292] vpn-connection[0x56447e8ee540,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: (ConnectInteractive) reply received
+09:24:23 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+09:24:20 NetworkManager: <info>  [1600705460.6047] vpn-connection[0x56447e8ee750,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN service disappeared
+09:24:20 kernel: SIGTERM[hard,init_instance] received, process exiting
+09:24:20 NetworkManager: <warn>  [1600705460.5989] vpn-connection[0x56447e8ee750,50dab581-9611-4b2f-b6e3-83e2ccb427e7,"openvpn",0]: VPN connection: connect timeout exceeded.
+09:24:20 nm-openvpn-serv: Connect timer expired, disconnecting.
+09:24:13 openvpn: SIGUSR1[soft,init_instance] received, process restarting
+09:24:13 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:13 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:24:13 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:24:12 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+09:23:52 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:23:52 openvpn: RESOLVE: Cannot resolve host address: 121-8-ro.cg-dialup.net:443 (Name or service not known)
+09:23:52 systemd-resolve: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+09:23:52 openvpn: NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
