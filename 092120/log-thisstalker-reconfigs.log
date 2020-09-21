@@ -1,0 +1,690 @@
+08:17:42 kernel: Sending SIGTERM to remaining processes...
+08:17:41 kernel: Syncing filesystems and block devices.
+08:17:41 kernel: usb 1-1: USB disconnect, device number 5
+08:17:39 kernel: ---[ end trace 2962ec59b28d7f78 ]---
+08:17:39 kernel: R13: 0000000000000013 R14: 0000564eb5dbf690 R15: 00007ffebf0f6c88
+08:17:39 kernel: R10: 00007ffebf0f67f0 R11: 0000000000000246 R12: 0000564eb5068140
+08:17:39 kernel: RBP: 0000000040086409 R08: 0000000000000007 R09: 0000000000000001
+08:17:39 kernel: RDX: 00007ffebf0f6990 RSI: 0000000040086409 RDI: 0000000000000013
+08:17:39 kernel: RAX: ffffffffffffffda RBX: 00007ffebf0f6990 RCX: 00007fbc3534237b
+08:17:39 kernel: RSP: 002b:00007ffebf0f6958 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+08:17:39 kernel: Code: 0f 1e fa 48 8b 05 15 3b 0d 00 64 c7 00 26 00 00 00 48 c7 c0 ff ff ff ff c3 66 0f 1f 44 00 00 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d e5 3a 0d 00 f7 d8 64 89 01 48
+08:17:39 kernel: RIP: 0033:0x7fbc3534237b
+08:17:39 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+08:17:39 kernel: Call Trace:
+08:17:39 kernel: CR2: 00007f3aacc86bf0 CR3: 000000044e28a003 CR4: 00000000003606e0
+08:17:39 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+08:17:39 kernel: FS:  00007fbc34fe2a80(0000) GS:ffff96d2dea80000(0000) knlGS:0000000000000000
+08:17:39 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 00000291529477c6
+08:17:39 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+08:17:39 kernel: RBP: ffffbaaf81283b08 R08: 0000000000000625 R09: 0000000000000004
+08:17:39 kernel: RDX: 0000000000000007 RSI: 0000000000000096 RDI: ffff96d2dea978c0
+08:17:39 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 0000000000000006
+08:17:39 kernel: RSP: 0018:ffffbaaf81283ac0 EFLAGS: 00010282
+08:17:39 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+08:17:39 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+08:17:39 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+08:17:39 kernel: CPU: 2 PID: 1605 Comm: Xorg Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+08:17:39 kernel:  parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+08:17:39 kernel: Modules linked in: tcp_diag udp_diag raw_diag inet_diag unix_diag uas usb_storage rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 uvcvideo mei_hdcp videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 videobuf2_common x86_pkg_temp_thermal videodev mc snd_hda_codec_hdmi intel_powerclamp intel_rapl_msr snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio hid_multitouch snd_hda_intel btusb snd_intel_dspcfg btrtl btbcm btintel snd_hda_codec snd_hda_core snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event bluetooth snd_rawmidi snd_seq ecdh_generic ecc snd_seq_device snd_timer snd coretemp soundcore hp_accel mei_me lis3lv02d mei processor_thermal_device intel_rapl_common joydev input_leds acpi_pad mac_hid hp_wmi intel_xhci_usb_role_switch roles int3403_thermal int3400_thermal hp_wireless int340x_thermal_zone acpi_thermal_rel input_polldev intel_soc_dts_iosf intel_pch_thermal sparse_keymap wmi_bmof kvm rapl intel_cstate serio_raw sch_fq_codel parport_pc ppdev lp
+08:17:39 kernel: WARNING: CPU: 2 PID: 1605 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+08:17:39 kernel: nouveau 0000:01:00.0: timeout
+08:17:39 kernel: ------------[ cut here ]------------
+08:17:37 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+08:17:36 kernel: rfkill: input handler enabled
+08:17:32 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+07:57:26 kernel: FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+07:57:25 kernel: sd 1:0:0:0: [sdb] Attached SCSI removable disk
+07:57:25 kernel:  sdb: sdb1
+07:57:25 kernel: sd 1:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+07:57:25 kernel: scsi 1:0:0:0: Direct-Access     SanDisk  Cruzer Glide     1.00 PQ: 0 ANSI: 6
+07:57:24 kernel: usbcore: registered new interface driver uas
+07:57:24 kernel: scsi host1: usb-storage 1-1:1.0
+07:57:24 kernel: usb-storage 1-1:1.0: USB Mass Storage device detected
+07:57:24 kernel: usb 1-1: SerialNumber: 4C530001060322123344
+07:34:20 kernel: audit: type=1400 audit(1600698860.678:7985): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/icon-theme.cache" pid=2086 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+07:33:55 kernel: kauditd_printk_skb: 6309 callbacks suppressed
+07:33:19 kernel: audit: type=1400 audit(1600698799.478:1659): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/devices/" pid=2086 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+07:33:19 kernel: kauditd_printk_skb: 1575 callbacks suppressed
+07:32:57 kernel: audit: type=1400 audit(1600698777.398:74): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/icons/Yaru/16x16/devices/" pid=2086 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+07:32:50 kernel: kauditd_printk_skb: 1 callbacks suppressed
+07:32:49 kernel: audit: type=1400 audit(1600698769.546:55): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/glib-2.0/schemas/gschemas.compiled" pid=2086 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+07:32:45 kernel: ---[ end trace 2962ec59b28d7f77 ]---
+07:32:45 kernel: R13: 0000000000000003 R14: 00000000ffffffff R15: 00007f7f06f6fa40
+07:32:45 kernel: R10: 0000000000000f50 R11: 0000000000000293 R12: 00007f7efc003ee0
+07:32:45 kernel: RBP: 000055995b0c9d70 R08: 0000000000000000 R09: 00000000ffffffff
+07:32:45 kernel: RDX: 00000000ffffffff RSI: 0000000000000003 RDI: 00007f7efc003ee0
+07:32:45 kernel: RAX: fffffffffffffdfc RBX: 000055995bcdbba0 RCX: 00007f7f7f04c96f
+07:32:45 kernel: RSP: 002b:00007f7f06f6f6c0 EFLAGS: 00000293 ORIG_RAX: 0000000000000007
+07:32:45 kernel: Code: Bad RIP value.
+07:32:45 kernel: RIP: 0033:0x7f7f7f04c96f
+07:32:45 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:32:45 kernel: Call Trace:
+07:32:45 kernel: CR2: 000055879eb9be88 CR3: 000000032580a006 CR4: 00000000003606e0
+07:32:45 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:32:45 kernel: FS:  00007f7f06f70700(0000) GS:ffff96d2dea80000(0000) knlGS:0000000000000000
+07:32:45 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 0000001defe60576
+07:32:45 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:32:45 kernel: RBP: ffffbaaf8191f818 R08: 000000000000058e R09: 0000000000000004
+07:32:45 kernel: RDX: 0000000000000007 RSI: 0000000000000092 RDI: ffff96d2dea978c0
+07:32:45 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 0000000000000006
+07:32:45 kernel: RSP: 0018:ffffbaaf8191f7d0 EFLAGS: 00010286
+07:32:45 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:32:45 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:32:45 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:32:45 kernel: CPU: 2 PID: 1514 Comm: threaded-ml Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:32:45 kernel:  nouveau i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+07:32:45 kernel: Modules linked in: rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 uvcvideo mei_hdcp videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 videobuf2_common x86_pkg_temp_thermal videodev mc snd_hda_codec_hdmi intel_powerclamp intel_rapl_msr snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio hid_multitouch snd_hda_intel btusb snd_intel_dspcfg btrtl btbcm btintel snd_hda_codec snd_hda_core snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event bluetooth snd_rawmidi snd_seq ecdh_generic ecc snd_seq_device snd_timer snd coretemp soundcore hp_accel mei_me lis3lv02d mei processor_thermal_device intel_rapl_common joydev input_leds acpi_pad mac_hid hp_wmi intel_xhci_usb_role_switch roles int3403_thermal int3400_thermal hp_wireless int340x_thermal_zone acpi_thermal_rel input_polldev intel_soc_dts_iosf intel_pch_thermal sparse_keymap wmi_bmof kvm rapl intel_cstate serio_raw sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid
+07:32:45 kernel: WARNING: CPU: 2 PID: 1514 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:32:45 kernel: nouveau 0000:01:00.0: timeout
+07:32:45 kernel: ------------[ cut here ]------------
+07:32:43 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:32:41 kernel: rfkill: input handler disabled
+07:32:40 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+07:32:30 kernel: rfkill: input handler enabled
+07:32:30 kernel: ---[ end trace 2962ec59b28d7f76 ]---
+07:32:30 kernel: R13: 0000000000000006 R14: 00007fff9ce004e8 R15: 00007fff9ce00500
+07:32:30 kernel: R10: 000056187552f790 R11: 0000000000000246 R12: 00007fff9ce002e8
+07:32:30 kernel: RBP: 00007fff9ce002f0 R08: 0000000000000001 R09: 0000000000000008
+07:32:30 kernel: RDX: 0000000000000000 RSI: 000000000000641f RDI: 000000000000001b
+07:32:30 kernel: RAX: ffffffffffffffda RBX: 0000561875537590 RCX: 00007f46fdb6937b
+07:32:30 kernel: RSP: 002b:00007fff9ce002b8 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+07:32:30 kernel: Code: 0f 1e fa 48 8b 05 15 3b 0d 00 64 c7 00 26 00 00 00 48 c7 c0 ff ff ff ff c3 66 0f 1f 44 00 00 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d e5 3a 0d 00 f7 d8 64 89 01 48
+07:32:30 kernel: RIP: 0033:0x7f46fdb6937b
+07:32:30 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:32:29 kernel: Call Trace:
+07:32:29 kernel: CR2: 00007f826001b028 CR3: 00000004540de006 CR4: 00000000003606e0
+07:32:29 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:32:29 kernel: FS:  00007f46fccbc9c0(0000) GS:ffff96d2dea40000(0000) knlGS:0000000000000000
+07:32:29 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 000000186d6e10c5
+07:32:29 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:32:29 kernel: RBP: ffffbaaf80eb3b08 R08: 0000000000000552 R09: 0000000000000004
+07:32:29 kernel: RDX: 0000000000000007 RSI: 0000000000000096 RDI: ffff96d2dea578c0
+07:32:29 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 0000000000000006
+07:32:29 kernel: RSP: 0018:ffffbaaf80eb3ac0 EFLAGS: 00010282
+07:32:29 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:32:29 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:32:29 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:32:29 kernel: CPU: 1 PID: 883 Comm: systemd-logind Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:32:29 kernel:  nouveau i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+07:32:29 kernel: Modules linked in: rfcomm cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 uvcvideo mei_hdcp videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 videobuf2_common x86_pkg_temp_thermal videodev mc snd_hda_codec_hdmi intel_powerclamp intel_rapl_msr snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio hid_multitouch snd_hda_intel btusb snd_intel_dspcfg btrtl btbcm btintel snd_hda_codec snd_hda_core snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event bluetooth snd_rawmidi snd_seq ecdh_generic ecc snd_seq_device snd_timer snd coretemp soundcore hp_accel mei_me lis3lv02d mei processor_thermal_device intel_rapl_common joydev input_leds acpi_pad mac_hid hp_wmi intel_xhci_usb_role_switch roles int3403_thermal int3400_thermal hp_wireless int340x_thermal_zone acpi_thermal_rel input_polldev intel_soc_dts_iosf intel_pch_thermal sparse_keymap wmi_bmof kvm rapl intel_cstate serio_raw sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid
+07:32:29 kernel: WARNING: CPU: 1 PID: 883 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:32:29 kernel: nouveau 0000:01:00.0: timeout
+07:32:29 kernel: ------------[ cut here ]------------
+07:32:29 kernel: Bluetooth: RFCOMM ver 1.11
+07:32:28 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:32:05 kernel: rfkill: input handler disabled
+07:32:04 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+07:31:56 kernel: ---[ end trace 2962ec59b28d7f75 ]---
+07:31:56 kernel: R13: 0000000000000001 R14: 00007fff9ce000a0 R15: 00005618755375a0
+07:31:56 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000080902
+07:31:56 kernel: RBP: 000056187551d850 R08: 00007f46fda45fc0 R09: 0000561875511598
+07:31:56 kernel: RDX: 0000000000080902 RSI: 000056187551d850 RDI: 00000000ffffff9c
+07:31:56 kernel: RAX: ffffffffffffffda RBX: 0000561875537590 RCX: 00007f46fdb62d1b
+07:31:56 kernel: RSP: 002b:00007fff9cdfff50 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:31:56 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 33 0c 25
+07:31:56 kernel: RIP: 0033:0x7f46fdb62d1b
+07:31:56 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:31:56 kernel: Call Trace:
+07:31:56 kernel: CR2: 000055995ab03078 CR3: 00000004540de004 CR4: 00000000003606e0
+07:31:56 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:31:56 kernel: FS:  00007f46fccbc9c0(0000) GS:ffff96d2dea80000(0000) knlGS:0000000000000000
+07:31:56 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 0000001280d80076
+07:31:56 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:31:56 kernel: RBP: ffffbaaf80eb3800 R08: 000000000000050b R09: 0000000000000004
+07:31:56 kernel: RDX: 0000000000000007 RSI: 0000000000000082 RDI: ffff96d2dea978c0
+07:31:56 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 0000000000000006
+07:31:56 kernel: RSP: 0018:ffffbaaf80eb37b8 EFLAGS: 00010286
+07:31:56 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:31:56 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:56 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:31:56 kernel: CPU: 2 PID: 883 Comm: systemd-logind Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:31:56 kernel:  i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+07:31:56 kernel: Modules linked in: cmac algif_hash algif_skcipher af_alg bnep nls_iso8859_1 uvcvideo mei_hdcp videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 videobuf2_common x86_pkg_temp_thermal videodev mc snd_hda_codec_hdmi intel_powerclamp intel_rapl_msr snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio hid_multitouch snd_hda_intel btusb snd_intel_dspcfg btrtl btbcm btintel snd_hda_codec snd_hda_core snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event bluetooth snd_rawmidi snd_seq ecdh_generic ecc snd_seq_device snd_timer snd coretemp soundcore hp_accel mei_me lis3lv02d mei processor_thermal_device intel_rapl_common joydev input_leds acpi_pad mac_hid hp_wmi intel_xhci_usb_role_switch roles int3403_thermal int3400_thermal hp_wireless int340x_thermal_zone acpi_thermal_rel input_polldev intel_soc_dts_iosf intel_pch_thermal sparse_keymap wmi_bmof kvm rapl intel_cstate serio_raw sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau
+07:31:56 kernel: WARNING: CPU: 2 PID: 883 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:56 kernel: nouveau 0000:01:00.0: timeout
+07:31:56 kernel: ------------[ cut here ]------------
+07:31:54 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:31:41 kernel: r8169 0000:03:00.0 eno1: Link is Down
+07:31:41 kernel: Generic FE-GE Realtek PHY r8169-300:00: attached PHY driver [Generic FE-GE Realtek PHY] (mii_bus:phy_addr=r8169-300:00, irq=IGNORE)
+07:31:39 kernel: audit: type=1400 audit(1600698698.790:45): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=970 comm="cups-browsed" capability=23  capname="sys_nice"
+07:31:39 kernel: kauditd_printk_skb: 33 callbacks suppressed
+07:31:37 kernel: NET: Registered protocol family 38
+07:31:37 kernel: Bluetooth: BNEP socket layer initialized
+07:31:37 kernel: Bluetooth: BNEP socket layer initialized
+07:31:37 kernel: Bluetooth: BNEP filters: protocol multicast
+07:31:37 kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+07:31:35 kernel: ---[ end trace 2962ec59b28d7f74 ]---
+07:31:35 kernel: R13: 00007ffc22dee340 R14: 0000000000000000 R15: 0000000000000000
+07:31:35 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000002
+07:31:35 kernel: RBP: 00007ffc22ded090 R08: 00000000ffffffff R09: 00007ffc22deced0
+07:31:35 kernel: RDX: 0000000000000002 RSI: 00007ffc22ded090 RDI: 00000000ffffff9c
+07:31:35 kernel: RAX: ffffffffffffffda RBX: 000055b0d969e2c0 RCX: 00007f047f40cd1b
+07:31:35 kernel: RSP: 002b:00007ffc22decfc0 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:31:35 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 33 0c 25
+07:31:35 kernel: RIP: 0033:0x7f047f40cd1b
+07:31:35 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:31:35 kernel: Call Trace:
+07:31:35 kernel: CR2: 00007f5a9c000010 CR3: 000000045a062004 CR4: 00000000003606e0
+07:31:35 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:31:35 kernel: FS:  00007f047ee66680(0000) GS:ffff96d2dea80000(0000) knlGS:0000000000000000
+07:31:35 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 0000000d96747adc
+07:31:35 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:31:35 kernel: RBP: ffffbaaf80d83800 R08: 00000000000004be R09: 0000000000000004
+07:31:35 kernel: RDX: 0000000000000007 RSI: 0000000000000082 RDI: ffff96d2dea978c0
+07:31:35 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 0000000000000006
+07:31:35 kernel: RSP: 0018:ffffbaaf80d837b8 EFLAGS: 00010286
+07:31:35 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:31:35 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:35 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:31:35 kernel: CPU: 2 PID: 849 Comm: gpu-manager Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:31:35 kernel:  ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+07:31:35 kernel: Modules linked in: nls_iso8859_1 uvcvideo mei_hdcp videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 videobuf2_common x86_pkg_temp_thermal videodev mc snd_hda_codec_hdmi intel_powerclamp intel_rapl_msr snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio hid_multitouch snd_hda_intel btusb snd_intel_dspcfg btrtl btbcm btintel snd_hda_codec snd_hda_core snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event bluetooth snd_rawmidi snd_seq ecdh_generic ecc snd_seq_device snd_timer snd coretemp soundcore hp_accel mei_me lis3lv02d mei processor_thermal_device intel_rapl_common joydev input_leds acpi_pad mac_hid hp_wmi intel_xhci_usb_role_switch roles int3403_thermal int3400_thermal hp_wireless int340x_thermal_zone acpi_thermal_rel input_polldev intel_soc_dts_iosf intel_pch_thermal sparse_keymap wmi_bmof kvm rapl intel_cstate serio_raw sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau i915 crct10dif_pclmul crc32_pclmul
+07:31:35 kernel: WARNING: CPU: 2 PID: 849 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:35 kernel: nouveau 0000:01:00.0: timeout
+07:31:35 kernel: ------------[ cut here ]------------
+07:31:32 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:31:26 kernel: audit: type=1400 audit(1600698684.338:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=802 comm="apparmor_parser"
+07:31:26 kernel: EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+07:31:26 kernel: Adding 999420k swap on /dev/mapper/vgubuntu-swap_1.  Priority:-2 extents:1 across:999420k FS
+07:31:26 kernel: USB Video Class driver (1.1.1)
+07:31:26 kernel: usbcore: registered new interface driver uvcvideo
+07:31:26 kernel: input: HP Wide Vision HD Camera: HP Wi as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/input/input22
+07:31:26 kernel: uvcvideo 1-3:1.0: Entity type for entity Camera 1 was not initialized!
+07:31:26 kernel: uvcvideo: Found UVC 1.00 device HP Wide Vision HD Camera (04ca:707f)
+07:31:26 kernel: Bluetooth: hci0: RTL: fw version 0x826ca99e
+07:31:26 kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_component_ops [i915])
+07:31:26 kernel: videodev: Linux video capture interface: v2.00
+07:31:26 kernel: mc: Linux media interface: v0.10
+07:31:26 kernel: input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input21
+07:31:26 kernel: Bluetooth: hci0: RTL: cfg_sz 10, total sz 21678
+07:31:26 kernel: Bluetooth: hci0: RTL: cfg_sz 10, total sz 21678
+07:31:26 kernel: Bluetooth: hci0: RTL: loading rtl_bt/rtl8821c_config.bin
+07:31:26 kernel: intel_rapl_common: Found RAPL domain dram
+07:31:26 kernel: snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+07:31:26 kernel: hid-multitouch 0003:0EEF:C0AE.0001: input,hiddev0,hidraw0: USB HID v1.11 Device [eGalax Inc. eGalaxTouch EXC3200-2505-09.00.00] on usb-0000:00:14.0-8/input0
+07:31:26 kernel: input: eGalax Inc. eGalaxTouch EXC3200-2505-09.00.00 as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:0EEF:C0AE.0001/input/input13
+07:31:26 kernel: hid-multitouch 0003:0EEF:C0AE.0001: failed to fetch feature 7
+07:31:26 kernel: ---[ end trace 2962ec59b28d7f73 ]---
+07:31:26 kernel: R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+07:31:26 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000002
+07:31:26 kernel: RBP: 000055d9ee739c80 R08: 000055d9ee739c60 R09: 00007fab1dc8f600
+07:31:26 kernel: RDX: 0000000000000002 RSI: 000055d9ee739c80 RDI: 00000000ffffff9c
+07:31:26 kernel: RAX: ffffffffffffffda RBX: 00007fab1d8b56c0 RCX: 00007fab1db6ed1b
+07:31:26 kernel: RSP: 002b:00007ffc52e5cd00 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:31:26 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 33 0c 25
+07:31:26 kernel: RIP: 0033:0x7fab1db6ed1b
+07:31:26 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:31:26 kernel: Call Trace:
+07:31:26 kernel: CR2: 00007fff49828cb0 CR3: 000000044a5c0005 CR4: 00000000003606e0
+07:31:26 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:31:26 kernel: FS:  00007fab1d8b5740(0000) GS:ffff96d2dea80000(0000) knlGS:0000000000000000
+07:31:26 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 00000008e6f81463
+07:31:26 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:31:26 kernel: RBP: ffffbaaf805eb800 R08: 000000000000044e R09: 0000000000000004
+07:31:26 kernel: RDX: 0000000000000007 RSI: 0000000000000082 RDI: ffff96d2dea978c0
+07:31:26 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 0000000000000006
+07:31:26 kernel: RSP: 0018:ffffbaaf805eb7b8 EFLAGS: 00010286
+07:31:26 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:31:26 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:26 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:31:26 kernel: CPU: 2 PID: 270 Comm: plymouthd Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:31:26 kernel:  video
+07:31:26 kernel: Modules linked in: snd_hda_codec_generic ledtrig_audio hid_multitouch(+) snd_hda_intel btusb snd_intel_dspcfg btrtl btbcm btintel snd_hda_codec snd_hda_core snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event bluetooth snd_rawmidi snd_seq ecdh_generic ecc snd_seq_device snd_timer snd coretemp(+) fjes(-) soundcore hp_accel mei_me lis3lv02d mei processor_thermal_device intel_rapl_common joydev input_leds acpi_pad mac_hid hp_wmi intel_xhci_usb_role_switch roles int3403_thermal int3400_thermal hp_wireless int340x_thermal_zone acpi_thermal_rel input_polldev intel_soc_dts_iosf intel_pch_thermal sparse_keymap wmi_bmof kvm rapl intel_cstate serio_raw sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi
+07:31:26 kernel: WARNING: CPU: 2 PID: 270 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:26 kernel: nouveau 0000:01:00.0: timeout
+07:31:26 kernel: ------------[ cut here ]------------
+07:31:26 kernel: snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+07:31:26 kernel: Bluetooth: hci0: RTL: loading rtl_bt/rtl8821c_fw.bin
+07:31:26 kernel: Bluetooth: hci0: RTL: loading rtl_bt/rtl8821c_fw.bin
+07:31:26 kernel: Bluetooth: hci0: RTL: rom_version status=0 version=1
+07:31:26 kernel: Bluetooth: hci0: RTL: examining hci_ver=08 hci_rev=000c lmp_ver=08 lmp_subver=8821
+07:31:26 kernel: usbcore: registered new interface driver btusb
+07:31:26 kernel: Bluetooth: SCO socket layer initialized
+07:31:26 kernel: Bluetooth: SCO socket layer initialized
+07:31:26 kernel: Bluetooth: L2CAP socket layer initialized
+07:31:26 kernel: Bluetooth: HCI socket layer initialized
+07:31:26 kernel: Bluetooth: HCI device and connection manager initialized
+07:31:26 kernel: NET: Registered protocol family 31
+07:31:26 kernel: Bluetooth: Core ver 2.22
+07:31:26 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:31:26 kernel: input: ST LIS3LV02DL Accelerometer as /devices/platform/lis3lv02d/input/input12
+07:31:26 kernel: lis3lv02d: 8 bits 3DC sensor found
+07:31:26 kernel: hp_accel: laptop model unknown, using default axes configuration
+07:31:26 kernel: mei_me 0000:00:16.0: enabling device (0004 -> 0006)
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: proc_thermal 0000:00:04.0: Creating sysfs group for PROC_THERMAL_PCI
+07:31:26 kernel: intel_rapl_common: Found RAPL domain dram
+07:31:26 kernel: input: HP WMI hotkeys as /devices/virtual/input/input11
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: kvm: disabled by bios
+07:31:26 kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+07:31:26 kernel: ppdev: user-space parallel port driver
+07:31:26 kernel: lp: driver loaded but no devices found
+07:31:08 kernel: EXT4-fs (dm-1): re-mounted. Opts: errors=remount-ro
+07:31:08 kernel: Started Journal Service.
+07:31:08 kernel: Starting Uncomplicated firewall...
+07:31:08 kernel: Starting Uncomplicated firewall...
+07:31:08 kernel: Starting udev Coldplug all Devices...
+07:31:08 kernel: Starting Remount Root and Kernel File Systems...
+07:31:08 kernel: Starting Load Kernel Modules...
+07:31:08 kernel: Condition check resulted in File System Check on Root Device being skipped.
+07:31:08 kernel: Reached target Network (Pre).
+07:31:08 kernel: Started Nameserver information manager.
+07:31:08 kernel: Condition check resulted in Load Kernel Module drm being skipped.
+07:31:08 kernel: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+07:31:08 kernel: Mounting Kernel Trace File System...
+07:31:08 kernel: Listening on udev Kernel Socket.
+07:31:08 kernel: Reached target Slices.
+07:31:08 kernel: Set up automount Arbitrary Executable File Formats File System Automount Point.
+07:31:08 kernel: Started Forward Password Requests to Wall Directory Watch.
+07:31:08 kernel: Created slice User and Session Slice.
+07:31:08 kernel: /lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+07:31:08 kernel: Lockdown: systemd: /dev/mem,kmem,port is restricted; see man kernel_lockdown.7
+07:31:08 kernel: Set hostname to <allergictorudecreepers>.
+07:31:08 kernel: Detected architecture x86-64.
+07:31:08 kernel: systemd 245.4-4ubuntu3.2 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+07:31:08 kernel: Inserted module 'autofs4'
+07:31:08 kernel: EXT4-fs (dm-1): mounted filesystem with ordered data mode. Opts: (null)
+07:31:08 kernel: ---[ end trace 2962ec59b28d7f72 ]---
+07:31:08 kernel: R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+07:31:08 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000002
+07:31:08 kernel: RBP: 000055d9ee72da40 R08: 000055d9ee72d6f0 R09: 00007fab1dc8f600
+07:31:08 kernel: RDX: 0000000000000002 RSI: 000055d9ee72da40 RDI: 00000000ffffff9c
+07:31:08 kernel: RAX: ffffffffffffffda RBX: 00007fab1d8b56c0 RCX: 00007fab1db6ed1b
+07:31:08 kernel: RSP: 002b:00007ffc52e5cc30 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:31:08 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 33 0c 25
+07:31:08 kernel: RIP: 0033:0x7fab1db6ed1b
+07:31:08 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:31:08 kernel: Call Trace:
+07:31:08 kernel: CR2: 000055d9ee72fcc0 CR3: 000000044a5c0002 CR4: 00000000003606e0
+07:31:08 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:31:08 kernel: FS:  00007fab1d8b5740(0000) GS:ffff96d2debc0000(0000) knlGS:0000000000000000
+07:31:08 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 00000002f432f132
+07:31:08 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:31:08 kernel: RBP: ffffbaaf805eb800 R08: 00000000000003b9 R09: 0000000000000004
+07:31:08 kernel: RDX: 0000000000000001 RSI: 0000000000000082 RDI: 0000000000000247
+07:31:08 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 00000000000003b9
+07:31:08 kernel: RSP: 0018:ffffbaaf805eb7b8 EFLAGS: 00010286
+07:31:08 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:31:08 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:08 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:31:08 kernel: CPU: 7 PID: 270 Comm: plymouthd Tainted: G        W         5.4.0-47-generic #51-Ubuntu
+07:31:08 kernel: Modules linked in: dm_crypt hid_generic usbhid hid nouveau i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+07:31:08 kernel: WARNING: CPU: 7 PID: 270 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:08 kernel: nouveau 0000:01:00.0: timeout
+07:31:08 kernel: ------------[ cut here ]------------
+07:31:08 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:31:08 kernel: hid-generic 0003:0EEF:C0AE.0001: input,hiddev0,hidraw0: USB HID v1.11 Device [eGalax Inc. eGalaxTouch EXC3200-2505-09.00.00] on usb-0000:00:14.0-8/input0
+07:31:08 kernel: input: eGalax Inc. eGalaxTouch EXC3200-2505-09.00.00 Touchscreen as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:0EEF:C0AE.0001/input/input8
+07:31:08 kernel: usbhid: USB HID core driver
+07:31:08 kernel: usbcore: registered new interface driver usbhid
+07:31:08 kernel: hidraw: raw HID events driver (C) Jiri Kosina
+07:31:08 kernel: usb 1-8: Manufacturer: eGalax Inc.
+07:31:08 kernel: input: ETPS/2 Elantech Touchpad as /devices/platform/i8042/serio1/input/input5
+07:31:08 kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+07:31:08 kernel:  sda: sda1 sda2 sda3
+07:31:08 kernel: psmouse serio1: elantech: Elan sample query result 03, 4d, 86
+07:31:08 kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+07:31:08 kernel: scsi 0:0:0:0: Direct-Access     ATA      TOSHIBA MQ04ABF1 1C   PQ: 0 ANSI: 5
+07:31:08 kernel: ata1.00: configured for UDMA/100
+07:31:08 kernel: [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 1
+07:31:08 kernel: nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
+07:31:08 kernel: [TTM] Initializing DMA pool allocator
+07:31:08 kernel: vga_switcheroo: enabled
+07:31:08 kernel: ata1.00: 1953525168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+07:31:08 kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+07:31:08 kernel: usb 1-8: new full-speed USB device number 4 using xhci_hcd
+07:31:08 kernel: clocksource: Switched to clocksource tsc
+07:31:08 kernel: ---[ end trace 2962ec59b28d7f71 ]---
+07:31:08 kernel: R13: 0000000000000000 R14: 00005646e319b1b0 R15: 00005646e31a32d0
+07:31:08 kernel: R10: 0000000000000013 R11: 0000000000000246 R12: 00007f399c093ded
+07:31:08 kernel: RBP: 0000000000020000 R08: 0000000000000000 R09: 0000000000000000
+07:31:08 kernel: RDX: 0000000000000000 RSI: 00007f399c093ded RDI: 0000000000000013
+07:31:08 kernel: RAX: ffffffffffffffda RBX: 00005646e31a32d0 RCX: 00007f399c1b670d
+07:31:08 kernel: RSP: 002b:00007ffc30502128 EFLAGS: 00000246 ORIG_RAX: 0000000000000139
+07:31:08 kernel: Code: 00 c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 53 f7 0c 00 f7 d8 64 89 01 48
+07:31:08 kernel: RIP: 0033:0x7f399c1b670d
+07:31:08 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:31:08 kernel: Call Trace:
+07:31:08 kernel: CR2: 00005646e2e605bc CR3: 000000044bd44004 CR4: 00000000003606e0
+07:31:08 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:31:08 kernel: FS:  00007f399bc34880(0000) GS:ffff96d2dea80000(0000) knlGS:0000000000000000
+07:31:08 kernel: R13: ffff96d2dbfb7c80 R14: 0000000000000012 R15: 0000000044cfe01e
+07:31:08 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff96d2dc1e2180
+07:31:08 kernel: RBP: ffffbaaf8054b710 R08: 000000000000034a R09: 0000000000000004
+07:31:08 kernel: RDX: 0000000000000001 RSI: 0000000000000086 RDI: 0000000000000247
+07:31:08 kernel: RAX: 0000000000000000 RBX: ffff96d2cc3efc00 RCX: 000000000000034a
+07:31:08 kernel: RSP: 0018:ffffbaaf8054b6c8 EFLAGS: 00010282
+07:31:08 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 11 d4 08 f8 4c 89 ea 48 c7 c7 bf 05 b8 c0 48 89 c6 e8 6a 29 a3 f7 <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 29 26 a3 f7
+07:31:08 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:08 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:31:08 kernel: CPU: 2 PID: 194 Comm: systemd-udevd Not tainted 5.4.0-47-generic #51-Ubuntu
+07:31:08 kernel: Modules linked in: nouveau(+) i915 crct10dif_pclmul crc32_pclmul ghash_clmulni_intel mxm_wmi aesni_intel i2c_algo_bit ttm crypto_simd drm_kms_helper cryptd glue_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse r8169 drm realtek i2c_i801 ahci libahci wmi video
+07:31:08 kernel: WARNING: CPU: 2 PID: 194 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:101 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:31:08 kernel: nouveau 0000:01:00.0: timeout
+07:31:08 kernel: ------------[ cut here ]------------
+07:31:08 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x396d4e5fc9d, max_idle_ns: 881590756024 ns
+07:31:08 kernel: tsc: Refined TSC clocksource calibration: 1991.998 MHz
+07:31:08 kernel: usb 1-7: SerialNumber: 00e04c000001
+07:31:08 kernel: i915 0000:00:02.0: fb0: i915drmfb frame buffer device
+07:31:08 kernel: fbcon: Deferring console take-over
+07:31:08 kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a/LNXVIDEO:01/input/input7
+07:31:08 kernel: ACPI: Video Device [PXSX] (multi-head: yes  rom: yes  post: no)
+07:31:08 kernel: [Firmware Bug]: ACPI(PXSX) defines _DOD but not _DOS
+07:31:08 kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input6
+07:31:08 kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+07:31:08 kernel: [drm] Initialized i915 1.6.0 20190822 for 0000:00:02.0 on minor 0
+07:31:08 kernel: nouveau 0000:01:00.0: fb: 4096 MiB GDDR5
+07:31:08 kernel: usb 1-3: SerialNumber: 200901010001
+07:31:08 kernel: nouveau 0000:01:00.0: bios: version 86.08.27.00.07
+07:31:08 kernel: [drm] Finished loading DMC firmware i915/kbl_dmc_ver1_04.bin (v1.4)
+07:31:08 kernel: i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+07:31:08 kernel: [drm] Driver supports precise vblank timestamp query.
+07:31:08 kernel: nouveau 0000:01:00.0: NVIDIA GP108 (138000a1)
+07:31:08 kernel: nouveau: detected PR support, will not use DSM
+07:31:08 kernel: VGA switcheroo: detected Optimus DSM method \_SB_.PCI0.RP01.PXSX handle
+07:31:08 kernel: pci 0000:01:00.0: optimus capabilities: enabled, status dynamic power, 
+07:31:08 kernel: ACPI Warning: \_SB.PCI0.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20190816/nsarguments-59)
+07:31:08 kernel: i915 0000:00:02.0: vgaarb: deactivate vga console
+07:31:08 kernel: fb0: switching to inteldrmfb from EFI VGA
+07:31:08 kernel: checking generic (c0000000 7e9000) vs hw (c0000000 10000000)
+07:31:08 kernel: r8169 0000:03:00.0 eno1: renamed from eth0
+07:31:08 kernel: libphy: r8169: probed
+07:31:08 kernel: AES CTR mode by8 optimization enabled
+07:31:08 kernel: AVX2 version of gcm_enc/dec engaged.
+07:31:08 kernel: cryptd: max_cpu_qlen set to 1000
+07:31:08 kernel: ata1: SATA max UDMA/133 abar m2048@0xb4234000 port 0xb4234100 irq 126
+07:31:08 kernel: scsi host0: ahci
+07:31:08 kernel: r8169 0000:03:00.0: can't disable ASPM; OS doesn't have ASPM control
+07:31:08 kernel: i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+07:31:08 kernel: ahci 0000:00:17.0: flags: 64bit ncq pm led clo only pio slum part deso sadm sds apst 
+07:31:08 kernel: wmi_bus wmi_bus-PNP0C14:01: WQBJ data block query control method not found
+07:31:08 kernel: usb 1-3: new high-speed USB device number 2 using xhci_hcd
+07:31:08 kernel: Run /init as init process
+07:31:08 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+07:31:08 kernel: Freeing unused kernel image memory: 1188K
+07:31:08 kernel: Write protecting the kernel read-only data: 22528k
+07:31:08 kernel: Freeing unused kernel image memory: 2716K
+07:31:08 kernel: Lockdown: swapper/0: hibernation is restricted; see man kernel_lockdown.7
+07:31:08 kernel: rtc_cmos 00:03: setting system clock to 2020-09-21T14:30:35 UTC (1600698635)
+07:31:08 kernel: tty ttyS16: hash matches
+07:31:08 kernel: PM:   Magic number: 4:559:536
+07:31:08 kernel: evm: HMAC attrs: 0x1
+07:31:08 kernel: ima: No architecture policies found
+07:31:08 kernel: integrity: Loaded X.509 cert 'Hewlett-Packard Company: HP UEFI Secure Boot 2013 DB key: 1d7cf2c2b92673f69c8ee1ec7063967ab9b62bec'
+07:31:08 kernel: AppArmor: AppArmor sha1 policy hashing enabled
+07:31:08 kernel: Key type encrypted registered
+07:31:08 kernel: zswap: loaded using pool lzo/zbud
+07:31:08 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 52d16be8a47f13ed569e4734dd7da053d9d3759d'
+07:31:08 kernel: Loading compiled-in X.509 certificates
+07:31:08 kernel: registered taskstats version 1
+07:31:08 kernel: sched_clock: Marking stable (756185160, 451085)->(761717203, -5080958)
+07:31:08 kernel: IPI shorthand broadcast: enabled
+07:31:08 kernel: microcode: Microcode Update Driver: v2.2.
+07:31:08 kernel: RAS: Correctable Errors collector initialized.
+07:31:08 kernel: Key type dns_resolver registered
+07:31:08 kernel: NET: Registered protocol family 17
+07:31:08 kernel: Segment Routing with IPv6
+07:31:08 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+07:31:08 kernel: NET: Registered protocol family 10
+07:31:08 kernel: drop_monitor: Initializing network drop monitor service
+07:31:08 kernel: intel_pmc_core INT33A1:00:  initialized
+07:31:08 kernel: EFI Variables Facility v0.08 2004-May-17
+07:31:08 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+07:31:08 kernel: intel_pstate: HWP enabled
+07:31:08 kernel: platform eisa.0: EISA: Detected 0 cards
+07:31:08 kernel: device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+07:31:08 kernel: device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+07:31:08 kernel: device-mapper: uevent: version 1.0.3
+07:31:08 kernel: i2c /dev entries driver
+07:31:08 kernel: rtc_cmos 00:03: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+07:31:08 kernel: mousedev: PS/2 mouse device common for all mice
+07:31:08 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+07:31:08 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+07:31:08 kernel: hub 2-0:1.0: 6 ports detected
+07:31:08 kernel: usb usb2: SerialNumber: 0000:00:14.0
+07:31:08 kernel: xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+07:31:08 kernel: hub 1-0:1.0: 12 ports detected
+07:31:08 kernel: usb usb1: SerialNumber: 0000:00:14.0
+07:31:08 kernel: xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+07:31:08 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+07:31:08 kernel: ohci-platform: OHCI generic platform driver
+07:31:08 kernel: ohci-pci: OHCI PCI platform driver
+07:31:08 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+07:31:08 kernel: ehci-platform: EHCI generic platform driver
+07:31:08 kernel: ehci-pci: EHCI PCI platform driver
+07:31:08 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+07:31:08 kernel: VFIO - User Level meta-driver version: 0.3
+07:31:08 kernel: PPP generic driver version 2.4.2
+07:31:08 kernel: tun: Universal TUN/TAP device driver, 1.6
+07:31:08 kernel: libphy: Fixed MDIO Bus: probed
+07:31:08 kernel: loop: module loaded
+07:31:08 kernel: battery: ACPI: Battery Slot [BAT0] (battery present)
+07:31:08 kernel: Linux agpgart interface v0.103
+07:31:08 kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+07:31:08 kernel: ACPI: Thermal Zone [TZ01] (40 C)
+07:31:08 kernel: thermal LNXTHERM:00: registered as thermal_zone0
+07:31:08 kernel: [Firmware Bug]: Invalid critical threshold (0)
+07:31:08 kernel: ACPI: Power Button [PWRF]
+07:31:08 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+07:31:08 kernel: ACPI: Power Button [PWRB]
+07:31:08 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+07:31:08 kernel: ACPI: Lid Switch [LID0]
+07:31:08 kernel: input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+07:31:08 kernel: ACPI: AC Adapter [ADP1] (on-line)
+07:31:08 kernel: intel_idle: lapic_timer_reliable_states 0xffffffff
+07:31:08 kernel: fb0: EFI VGA frame buffer device
+07:31:08 kernel: fbcon: Deferring console take-over
+07:31:08 kernel: efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+07:31:08 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+07:31:08 kernel: pcieport 0000:00:1c.5: AER: enabled with IRQ 124
+07:31:08 kernel: io scheduler mq-deadline registered
+07:31:08 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+07:31:08 kernel: Asymmetric key parser 'x509' registered
+07:31:08 kernel: Key type asymmetric registered
+07:31:08 kernel: Platform Keyring initialized
+07:31:08 kernel: *** VALIDATE fuse ***
+07:31:08 kernel: fuse: init (API version 7.31)
+07:31:08 kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+07:31:08 kernel: zbud: loaded
+07:31:08 kernel: workingset: timestamp_bits=36 max_order=22 bucket_order=0
+07:31:08 kernel: Key type blacklist registered
+07:31:08 kernel: Initialise system trusted keyrings
+07:31:08 kernel: check: Scanning for low memory corruption every 60 seconds
+07:31:08 kernel: software IO TLB: mapped [mem 0x856cb000-0x896cb000] (64MB)
+07:31:08 kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+07:31:08 kernel: Freeing initrd memory: 82380K
+07:31:08 kernel: Initramfs unpacking failed: Decoding failed
+07:31:08 kernel: Trying to unpack rootfs image as initramfs...
+07:31:08 kernel: PCI: CLS 64 bytes, default 64
+07:31:08 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+07:31:08 kernel: NET: Registered protocol family 44
+07:31:08 kernel: UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+07:31:08 kernel: UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+07:31:08 kernel: TCP: Hash tables configured (established 131072 bind 65536)
+07:31:08 kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+07:31:08 kernel: tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+07:31:08 kernel: NET: Registered protocol family 2
+07:31:08 kernel: pci_bus 0000:03: resource 1 [mem 0xb4000000-0xb40fffff]
+07:31:08 kernel: pci 0000:00:1c.5:   bridge window [mem 0xb4000000-0xb40fffff]
+07:31:08 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+07:31:08 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+07:31:08 kernel: pnp: PnP ACPI: found 8 devices
+07:31:08 kernel: system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+07:31:08 kernel: pnp 00:05: Plug and Play ACPI device, IDs ETD073e SYN1e00 SYN0002 PNP0f13 (active)
+07:31:08 kernel: system 00:02: Plug and Play ACPI device, IDs PNP0c02 (active)
+07:31:08 kernel: pnp: PnP ACPI init
+07:31:08 kernel: AppArmor: AppArmor Filesystem Enabled
+07:31:08 kernel: *** VALIDATE hugetlbfs ***
+07:31:08 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+07:31:08 kernel: *** VALIDATE bpf ***
+07:31:08 kernel: clocksource: Switched to clocksource tsc-early
+07:31:08 kernel: hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+07:31:08 kernel: NetLabel:  unlabeled traffic allowed by default
+07:31:08 kernel: e820: reserve RAM buffer [mem 0x46f000000-0x46fffffff]
+07:31:08 kernel: PCI: pci_cache_line_size set to 64 bytes
+07:31:08 kernel: Registered efivars operations
+07:31:08 kernel: EDAC MC: Ver: 3.0.0
+07:31:08 kernel: PTP clock support registered
+07:31:08 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+07:31:08 kernel: usbcore: registered new device driver usb
+07:31:08 kernel: ACPI: bus type USB registered
+07:31:08 kernel: vgaarb: loaded
+07:31:08 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+07:31:08 kernel: libata version 3.00 loaded.
+07:31:08 kernel: SCSI subsystem initialized
+07:31:08 kernel: iommu: Default domain type: Translated 
+07:31:08 kernel: ACPI: \_SB_.PCI0.LPCB.EC0_: Boot DSDT EC used to handle transactions and events
+07:31:08 kernel: pci 0000:00:1c.5:   bridge window [mem 0xb4000000-0xb40fffff]
+07:31:07 kernel: pci_bus 0000:00: root bus resource [bus 00-fe]
+07:31:07 kernel: PCI host bridge to bus 0000:00
+07:31:07 kernel: acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+07:31:07 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+07:31:07 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+07:31:07 kernel: ACPI: Using IOAPIC for interrupt routing
+07:31:07 kernel: HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+07:31:07 kernel: ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+07:31:07 kernel: PCI: Using configuration type 1 for base access
+07:31:07 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+07:31:07 kernel: ACPI: bus type PCI registered
+07:31:07 kernel: ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+07:31:07 kernel: Simple Boot Flag at 0x44 set to 0x1
+07:31:07 kernel: cpuidle: using governor menu
+07:31:07 kernel: EISA bus registered
+07:31:07 kernel: audit: type=2000 audit(1600698634.040:1): state=initialized audit_enabled=0 res=1
+07:31:07 kernel: NET: Registered protocol family 16
+07:31:07 kernel: PM: RTC time: 14:30:34, date: 2020-09-21
+07:31:07 kernel: pinctrl core: initialized pinctrl subsystem
+07:31:07 kernel: futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+07:31:07 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+07:31:07 kernel: PM: Registering ACPI NVS region [mem 0x8a88e000-0x8af7dfff] (7274496 bytes)
+07:31:07 kernel: x86/mm: Memory block size: 128MB
+07:31:07 kernel: devtmpfs: initialized
+07:31:07 kernel: smpboot: Total of 8 processors activated (31999.48 BogoMIPS)
+07:31:07 kernel: smp: Brought up 1 node, 8 CPUs
+07:31:07 kernel:  #5 #6 #7
+07:31:07 kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+07:31:07 kernel: .... node  #0, CPUs:      #1 #2 #3 #4
+07:31:07 kernel: x86: Booting SMP configuration:
+07:31:07 kernel: smp: Bringing up secondary CPUs ...
+07:31:07 kernel: NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+07:31:07 kernel: rcu: Hierarchical SRCU implementation.
+07:31:07 kernel: ... event mask:             000000070000000f
+07:31:07 kernel: Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver.
+07:31:07 kernel: smpboot: CPU0: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz (family: 0x6, model: 0x8e, stepping: 0xa)
+07:31:07 kernel: Freeing SMP alternatives memory: 40K
+07:31:07 kernel: MDS: Mitigation: Clear CPU buffers
+07:31:07 kernel: SRBDS: Mitigation: Microcode
+07:31:07 kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+07:31:07 kernel: Spectre V2 : User space: Mitigation: STIBP via seccomp and prctl
+07:31:07 kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+07:31:07 kernel: process: using mwait in idle threads
+07:31:07 kernel: mce: CPU0: Thermal monitoring enabled (TM1)
+07:31:07 kernel: *** VALIDATE cgroup2 ***
+07:31:07 kernel: Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+07:31:07 kernel: Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+07:31:07 kernel: AppArmor: AppArmor initialized
+07:31:07 kernel: Yama: becoming mindful.
+07:31:07 kernel: LSM: Security Framework initializing
+07:31:07 kernel: pid_max: default: 32768 minimum: 301
+07:31:07 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 3999.93 BogoMIPS (lpj=7999872)
+07:31:07 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x39a8208cdd2, max_idle_ns: 881590748921 ns
+07:31:07 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+07:31:07 kernel: x2apic: IRQ remapping doesn't support X2APIC mode
+07:31:07 kernel: DMAR-IR: Enabled IRQ remapping in xapic mode
+07:31:07 kernel: DMAR: RMRR base: 0x0000008b800000 end: 0x0000008fffffff
+07:31:07 kernel: APIC: Switch to symmetric I/O mode setup
+07:31:07 kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635855245 ns
+07:31:07 kernel: ACPI: Core revision 20190816
+07:31:07 kernel: printk: console [tty0] enabled
+07:31:07 kernel: Console: colour dummy device 80x25
+07:31:07 kernel: vt handoff: transparent VT on vt#7
+07:31:07 kernel: random: crng done (trusting CPU's manufacturer)
+07:31:07 kernel: NR_IRQS: 524544, nr_irqs: 2048, preallocated irqs: 16
+07:31:07 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+07:31:07 kernel: 	Tasks RCU enabled.
+07:31:07 kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+07:31:07 kernel: ftrace: allocating 44505 entries in 174 pages
+07:31:07 kernel: Kernel/User page tables isolation: enabled
+07:31:07 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+07:31:07 kernel: random: get_random_u64 called from kmem_cache_open+0x2d/0x410 with crng_init=0
+07:31:07 kernel: Memory: 16153244K/16658916K available (14339K kernel code, 2398K rwdata, 4956K rodata, 2716K init, 4988K bss, 505672K reserved, 0K cma-reserved)
+07:31:07 kernel: Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+07:31:07 kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+07:31:07 kernel: Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+07:31:07 kernel: Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+07:31:07 kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-5.4.0-47-generic root=/dev/mapper/vgubuntu-root ro quiet splash vt.handoff=7
+07:31:07 kernel: Policy zone: Normal
+07:31:07 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 4099632
+07:31:07 kernel: pcpu-alloc: [0] 0 1 2 3 4 5 6 7 
+07:31:07 kernel: percpu: Embedded 54 pages/cpu s184320 r8192 d28672 u262144
+07:31:07 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+07:31:07 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+07:31:07 kernel: Booting paravirtualized kernel on bare hardware
+07:31:07 kernel: [mem 0x90000000-0xdfffffff] available for PCI devices
+07:31:07 kernel: PM: Registered nosave memory: [mem 0xffa00000-0xffffffff]
+07:31:07 kernel: smpboot: Allowing 8 CPUs, 0 hotplug CPUs
+07:31:07 kernel: TSC deadline timer available
+07:31:07 kernel: e820: update [mem 0x7a15f000-0x7a172fff] usable ==> reserved
+07:31:07 kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+07:31:07 kernel: Using ACPI (MADT) for SMP configuration information
+07:31:07 kernel: ACPI: IRQ9 used by override.
+07:31:07 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+07:31:07 kernel: ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+07:31:07 kernel: Reserving Intel graphics memory at [mem 0x8c000000-0x8fffffff]
+07:31:07 kernel:   Normal zone: 3600384 pages, LIFO batch:63
+07:31:07 kernel: On node 0 totalpages: 4164729
+07:31:07 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000046effffff]
+07:31:07 kernel: Zeroed struct page in unavailable ranges: 29575 pages
+07:31:07 kernel:   node   0: [mem 0x0000000100000000-0x000000046effffff]
+07:31:07 kernel: Early memory node ranges
+07:31:07 kernel: Movable zone start for each node
+07:31:07 kernel:   Device   empty
+07:31:07 kernel: Zone ranges:
+07:31:07 kernel: NODE_DATA(0) allocated [mem 0x46efd5000-0x46effffff]
+07:31:07 kernel: Faking a node at [mem 0x0000000000000000-0x000000046effffff]
+07:31:07 kernel: No NUMA configuration found
+07:31:07 kernel: ACPI: Local APIC address 0xfee00000
+07:31:07 kernel: RAMDISK: [mem 0x3af8b000-0x3fffdfff]
+07:31:07 kernel: secureboot: Secure boot enabled
+07:31:07 kernel: Using GB pages for direct mapping
+07:31:07 kernel: check: Scanning 1 areas for low memory corruption
+07:31:07 kernel: esrt: Reserving ESRT space from 0x000000008a0947d8 to 0x000000008a094810.
+07:31:07 kernel: last_pfn = 0x8afff max_arch_pfn = 0x400000000
+07:31:07 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+07:31:07 kernel:   9 disabled
+07:31:07 kernel: MTRR variable ranges enabled:
+07:31:07 kernel:   C0000-FFFFF write-protect
+07:31:07 kernel: MTRR fixed ranges enabled:
+07:31:07 kernel: last_pfn = 0x46f000 max_arch_pfn = 0x400000000
+07:31:07 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+07:31:07 kernel: tsc: Detected 1999.968 MHz TSC
+07:31:07 kernel: DMI: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:31:07 kernel: SMBIOS 3.0.0 present.
+07:31:07 kernel: Kernel is locked down from EFI Secure Boot mode; see man kernel_lockdown.7
+07:31:07 kernel: secureboot: Secure boot enabled
+07:31:07 kernel: [Firmware Bug]: TPM Final Events table missing or invalid
+07:31:07 kernel: efi:  ACPI 2.0=0x8affd014  SMBIOS=0x8a098000  SMBIOS 3.0=0x8a096000  ESRT=0x8a0947d8  MEMATTR=0x7a942018  TPMEventLog=0x71b5e018 
+07:31:07 kernel: reserve setup_data: [mem 0x0000000100000000-0x000000046effffff] usable
+07:31:07 kernel: extended physical RAM map:
+07:31:07 kernel: e820: update [mem 0x71b11018-0x71b1f057] usable ==> usable
+07:31:07 kernel: NX (Execute Disable) protection: active
+07:31:07 kernel: BIOS-e820: [mem 0x0000000100000000-0x000000046effffff] usable
+07:31:07 kernel: BIOS-provided physical RAM map:
+07:31:07 kernel: x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+07:31:07 kernel:   zhaoxin   Shanghai  
+07:31:07 kernel:   zhaoxin   Shanghai  
+07:31:07 kernel:   Centaur CentaurHauls
+07:31:07 kernel:   Hygon HygonGenuine
+07:31:07 kernel:   AMD AuthenticAMD
+07:31:07 kernel:   Intel GenuineIntel
+07:31:07 kernel: KERNEL supported cpus:
+07:31:07 kernel: Command line: BOOT_IMAGE=/vmlinuz-5.4.0-47-generic root=/dev/mapper/vgubuntu-root ro quiet splash vt.handoff=7
+07:31:07 kernel: Linux version 5.4.0-47-generic (buildd@lcy01-amd64-014) (gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2)) #51-Ubuntu SMP Fri Sep 4 19:50:52 UTC 2020 (Ubuntu 5.4.0-47.51-generic 5.4.55)
+07:31:07 kernel: microcode: microcode updated early to revision 0xd6, date = 2020-04-27
