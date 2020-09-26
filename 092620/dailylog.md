@@ -1,0 +1,1 @@
+This person is persistent. He has to be around the area to keep intruding my personal laptop. This is problematic. He is interferring with my daily life. Vindictive person trying to gather data on me.
