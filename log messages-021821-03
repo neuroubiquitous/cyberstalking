@@ -1,0 +1,497 @@
+07:40:40 systemd: tracker-store.service: Succeeded.
+07:40:40 tracker-store: OK
+07:40:40 systemd: systemd-localed.service: Succeeded.
+07:40:37 realmd: stopping service
+07:40:36 systemd: systemd-hostnamed.service: Succeeded.
+07:40:34 geoclue: Service not used for 60 seconds. Shutting down..
+07:40:30 NetworkManager: <info>  [1613662830.5139] manager: NetworkManager state is now DISCONNECTED
+07:40:30 avahi-daemon: Interface eno1.IPv6 no longer relevant for mDNS.
+07:40:30 NetworkManager: <info>  [1613662830.5096] dhcp4 (eno1): state changed unknown -> done
+07:40:27 systemd: Condition check resulted in Bluetooth service being skipped.
+07:40:27 dbus-daemon: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.98' (uid=1000 pid=2303 comm="/opt/keybase/Keybase " label="unconfined")
+07:40:26 Keybase: Version: 5.6.1-20210125164223+f3b21527b9
+07:40:26 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.Logs'
+07:40:26 snap-store: adding wildcard app */*/*/*/org.gnome.Weather/* to plugin cache
+07:40:25 packagekitd: refresh-cache transaction /855_cbcbceda from uid 1000 finished with failed after 1417ms
+07:40:24 dbus-daemon: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=1740 peer_label="unconfined"
+07:40:24 kernel: audit: type=1400 audit(1613662824.115:47): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/PackageKit/Vendor.conf" pid=1964 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+07:40:24 snap-store: /etc/PackageKit/Vendor.conf file not found
+07:40:23 kernel: r8169 0000:02:00.0 eno1: Link is Down
+07:40:23 systemd: Removed slice User Slice of UID 126.
+07:40:23 tracker-miner-f: OK
+07:40:23 systemd: Stopped D-Bus User Message Bus.
+07:40:23 tracker-miner-f: Error while sending AddMatch() message: The connection is closed
+07:40:23 systemd: Stopping Tracker file system data miner...
+07:40:23 gvfsd: A connection to the bus can't be made
+07:40:23 systemd: Stopped target Main User Target.
+07:40:23 avahi-daemon: Registering new address record for fe80::4dd8:13fc:38e6:217b on eno1.*.
+07:40:23 NetworkManager: <info>  [1613662823.4700] dhcp4 (eno1): activation: beginning transaction (timeout in 45 seconds)
+07:40:23 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+07:40:23 kernel: r8169 0000:02:00.0 eno1: Link is Up - 1Gbps/Full - flow control rx/tx
+07:40:23 NetworkManager: <info>  [1613662823.4645] device (eno1): carrier: link connected
+07:40:22 snap-store: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+07:40:22 kernel: audit: type=1107 audit(1613662822.239:46): pid=854 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.7" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=865 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:40:22 kernel: USER_AVC pid=854 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.7" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=865 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:40:21 kernel: audit: type=1107 audit(1613662821.775:44): pid=854 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.7" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=865 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:40:21 kernel: USER_AVC pid=854 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.7" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=865 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:40:21 snap-store: plugin fwupd took 3.4 seconds to do setup
+07:40:21 systemd: Started Firmware update daemon.
+07:40:21 dbus-daemon: [system] Successfully activated service 'org.freedesktop.fwupd'
+07:40:21 systemd: app-gnome-keybase_autostart-1876.scope: Succeeded.
+07:40:21 bash: run_keybase: Success!
+07:40:21 systemd: Started Keybase GUI.
+07:40:19 gnome-shell: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+07:40:18 pulseaudio: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+07:40:18 dbus-daemon: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+07:40:18 systemd: Starting Firmware update daemon...
+07:40:18 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.96' (uid=1000 pid=1964 comm="/snap/snap-store/518/usr/bin/snap-store --gapplica" label="snap.snap-store.ubuntu-software (enforce)")
+07:40:17 kernel: audit: type=1107 audit(1613662817.699:42): pid=854 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.17" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=855 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:40:17 kernel: USER_AVC pid=854 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.17" pid=1964 label="snap.snap-store.ubuntu-software" peer_pid=855 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+07:40:17 kernel: audit: type=1326 audit(1613662817.059:41): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1964 comm="snap-store" exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fa98d98d639 code=0x50000
+07:40:17 snap-store: SECCOMP auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1964 comm="snap-store" exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fa98d98d639 code=0x50000
+07:40:16 systemd: Started Keybase Root Redirector for KBFS.
+07:40:16 fusermount: fusermount: entry for /run/user/1000/keybase/kbfs not found in /etc/mtab
+07:40:16 keybase: 2021-02-18T07:40:16.141365-08:00 ▶ [WARN keybase json.go:81] 003 Permission denied opening updater config file /etc/keybase/updater.json
+07:40:16 systemd: Starting Keybase Root Redirector for KBFS...
+07:40:14 systemd-xdg-aut: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.UsbProtection-autostart.service, startup phases are not supported.
+07:40:14 systemd: Reloading.
+07:40:14 bash: Starting via systemd...
+07:40:14 gnome-shell: Error while loading thumbnail: Error: Argument width: value is out of range for gfloat
+07:40:13 polkitd: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+07:40:13 systemd: anacron.service: Succeeded.
+07:40:13 anacron: Normal exit (0 jobs run)
+07:40:13 systemd-logind: Removed session c1.
+07:40:13 systemd: Started Run anacron jobs.
+07:40:13 kernel: ---[ end trace 090d54c3ddb39584 ]---
+07:40:13 kernel: R13: 0000000000000000 R14: 000055d0099e2128 R15: 000055d00af32bd0
+07:40:13 kernel: R10: 0000000000000000 R11: 0000000000000293 R12: 0000000000000000
+07:40:13 kernel: RBP: 0000000000000078 R08: 0000000000000000 R09: 000055d0099e0ca7
+07:40:13 kernel: RDX: 0000000000000002 RSI: 000055d00af24370 RDI: 0000000000000078
+07:40:13 kernel: RAX: 0000000000000000 RBX: 00007f6056b92750 RCX: 00007f605777751b
+07:40:13 kernel: RSP: 002b:00007fff9a479070 EFLAGS: 00000293 ORIG_RAX: 0000000000000003
+07:40:13 kernel: Code: 03 00 00 00 0f 05 48 3d 00 f0 ff ff 77 41 c3 48 83 ec 18 89 7c 24 0c e8 c3 74 f8 ff 8b 7c 24 0c 41 89 c0 b8 03 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 35 44 89 c7 89 44 24 0c e8 21 75 f8 ff 8b 44
+07:40:13 kernel: RIP: 0033:0x7f605777751b
+07:40:13 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:40:13 kernel: Call Trace:
+07:40:13 kernel: CR2: 000000c000026f8c CR3: 000000045dce4005 CR4: 00000000003606f0
+07:40:13 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:40:13 kernel: FS:  00007f6056b92980(0000) GS:ffff894061e00000(0000) knlGS:0000000000000000
+07:40:13 kernel: R13: ffff89405edabf00 R14: 000000194e39b6f5 R15: 0000000000000000
+07:40:13 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff89404dd82e00
+07:40:13 kernel: RBP: ffffad6a0009b9e0 R08: 0000000000000004 R09: 00000000000005a0
+07:40:13 kernel: RDX: 00000000ffffffd8 RSI: 0000000000000027 RDI: ffff894061e18cd0
+07:40:13 kernel: RAX: 0000000000000000 RBX: ffff89404e063c00 RCX: ffff894061e18cd8
+07:40:13 kernel: RSP: 0018:ffffad6a0009b998 EFLAGS: 00010282
+07:40:13 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 d1 4b 8f ef 4c 89 ea 48 c7 c7 2a d8 9d c0 48 89 c6 e8 54 91 1e ef <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 f9 13 d0 ef
+07:40:13 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:40:13 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:40:13 kernel: CPU: 0 PID: 1 Comm: systemd Tainted: G        W         5.8.0-43-generic #49-Ubuntu
+07:40:13 kernel:  syscopyarea sysfillrect sysimgblt aesni_intel crypto_simd fb_sys_fops cec rc_core cryptd glue_helper ahci drm psmouse r8169 i2c_i801 i2c_smbus realtek xhci_pci libahci xhci_pci_renesas wmi video
+07:40:13 kernel: Modules linked in: nls_iso8859_1 snd_hda_codec_hdmi snd_hda_codec_realtek uvcvideo snd_hda_codec_generic ledtrig_audio videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 snd_hda_intel snd_intel_dspcfg videobuf2_common snd_hda_codec videodev snd_hda_core mc hid_multitouch snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore intel_rapl_msr ee1004 mei_hdcp mei_me mei intel_xhci_usb_role_switch input_leds roles joydev acpi_pad processor_thermal_device intel_soc_dts_iosf intel_pch_thermal intel_rapl_common int3403_thermal int340x_thermal_zone hp_accel lis3lv02d x86_pkg_temp_thermal intel_powerclamp coretemp int3400_thermal acpi_thermal_rel hp_wmi mac_hid hp_wireless serio_raw rapl intel_cstate efi_pstore wmi_bmof sparse_keymap sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau mxm_wmi i915 ttm i2c_algo_bit crct10dif_pclmul drm_kms_helper crc32_pclmul ghash_clmulni_intel
+07:40:13 kernel: WARNING: CPU: 0 PID: 1 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:107 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:40:13 kernel: nouveau 0000:01:00.0: timeout
+07:40:13 kernel: ------------[ cut here ]------------
+07:40:11 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:40:11 systemd: pulseaudio.service: Succeeded.
+07:40:11 systemd-logind: Session c1 logged out. Waiting for processes to exit.
+07:40:11 gsd-color: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_AU_Optronics_gdm_126
+07:40:11 gdm-session-wor: pam_unix(gdm-launch-environment:session): session closed for user gdm
+07:40:11 gnome-shell: Registering session with GDM
+07:40:10 systemd: Started Evolution address book service.
+07:40:10 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+07:40:10 systemd: Starting Evolution address book service...
+07:40:10 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.72' (uid=1000 pid=2017 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+07:40:09 systemd: Started Evolution calendar service.
+07:40:09 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+07:40:09 systemd: Condition check resulted in GNOME Welcome Tour being skipped.
+07:40:09 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.freedesktop.FileManager1'
+07:40:09 kernel: audit: type=1400 audit(1613662809.027:40): apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=1964 comm="snap-confine" capability=4  capname="fsetid"
+07:40:09 snap-confine: AVC apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=1964 comm="snap-confine" capability=4  capname="fsetid"
+07:40:09 systemd: tmp-snap.rootfs_5r9XAG.mount: Succeeded.
+07:40:07 gnome-shell: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+07:40:07 colord: failed to get session [pid 1833]: No data available
+07:40:07 systemd: Starting Evolution calendar service...
+07:40:07 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.47' (uid=1000 pid=1778 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+07:40:07 systemd: Started Evolution source registry.
+07:40:07 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+07:40:07 systemd: Started flatpak document portal service.
+07:40:07 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.freedesktop.portal.Documents'
+07:40:07 systemd: app-gnome-user\x2ddirs\x2dupdate\x2dgtk-1879.scope: Succeeded.
+07:40:07 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.70' (uid=1000 pid=1964 comm="/snap/bin/snap-store.ubuntu-software --gapplicatio" label="unconfined")
+07:40:06 systemd: fprintd.service: Succeeded.
+07:40:06 gnome-shell: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+07:40:06 gsd-media-keys: Failed to grab accelerator for keybinding settings:rotate-video-lock
+07:40:06 systemd: Reached target GNOME Wacom tablet support target.
+07:40:06 gnome-shell: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 51 failed: Permission denied
+07:40:06 gnome-session-b: GnomeDesktop-WARNING: Could not create transient scope for PID 1877: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1877 does not exist.
+07:40:06 systemd: Started GNOME color management service.
+07:40:06 NetworkManager: <info>  [1613662806.3077] agent-manager: agent[3a5af4317cdb1c60,:1.80/org.gnome.Shell.NetworkAgent/1000]: agent registered
+07:40:06 kernel: rfkill: input handler disabled
+07:40:06 gnome-session-b: GnomeDesktop-WARNING: Could not create transient scope for PID 1854: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1854 does not exist.
+07:40:06 gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+07:40:06 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.Shell.Notifications'
+07:40:06 systemd: Finished Signal initialization done to GNOME Session Manager.
+07:40:06 dbus-daemon: [session uid=1000 pid=1505] Activating service name='org.gnome.Shell.Notifications' requested by ':1.38' (uid=1000 pid=1740 comm="/usr/bin/gnome-shell " label="unconfined")
+07:40:05 systemd: Starting Evolution source registry...
+07:40:05 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.47' (uid=1000 pid=1778 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+07:40:05 gnome-shell: Telepathy is not available, chat integration will be disabled.
+07:40:05 polkitd: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+07:40:05 dbus-daemon: [session uid=1000 pid=1505] Activating service name='ca.desrt.dconf' requested by ':1.38' (uid=1000 pid=1740 comm="/usr/bin/gnome-shell " label="unconfined")
+07:40:05 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+07:40:05 systemd: Started sandboxed app permission store.
+07:40:05 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+07:40:05 at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+07:40:05 dbus-daemon: dbus-daemon[1704]: Successfully activated service 'org.a11y.atspi.Registry'
+07:40:05 systemd: Starting sandboxed app permission store...
+07:40:05 dbus-daemon: dbus-daemon[1704]: Activating service name='org.a11y.atspi.Registry' requested by ':1.3' (uid=1000 pid=1780 comm="/usr/libexec/ibus-x11 --kill-daemon " label="unconfined")
+07:40:05 gnome-shell: Will monitor session 2
+07:40:04 systemd: app-gnome-pulseaudio-1737.scope: Succeeded.
+07:40:04 Xorg: (II) modeset(0): Modeline "1920x1080"x0.0   94.00  1920 2028 2076 2100  1080 1090 1100 1116 -hsync -vsync (44.8 kHz e)
+07:40:04 systemd: app-gnome-at\x2dspi\x2ddbus\x2dbus-1739.scope: Succeeded.
+07:40:04 gnome-keyring-d: The Secret Service was already initialized
+07:40:04 systemd: Started Application launched by gnome-session-binary.
+07:40:04 gnome-keyring-d: The PKCS#11 component was already initialized
+07:40:04 kernel: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+07:40:04 systemd: Started Application launched by gnome-session-binary.
+07:40:02 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.a11y.Bus'
+07:40:02 systemd: Starting Accessibility services bus...
+07:40:02 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.19' (uid=1000 pid=1694 comm="/usr/libexec/gnome-session-check-accelerated " label="unconfined")
+07:40:02 dbus-update-act: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+07:40:01 xhost: localuser:az being added to access control list
+07:40:01 dbus-update-act: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+07:40:01 kernel: localuser:az being added to access control list
+07:40:01 Xsession: /etc/gdm3/Xsession: Beginning session setup...
+07:40:01 Xorg: (II) event9  - HP WMI hotkeys: device is a keyboard
+07:39:59 systemd: Startup finished in 2.322s.
+07:39:59 goa-daemon: goa-daemon version 3.37.90 starting
+07:39:59 systemd: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+07:39:59 rtkit-daemon: Supervising 7 threads of 2 processes of 2 users.
+07:39:59 systemd: Starting Virtual filesystem service - Apple File Conduit monitor...
+07:39:59 rtkit-daemon: Successfully made thread 1589 of process 1499 owned by '1000' RT at priority 5.
+07:39:59 systemd: Started Virtual filesystem service - disk device monitor.
+07:39:59 rtkit-daemon: Supervising 6 threads of 2 processes of 2 users.
+07:39:59 systemd: Starting Virtual filesystem service - disk device monitor...
+07:39:59 rtkit-daemon: Supervising 6 threads of 2 processes of 2 users.
+07:39:59 systemd: Started Virtual filesystem service.
+07:39:59 rtkit-daemon: Successfully made thread 1588 of process 1499 owned by '1000' RT at priority 5.
+07:39:59 systemd: Starting Virtual filesystem service...
+07:39:59 rtkit-daemon: Supervising 5 threads of 2 processes of 2 users.
+07:39:59 systemd: Started D-Bus User Message Bus.
+07:39:59 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.freedesktop.Tracker1'
+07:39:59 tracker-extract: Setting priority nice level to 19
+07:39:59 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:59 tracker-extract: Set scheduler policy to SCHED_IDLE
+07:39:59 rtkit-daemon: Supervising 5 threads of 2 processes of 2 users.
+07:39:59 tracker-miner-f: Setting priority nice level to 19
+07:39:59 rtkit-daemon: Successfully made thread 1574 of process 1499 owned by '1000' RT at priority 5.
+07:39:59 tracker-miner-f: Set scheduler policy to SCHED_IDLE
+07:39:59 rtkit-daemon: Supervising 4 threads of 2 processes of 2 users.
+07:39:59 Xorg: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+07:39:59 systemd: Starting Tracker file system data miner...
+07:39:59 gdm-session-wor: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+07:39:59 Xorg: (II) LoadModule: "vesa"
+07:39:59 systemd: Starting Tracker metadata extractor...
+07:39:59 dbus-daemon: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.72' (uid=1000 pid=1499 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+07:39:58 Xorg: 	Entry deleted from font path.
+07:39:58 systemd: Started Session 2 of user az.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+07:39:58 systemd: Starting Sound Service...
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:58 systemd: Started User Manager for UID 1000.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+07:39:58 systemd: Reached target Basic System.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.Identity'
+07:39:58 systemd: Reached target Sockets.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gnome.OnlineAccounts'
+07:39:58 systemd: Listening on D-Bus User Message Bus Socket.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating service name='org.gnome.Identity' requested by ':1.9' (uid=1000 pid=1551 comm="/usr/libexec/goa-daemon " label="unconfined")
+07:39:58 systemd: Listening on REST API socket for snapd user session agent.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating service name='org.gnome.OnlineAccounts' requested by ':1.8' (uid=1000 pid=1547 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+07:39:58 systemd: Listening on Sound System.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:58 systemd: Listening on debconf communication socket.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+07:39:58 systemd: Listening on GnuPG cryptographic agent and passphrase cache.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:58 systemd: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+07:39:58 systemd: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:58 systemd: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+07:39:58 systemd: Listening on GnuPG network certificate management daemon.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:58 systemd: Starting D-Bus User Message Bus Socket.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Successfully activated service 'org.gtk.vfs.Daemon'
+07:39:58 systemd: Reached target Timers.
+07:39:58 dbus-daemon: [session uid=1000 pid=1505] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=1000 pid=1501 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:58 systemd: Reached target Paths.
+07:39:58 rtkit-daemon: Supervising 4 threads of 2 processes of 2 users.
+07:39:58 systemd: Started Pending report trigger for Ubuntu Report.
+07:39:57 systemd-xdg-aut: gnome-systemd-autostart-condition not found: No such file or directory
+07:39:57 rtkit-daemon: Successfully made thread 1499 of process 1499 owned by '1000' high priority at nice level -11.
+07:39:57 systemd: Queued start job for default target Main User Target.
+07:39:56 systemd-xdg-aut: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.Rfkill-autostart.service, startup phases are not supported.
+07:39:56 dbus-daemon: [session uid=1000 pid=1505] AppArmor D-Bus mediation is enabled
+07:39:56 kernel: OK
+07:39:56 kernel: rfkill: input handler enabled
+07:39:56 kernel: ---[ end trace 090d54c3ddb39583 ]---
+07:39:56 kernel: R13: 0000000000000006 R14: 00007ffdb8d91458 R15: 00007ffdb8d91470
+07:39:56 kernel: R10: 00007ffdb8d91250 R11: 0000000000000246 R12: 00007ffdb8d91248
+07:39:56 kernel: RBP: 00007ffdb8d91250 R08: 0000000000000001 R09: 0000562348f3aac0
+07:39:56 kernel: RDX: 0000000000000000 RSI: 000000000000641f RDI: 000000000000001b
+07:39:56 kernel: RAX: ffffffffffffffda RBX: 0000562348f5a0f0 RCX: 00007f520704b31b
+07:39:56 kernel: RSP: 002b:00007ffdb8d91228 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+07:39:56 kernel: Code: 89 d8 49 8d 3c 1c 48 f7 d8 49 39 c4 72 b5 e8 1c ff ff ff 85 c0 78 ba 4c 89 e0 5b 5d 41 5c c3 f3 0f 1e fa b8 10 00 00 00 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 1d 3b 0d 00 f7 d8 64 89 01 48
+07:39:56 kernel: RIP: 0033:0x7f520704b31b
+07:39:56 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:39:56 kernel: Call Trace:
+07:39:56 kernel: CR2: 0000556c251deb88 CR3: 000000045694c005 CR4: 00000000003606e0
+07:39:56 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:39:56 kernel: FS:  00007f52063299c0(0000) GS:ffff894061ec0000(0000) knlGS:0000000000000000
+07:39:56 kernel: R13: ffff89405edabf00 R14: 000000154802a7a9 R15: 0000000000000000
+07:39:56 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff89404dd82e00
+07:39:56 kernel: RBP: ffffad6a008e7b88 R08: 0000000000000004 R09: 0000000000000564
+07:39:56 kernel: RDX: 00000000ffffffd8 RSI: 0000000000000027 RDI: ffff894061ed8cd0
+07:39:56 kernel: RAX: 0000000000000000 RBX: ffff89404e063c00 RCX: ffff894061ed8cd8
+07:39:56 kernel: RSP: 0018:ffffad6a008e7b40 EFLAGS: 00010286
+07:39:56 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 d1 4b 8f ef 4c 89 ea 48 c7 c7 2a d8 9d c0 48 89 c6 e8 54 91 1e ef <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 f9 13 d0 ef
+07:39:56 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:39:56 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:39:56 kernel: CPU: 3 PID: 896 Comm: systemd-logind Tainted: G        W         5.8.0-43-generic #49-Ubuntu
+07:39:56 kernel:  syscopyarea sysfillrect sysimgblt aesni_intel crypto_simd fb_sys_fops cec rc_core cryptd glue_helper ahci drm psmouse r8169 i2c_i801 i2c_smbus realtek xhci_pci libahci xhci_pci_renesas wmi video
+07:39:56 kernel: Modules linked in: nls_iso8859_1 snd_hda_codec_hdmi snd_hda_codec_realtek uvcvideo snd_hda_codec_generic ledtrig_audio videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 snd_hda_intel snd_intel_dspcfg videobuf2_common snd_hda_codec videodev snd_hda_core mc hid_multitouch snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore intel_rapl_msr ee1004 mei_hdcp mei_me mei intel_xhci_usb_role_switch input_leds roles joydev acpi_pad processor_thermal_device intel_soc_dts_iosf intel_pch_thermal intel_rapl_common int3403_thermal int340x_thermal_zone hp_accel lis3lv02d x86_pkg_temp_thermal intel_powerclamp coretemp int3400_thermal acpi_thermal_rel hp_wmi mac_hid hp_wireless serio_raw rapl intel_cstate efi_pstore wmi_bmof sparse_keymap sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau mxm_wmi i915 ttm i2c_algo_bit crct10dif_pclmul drm_kms_helper crc32_pclmul ghash_clmulni_intel
+07:39:56 kernel: WARNING: CPU: 3 PID: 896 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:107 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:39:56 kernel: nouveau 0000:01:00.0: timeout
+07:39:56 kernel: ------------[ cut here ]------------
+07:39:56 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:39:52 systemd-xdg-aut: Not generating service for XDG autostart app-org.gnome.SettingsDaemon.PrintNotifications-autostart.service, startup phases are not supported.
+07:39:52 (systemd): pam_unix(systemd-user:session): session opened for user az by (uid=0)
+07:39:52 systemd: Starting User Manager for UID 1000...
+07:39:52 systemd-logind: New session 2 of user az.
+07:39:52 systemd: Starting User Runtime Directory /run/user/1000...
+07:39:52 gdm-session-wor: pam_unix(gdm-password:session): session opened for user az by (uid=0)
+07:39:46 dbus-daemon: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+07:39:46 gdm-session-wor: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+07:39:46 snapd: stateengine.go:150: state ensure error: persistent network error: Post "https://api.snapcraft.io/v2/snaps/refresh": dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+07:39:40 gdm-session-wor: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+07:39:39 xkbcomp: Errors from xkbcomp are not fatal to the X server
+07:39:37 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Successfully activated service 'org.freedesktop.portal.IBus'
+07:39:37 systemd: Startup finished in 17.834s (kernel) + 57.293s (userspace) = 1min 15.127s.
+07:39:37 gnome-shell: Registering session with GDM
+07:39:37 systemd: Started Manage, Install and Generate Color Profiles.
+07:39:37 dbus-daemon: [system] Successfully activated service 'org.freedesktop.ColorManager'
+07:39:37 xbrlapi: cannot connect to braille devices daemon brltty at :0
+07:39:37 gnome-session-b: Entering running state
+07:39:37 gsd-media-keys: Failed to grab accelerator for keybinding settings:hibernate
+07:39:37 systemd: Starting Manage, Install and Generate Color Profiles...
+07:39:37 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.57' (uid=126 pid=1290 comm="/usr/libexec/gsd-color " label="unconfined")
+07:39:36 realmd: claimed name on bus: org.freedesktop.realmd
+07:39:36 systemd: Started Realm and Domain Configuration.
+07:39:36 dbus-daemon: [system] Successfully activated service 'org.freedesktop.realmd'
+07:39:36 realmd: released daemon: startup
+07:39:36 systemd: Starting Realm and Domain Configuration...
+07:39:36 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.realmd' unit='realmd.service' requested by ':1.42' (uid=126 pid=1188 comm="/usr/bin/gnome-shell " label="unconfined")
+07:39:36 systemd: Started Fingerprint Authentication Daemon.
+07:39:36 dbus-daemon: [system] Successfully activated service 'net.reactivated.Fprint'
+07:39:36 kernel: ---[ end trace 090d54c3ddb39582 ]---
+07:39:36 kernel: R13: 0000000000000000 R14: 0000000000000000 R15: 0000564aefa0c848
+07:39:36 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000080002
+07:39:36 kernel: RBP: 0000564aefa0c848 R08: 0000000000000001 R09: 0000000000000000
+07:39:36 kernel: RDX: 0000000000080002 RSI: 0000564aefa0c848 RDI: 00000000ffffff9c
+07:39:36 kernel: RAX: ffffffffffffffda RBX: 0000564aefa0c810 RCX: 00007f7e12da623b
+07:39:36 kernel: RSP: 002b:00007ffff39659a0 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:39:36 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 2b 0c 25
+07:39:36 kernel: RIP: 0033:0x7f7e12da623b
+07:39:36 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:39:36 kernel: Call Trace:
+07:39:36 kernel: CR2: 00007f5275611000 CR3: 00000004503aa006 CR4: 00000000003606e0
+07:39:36 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:39:36 kernel: FS:  00007f7e125aca40(0000) GS:ffff894061f80000(0000) knlGS:0000000000000000
+07:39:36 kernel: R13: ffff89405edabf00 R14: 00000010aaa5ae2f R15: 0000000000000000
+07:39:36 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff89404dd82e00
+07:39:36 kernel: RBP: ffffad6a00673810 R08: 0000000000000004 R09: 000000000000051e
+07:39:36 kernel: RDX: 00000000ffffffd8 RSI: 0000000000000027 RDI: ffff894061f98cd0
+07:39:36 kernel: RAX: 0000000000000000 RBX: ffff89404e063c00 RCX: ffff894061f98cd8
+07:39:36 kernel: RSP: 0018:ffffad6a006737c8 EFLAGS: 00010282
+07:39:36 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 d1 4b 8f ef 4c 89 ea 48 c7 c7 2a d8 9d c0 48 89 c6 e8 54 91 1e ef <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 f9 13 d0 ef
+07:39:36 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:39:36 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:39:36 kernel: CPU: 6 PID: 1258 Comm: Xwayland Tainted: G        W         5.8.0-43-generic #49-Ubuntu
+07:39:36 kernel:  syscopyarea sysfillrect sysimgblt aesni_intel crypto_simd fb_sys_fops cec rc_core cryptd glue_helper ahci drm psmouse r8169 i2c_i801 i2c_smbus realtek xhci_pci libahci xhci_pci_renesas wmi video
+07:39:36 kernel: Modules linked in: nls_iso8859_1 snd_hda_codec_hdmi snd_hda_codec_realtek uvcvideo snd_hda_codec_generic ledtrig_audio videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 snd_hda_intel snd_intel_dspcfg videobuf2_common snd_hda_codec videodev snd_hda_core mc hid_multitouch snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore intel_rapl_msr ee1004 mei_hdcp mei_me mei intel_xhci_usb_role_switch input_leds roles joydev acpi_pad processor_thermal_device intel_soc_dts_iosf intel_pch_thermal intel_rapl_common int3403_thermal int340x_thermal_zone hp_accel lis3lv02d x86_pkg_temp_thermal intel_powerclamp coretemp int3400_thermal acpi_thermal_rel hp_wmi mac_hid hp_wireless serio_raw rapl intel_cstate efi_pstore wmi_bmof sparse_keymap sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau mxm_wmi i915 ttm i2c_algo_bit crct10dif_pclmul drm_kms_helper crc32_pclmul ghash_clmulni_intel
+07:39:36 kernel: WARNING: CPU: 6 PID: 1258 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:107 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:39:36 kernel: nouveau 0000:01:00.0: timeout
+07:39:36 kernel: ------------[ cut here ]------------
+07:39:35 systemd: Starting Fingerprint Authentication Daemon...
+07:39:35 dbus-daemon: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.42' (uid=126 pid=1188 comm="/usr/bin/gnome-shell " label="unconfined")
+07:39:35 systemd: Started PackageKit Daemon.
+07:39:35 dbus-daemon: [system] Successfully activated service 'org.freedesktop.PackageKit'
+07:39:34 systemd: Started Location Lookup Service.
+07:39:34 dbus-daemon: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+07:39:34 systemd: tracker-extract.service: Succeeded.
+07:39:34 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:39:34 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Successfully activated service 'org.gnome.Shell.Notifications'
+07:39:33 gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+07:39:33 gsd-sharing: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+07:39:33 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+07:39:33 kernel: rfkill: input handler disabled
+07:39:33 at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+07:39:33 dbus-daemon: dbus-daemon[1249]: Successfully activated service 'org.a11y.atspi.Registry'
+07:39:33 packagekitd: daemon start
+07:39:33 systemd: Starting PackageKit Daemon...
+07:39:33 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.42' (uid=126 pid=1188 comm="/usr/bin/gnome-shell " label="unconfined")
+07:39:33 polkitd: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+07:39:33 systemd: Starting Location Lookup Service...
+07:39:33 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.42' (uid=126 pid=1188 comm="/usr/bin/gnome-shell " label="unconfined")
+07:39:33 kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+07:39:33 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+07:39:31 systemd: Started Locale Service.
+07:39:31 dbus-daemon: [system] Successfully activated service 'org.freedesktop.locale1'
+07:39:31 systemd: Starting Locale Service...
+07:39:31 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.42' (uid=126 pid=1188 comm="/usr/bin/gnome-shell " label="unconfined")
+07:39:31 gnome-shell: Will monitor session c1
+07:39:28 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Successfully activated service 'org.a11y.Bus'
+07:39:27 gnome-shell: Boot VGA GPU /dev/dri/card0 selected as primary
+07:39:27 systemd: systemd-fsckd.service: Succeeded.
+07:39:25 kernel: ---[ end trace 090d54c3ddb39581 ]---
+07:39:25 kernel: R13: 0000562348f5a100 R14: 0000000000000009 R15: 0000000000000001
+07:39:25 kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000080902
+07:39:25 kernel: RBP: 0000562348f5ddd0 R08: 00007f52073aed00 R09: 0000562348f3aac8
+07:39:25 kernel: RDX: 0000000000080902 RSI: 0000562348f5ddd0 RDI: 00000000ffffff9c
+07:39:25 kernel: RAX: ffffffffffffffda RBX: 0000562348f5a0f0 RCX: 00007f5207044a0b
+07:39:25 kernel: RSP: 002b:00007ffdb8d90e90 EFLAGS: 00000246 ORIG_RAX: 0000000000000101
+07:39:25 kernel: Code: 25 00 00 41 00 3d 00 00 41 00 74 4b 64 8b 04 25 18 00 00 00 85 c0 75 67 44 89 e2 48 89 ee bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 91 00 00 00 48 8b 4c 24 28 64 48 2b 0c 25
+07:39:25 kernel: RIP: 0033:0x7f5207044a0b
+07:39:25 kernel:  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+07:39:25 kernel: Call Trace:
+07:39:25 kernel: CR2: 00007f9614512000 CR3: 000000045694c003 CR4: 00000000003606e0
+07:39:25 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+07:39:25 kernel: FS:  00007f52063299c0(0000) GS:ffff894061f40000(0000) knlGS:0000000000000000
+07:39:25 kernel: R13: ffff89405edabf00 R14: 0000000e2f8052da R15: 0000000000000000
+07:39:25 kernel: R10: 0000000000000000 R11: 0000000000000001 R12: ffff89404dd82e00
+07:39:25 kernel: RBP: ffffad6a008e7810 R08: 0000000000000004 R09: 00000000000004d8
+07:39:25 kernel: RDX: 00000000ffffffd8 RSI: 0000000000000027 RDI: ffff894061f58cd0
+07:39:25 kernel: RAX: 0000000000000000 RBX: ffff89404e063c00 RCX: ffff894061f58cd8
+07:39:25 kernel: RSP: 0018:ffffad6a008e77c8 EFLAGS: 00010282
+07:39:25 kernel: Code: 45 b8 48 8b 40 10 48 8b 78 10 4c 8b 6f 50 4d 85 ed 74 1e e8 d1 4b 8f ef 4c 89 ea 48 c7 c7 2a d8 9d c0 48 89 c6 e8 54 91 1e ef <0f> 0b e9 4e ff ff ff 4c 8b 2f eb dd 4c 8b 27 eb a5 e8 f9 13 d0 ef
+07:39:25 kernel: RIP: 0010:nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:39:25 kernel: Hardware name: HP HP Pavilion Laptop 15-cs0xxx/84BF, BIOS F.06 11/02/2018
+07:39:25 kernel: CPU: 5 PID: 896 Comm: systemd-logind Tainted: G        W         5.8.0-43-generic #49-Ubuntu
+07:39:25 kernel:  syscopyarea sysfillrect sysimgblt aesni_intel crypto_simd fb_sys_fops cec rc_core cryptd glue_helper ahci drm psmouse r8169 i2c_i801 i2c_smbus realtek xhci_pci libahci xhci_pci_renesas wmi video
+07:39:25 kernel: Modules linked in: nls_iso8859_1 snd_hda_codec_hdmi snd_hda_codec_realtek uvcvideo snd_hda_codec_generic ledtrig_audio videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 snd_hda_intel snd_intel_dspcfg videobuf2_common snd_hda_codec videodev snd_hda_core mc hid_multitouch snd_hwdep snd_pcm snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore intel_rapl_msr ee1004 mei_hdcp mei_me mei intel_xhci_usb_role_switch input_leds roles joydev acpi_pad processor_thermal_device intel_soc_dts_iosf intel_pch_thermal intel_rapl_common int3403_thermal int340x_thermal_zone hp_accel lis3lv02d x86_pkg_temp_thermal intel_powerclamp coretemp int3400_thermal acpi_thermal_rel hp_wmi mac_hid hp_wireless serio_raw rapl intel_cstate efi_pstore wmi_bmof sparse_keymap sch_fq_codel parport_pc ppdev lp parport ip_tables x_tables autofs4 dm_crypt hid_generic usbhid hid nouveau mxm_wmi i915 ttm i2c_algo_bit crct10dif_pclmul drm_kms_helper crc32_pclmul ghash_clmulni_intel
+07:39:25 kernel: WARNING: CPU: 5 PID: 896 at drivers/gpu/drm/nouveau/nvkm/subdev/pmu/base.c:107 nvkm_pmu_reset+0x151/0x170 [nouveau]
+07:39:25 kernel: nouveau 0000:01:00.0: timeout
+07:39:25 kernel: ------------[ cut here ]------------
+07:39:23 kernel: nouveau 0000:01:00.0: Enabling HDA controller
+07:39:23 systemd: Startup finished in 8.267s.
+07:39:23 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.freedesktop.Tracker1'
+07:39:23 systemd: Reached target Main User Target.
+07:39:23 dbus-daemon: [session uid=126 pid=1102] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=126 pid=1099 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:22 systemd: NetworkManager-dispatcher.service: Succeeded.
+07:39:22 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+07:39:21 rtkit-daemon: Supervising 3 threads of 1 processes of 1 users.
+07:39:21 systemd: Starting Virtual filesystem service - digital camera monitor...
+07:39:21 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gnome.Identity'
+07:39:21 systemd: Started Virtual filesystem service - GNOME Online Accounts monitor.
+07:39:21 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+07:39:21 goa-daemon: goa-daemon version 3.37.90 starting
+07:39:19 whoopsie: [07:39:19] offline
+07:39:19 systemd: Started Tool to automatically collect and submit kernel crash signatures.
+07:39:19 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+07:39:19 gnome-session-b: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+07:39:19 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+07:39:19 gnome-session-b: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+07:39:19 dbus-daemon: dbus-daemon[1110]: [session uid=126 pid=1110] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+07:39:18 systemd: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.1' (uid=126 pid=1099 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:18 systemd: Started Virtual filesystem service - Media Transfer Protocol monitor.
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+07:39:18 systemd: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.1' (uid=126 pid=1099 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:18 systemd: Started Virtual filesystem service - Apple File Conduit monitor.
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+07:39:18 systemd: Starting Virtual filesystem service - Apple File Conduit monitor...
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.1' (uid=126 pid=1099 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:18 systemd: Started Virtual filesystem service - disk device monitor.
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+07:39:18 systemd: Started crash report submission daemon.
+07:39:18 NetworkManager: <info>  [1613662758.3963] manager: startup complete
+07:39:18 systemd: Starting Virtual filesystem service - disk device monitor...
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.1' (uid=126 pid=1099 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:18 tracker-miner-f: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+07:39:18 systemd: Started Virtual filesystem service.
+07:39:18 dbus-daemon: [session uid=126 pid=1102] Successfully activated service 'org.gtk.vfs.Daemon'
+07:39:17 systemd: Starting Virtual filesystem service...
+07:39:17 dbus-daemon: [session uid=126 pid=1102] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=126 pid=1099 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+07:39:17 rtkit-daemon: Supervising 1 threads of 1 processes of 1 users.
+07:39:17 systemd: Started RealtimeKit Scheduling Policy Service.
+07:39:17 dbus-daemon: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+07:39:17 systemd: Starting RealtimeKit Scheduling Policy Service...
+07:39:17 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.29' (uid=126 pid=1097 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+07:39:17 tracker-miner-f: Setting priority nice level to 19
+07:39:16 systemd: dmesg.service: Succeeded.
+07:39:15 systemd-xdg-aut: Not generating service for XDG autostart app-spice\x2dvdagent-autostart.service, startup phases are not supported.
+07:39:14 (systemd): pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+07:39:14 systemd: Starting User Manager for UID 126...
+07:39:14 systemd-logind: New session c1 of user gdm.
+07:39:14 systemd: Starting User Runtime Directory /run/user/126...
+07:39:14 gdm-session-wor: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+07:39:13 systemd: Condition check resulted in Auto import assertions from block devices being skipped.
+07:39:12 NetworkManager: <info>  [1613662752.7816] modem-manager: ModemManager available
+07:39:12 kernel: r8169 0000:02:00.0 eno1: Link is Down
+07:39:12 kernel: Generic FE-GE Realtek PHY r8169-200:00: attached PHY driver [Generic FE-GE Realtek PHY] (mii_bus:phy_addr=r8169-200:00, irq=IGNORE)
+07:39:12 systemd: Started Dispatcher daemon for systemd-networkd.
+07:39:12 NetworkManager: <info>  [1613662752.0837] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+07:39:12 networkctl: WARNING: systemd-networkd is not running, output will be incomplete.
+07:39:12 NetworkManager: <info>  [1613662752.0144] manager: (eno1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+07:39:11 systemd: Received SIGRTMIN+21 from PID 307 (plymouthd).
+07:39:11 udisksd: Acquired the name org.freedesktop.UDisks2 on the system message bus
+07:39:11 systemd: Started Network Manager Script Dispatcher Service.
+07:39:11 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+07:39:11 snapd: daemon.go:440: adjusting startup timeout by 1m0s (pessimistic estimate of 30s plus 5s per snap)
+07:39:11 systemd: Starting Network Manager Script Dispatcher Service...
+07:39:11 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=855 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+07:39:11 NetworkManager: <info>  [1613662751.2212] dhcp-init: Using DHCP client 'internal'
+07:39:11 snapd: daemon.go:347: started snapd/2.48.3+20.10 (series 16; classic) ubuntu/20.10 (amd64) linux/5.8.0-43-generic.
+07:39:10 ModemManager: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.5/0000:02:00.0': not supported by any plugin
+07:39:10 systemd: Started Disk Manager.
+07:39:10 NetworkManager: <info>  [1613662750.4262] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-wifi.so)
+07:39:09 thermald: sensor id 10 : No temp sysfs for reading raw temp
+07:39:09 systemd: Started Daemon for power management.
+07:39:09 dbus-daemon: [system] Successfully activated service 'org.freedesktop.UPower'
+07:39:09 NetworkManager: <info>  [1613662749.5004] manager[0x5634299d6030]: rfkill: WWAN hardware radio set enabled
+07:39:09 systemd: Started Hostname Service.
+07:39:09 dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+07:39:09 systemd: Starting Hostname Service...
+07:39:09 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.17' (uid=0 pid=855 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+07:39:09 NetworkManager: <info>  [1613662749.1856] monitoring ifupdown state file '/run/network/ifstate'.
+07:39:08 systemd: Starting Hold until boot process finishes up...
+07:39:08 NetworkManager: <info>  [1613662748.6759] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+07:39:08 systemd: Started Network Manager.
+07:39:08 kernel: audit: type=1400 audit(1613662748.667:39): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=957 comm="cups-browsed" capability=23  capname="sys_nice"
+07:39:08 kernel: kauditd_printk_skb: 27 callbacks suppressed
+07:39:08 cups-browsed: AVC apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=957 comm="cups-browsed" capability=23  capname="sys_nice"
+07:39:08 NetworkManager: <info>  [1613662748.5877] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+07:39:08 systemd: Started Accounts Service.
+07:39:08 accounts-daemon: started daemon version 0.6.55
+07:39:08 snapd: AppArmor status: apparmor is enabled and all features are available
+07:39:08 systemd: Started Modem Manager.
+07:39:08 udisksd: Failed to load the 'mdraid' libblockdev plugin
+07:39:07 avahi-daemon: Server startup complete. Host name is ant1psych0s.local. Local service cookie is 1940866816.
+07:39:07 ModemManager: <info>  ModemManager (version 1.14.2) starting in system bus...
+07:39:07 udisksd: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+07:39:07 systemd: Starting Daemon for power management...
+07:39:06 avahi-daemon: Registering new address record for 127.0.0.1 on lo.IPv4.
+07:39:06 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.13' (uid=0 pid=897 comm="/usr/sbin/thermald --systemd --dbus-enable --adapt" label="unconfined")
+07:39:06 systemd: Starting Modem Manager...
+07:39:06 polkitd: started daemon version 0.105 using authority implementation `local' version `0.105'
+07:39:06 avahi-daemon: No service file found in /etc/avahi/services.
+07:39:06 systemd: Started User Login Management.
+07:39:06 systemd-logind: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
